@@ -1,0 +1,349 @@
+IQ-TREE 2.3.6 built Dec 11 2024
+
+Input file name: Coniochaetales_aln.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 823711
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 54 sequences with 2105 nucleotide sites
+Number of constant sites: 1595 (= 75.772% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1595 (= 75.772% of all sites)
+Number of parsimony informative sites: 290
+Number of distinct site patterns: 578
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.5428
+  A-G: 1.9537
+  A-T: 2.1039
+  C-G: 1.3057
+  C-T: 4.5988
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2427
+  pi(C) = 0.2597
+  pi(G) = 0.2629
+  pi(T) = 0.2347
+
+Rate matrix Q:
+
+  A    -0.911    0.2592    0.3323    0.3195
+  C    0.2422    -1.163    0.2221    0.6984
+  G    0.3067    0.2193   -0.6779    0.1519
+  T    0.3303    0.7725    0.1701    -1.273
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.4029
+
+ Category  Relative_rate  Proportion
+  1         0.01714        0.25
+  2         0.1839         0.25
+  3         0.7344         0.25
+  4         3.065          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -9730.9312 (s.e. 358.1712)
+Unconstrained log-likelihood (without tree): -9924.9776
+Number of free parameters (#branches + #model parameters): 114
+Akaike information criterion (AIC) score: 19689.8624
+Corrected Akaike information criterion (AICc) score: 19703.0383
+Bayesian information criterion (BIC) score: 20334.1985
+
+Total tree length (sum of branch lengths): 13.0018
+Sum of internal branch lengths: 1.9115 (14.7018% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0005) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ASV_1774d1f9_rel0.6' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--ASV_1774d1f9_rel0.6
+|
+|                 +--ASV_d045f091_rel0.7
+|              +--| (71)
+|              |  +--REF_verticillatastrain_MH860369.1
+|           +--| (71)
+|           |  |     +--REF_sp.clone_PZ691471.1
+|           |  |  +--| (100)
+|           |  |  |  +**REF_sp.clone_PZ691382.1
+|           |  +--| (98)
+|           |     +--REF_sp.clone_PZ691433.1
+|        +--| (52)
+|        |  +--REF_ostreastrain_MH859821.1
+|     +--| (63)
+|     |  |              +---------------------------------------------------------REF_discosporaculture_MH869278.1
+|     |  |           +**| (13)
+|     |  |           |  |        +--REF_cypraeaesporastrain_MH862420.1
+|     |  |           |  |     +--| (100)
+|     |  |           |  |     |  +--REF_arxiistrain_MH862164.1
+|     |  |           |  |  +--| (76)
+|     |  |           |  |  |  |        +--REF_sp.clone_PZ692139.1
+|     |  |           |  |  |  |     +--| (98)
+|     |  |           |  |  |  |     |  +--REF_sp.clone_PZ691972.1
+|     |  |           |  |  |  |  +--| (72)
+|     |  |           |  |  |  |  |  |  +--REF_velutinaclone_PZ691698.1
+|     |  |           |  |  |  |  |  +--| (90)
+|     |  |           |  |  |  |  |     |     +--REF_sp.clone_PZ691671.1
+|     |  |           |  |  |  |  |     |  +--| (99)
+|     |  |           |  |  |  |  |     |  |  +--REF_sp.clone_PZ691629.1
+|     |  |           |  |  |  |  |     +--| (95)
+|     |  |           |  |  |  |  |        +--REF_ligniariaclone_PZ691606.1
+|     |  |           |  |  |  +--| (95)
+|     |  |           |  |  |     +----------REF_Lecythophoraclone_PZ692031.1
+|     |  |           |  +--| (69)
+|     |  |           |     +--REF_caninaclone_PZ691603.1
+|     |  |        +--| (29)
+|     |  |        |  +--REF_cateniformisclone_PZ691845.1
+|     |  |     +--| (24)
+|     |  |     |  |  +--REF_Lecythophoraclone_PZ691832.1
+|     |  |     |  +--| (37)
+|     |  |     |     |  +--REF_Lecythophoraclone_PZ691576.1
+|     |  |     |     +--| (61)
+|     |  |     |        +--REF_Lecythophoraclone_PZ691561.1
+|     |  |  +--| (76)
+|     |  |  |  |        +--REF_verruculosastrain_MH864668.1
+|     |  |  |  |     +--| (96)
+|     |  |  |  |     |  +--REF_inaequalisstrain_MH861634.1
+|     |  |  |  |  +--| (36)
+|     |  |  |  |  |  |     +--REF_bisbyistrain_MH858544.1
+|     |  |  |  |  |  |  +--| (91)
+|     |  |  |  |  |  |  |  +--REF_ligniculture_PZ221274.1
+|     |  |  |  |  |  +--| (96)
+|     |  |  |  |  |     +--REF_terrestrisstrain_MH857096.1
+|     |  |  |  +--| (94)
+|     |  |  |     +--REF_ellipsoideastrain_MH860482.1
+|     |  +--| (76)
+|     |     |                 +**REF_punctulatastrain_MH861254.1
+|     |     |              +--| (99)
+|     |     |              |  |  +**REF_ellipsoideastrain_MH859092.1
+|     |     |              |  +**| (83)
+|     |     |              |     +**REF_ellipsoideastrain_MH859091.1
+|     |     |           +--| (48)
+|     |     |           |  +--REF_sp.isolate_PZ690815.1
+|     |     |        +--| (47)
+|     |     |        |  +--REF_savoryistrain_MH860890.1
+|     |     |     +--| (91)
+|     |     |     |  |     +--REF_discoideastrain_MH861253.1
+|     |     |     |  |  +--| (40)
+|     |     |     |  |  |  |  +--REF_sp.T744351_PX596880.1
+|     |     |     |  |  |  +--| (99)
+|     |     |     |  |  |     +**REF_sp.T744351_PX596879.1
+|     |     |     |  +--| (46)
+|     |     |     |     +--REF_urdiaestrain_PZ123755.1
+|     |     |  +--| (95)
+|     |     |  |  +--REF_extramundanastrain_MH861057.1
+|     |     +--| (94)
+|     |        +--REF_boothiistrain_MH860862.1
+|  +--| (39)
+|  |  |  +--REF_luteorubrastrain_MH865901.1
+|  |  +--| (43)
+|  |     |  +--REF_sp.isolate_PZ716337.1
+|  |     +--| (84)
+|  |        +--REF_ligniariaclone_PZ691480.1
++--| (55)
+|  |        +--REF_africanastrain_MH863095.1
+|  |     +--| (54)
+|  |     |  +--REF_mutabilisstrain_MH856122.1
+|  |  +--| (50)
+|  |  |  |        +--REF_luteoviridisstrain_MH855948.1
+|  |  |  |     +--| (99)
+|  |  |  |     |  +--REF_fasciculatastrain_MH855947.1
+|  |  |  |  +--| (88)
+|  |  |  |  |  +**REF_lignicolastrain_MH855438.1
+|  |  |  +--| (48)
+|  |  |     +--REF_sp.isolate_PZ716338.1
+|  +--| (47)
+|     +--REF_polyspermastrain_MH861109.1
+|
+|           +**REF_caninastrain_MH866063.1
+|        +--| (99)
+|        |  +**REF_caninaclone_PZ691405.1
+|     +**| (71)
+|     |  +--REF_sp.isolate_PZ690816.1
+|  +--| (94)
+|  |  +--REF_cateniformisstrain_MH865902.1
++--| (98)
+   +**REF_discosporastrain_MH857740.1
+
+Tree in newick format:
+
+(ASV_1774d1f9_rel0.6:0.1708185187,((((((ASV_d045f091_rel0.7:0.0181328066,REF_verticillatastrain_MH860369.1:0.0844799206)71:0.0010900409,((REF_sp.clone_PZ691471.1:0.0071117928,REF_sp.clone_PZ691382.1:0.0000022946)100:0.1204772224,REF_sp.clone_PZ691433.1:0.0663092703)98:0.0260798752)71:0.0324644531,REF_ostreastrain_MH859821.1:0.0645594705)52:0.0204489894,(((((REF_discosporaculture_MH869278.1:6.4557555773,(((REF_cypraeaesporastrain_MH862420.1:0.0167762448,REF_arxiistrain_MH862164.1:0.0059556323)100:0.2552105601,(((REF_sp.clone_PZ692139.1:0.0491372209,REF_sp.clone_PZ691972.1:0.1045939206)98:0.1435731448,(REF_velutinaclone_PZ691698.1:0.1183117323,((REF_sp.clone_PZ691671.1:0.1392703463,REF_sp.clone_PZ691629.1:0.1579472603)99:0.1642016235,REF_ligniariaclone_PZ691606.1:0.1593343859)95:0.0887013540)90:0.0751597569)72:0.0611507505,REF_Lecythophoraclone_PZ692031.1:1.2563450549)95:0.2374644906)76:0.0987522026,REF_caninaclone_PZ691603.1:0.2839933121)69:0.0519992354)13:0.0000025414,REF_cateniformisclone_PZ691845.1:0.0945846763)29:0.0235712140,(REF_Lecythophoraclone_PZ691832.1:0.2349016613,(REF_Lecythophoraclone_PZ691576.1:0.1697087623,REF_Lecythophoraclone_PZ691561.1:0.4101275820)61:0.0165370902)37:0.0241806349)24:0.0164553262,(((REF_verruculosastrain_MH864668.1:0.0679398499,REF_inaequalisstrain_MH861634.1:0.0535216531)96:0.0132353619,((REF_bisbyistrain_MH858544.1:0.0209475351,REF_ligniculture_PZ221274.1:0.0213566710)91:0.0097885606,REF_terrestrisstrain_MH857096.1:0.0155994255)96:0.0464784666)36:0.0188022543,REF_ellipsoideastrain_MH860482.1:0.0493702612)94:0.0425675788)76:0.0511095463,((((((REF_punctulatastrain_MH861254.1:0.0000010000,(REF_ellipsoideastrain_MH859092.1:0.0000010000,REF_ellipsoideastrain_MH859091.1:0.0000010000)83:0.0000010000)99:0.0095744484,REF_sp.isolate_PZ690815.1:0.0757435962)48:0.0101850076,REF_savoryistrain_MH860890.1:0.0020249858)47:0.0136473182,((REF_discoideastrain_MH861253.1:0.0556050433,(REF_sp.T744351_PX596880.1:0.0039129363,REF_sp.T744351_PX596879.1:0.0000021307)99:0.0088367875)40:0.0053765438,REF_urdiaestrain_PZ123755.1:0.0013274607)46:0.0075424258)91:0.0022385931,REF_extramundanastrain_MH861057.1:0.0107820112)95:0.0159869014,REF_boothiistrain_MH860862.1:0.0548327110)94:0.0148234690)76:0.0287517472)63:0.0204343982,(REF_luteorubrastrain_MH865901.1:0.0534328343,(REF_sp.isolate_PZ716337.1:0.0194869548,REF_ligniariaclone_PZ691480.1:0.0336192519)84:0.0301004151)43:0.0125853062)39:0.0063938285,(((REF_africanastrain_MH863095.1:0.0219223687,REF_mutabilisstrain_MH856122.1:0.0439251164)54:0.0082831971,(((REF_luteoviridisstrain_MH855948.1:0.0137576053,REF_fasciculatastrain_MH855947.1:0.0104466431)99:0.0063385583,REF_lignicolastrain_MH855438.1:0.0000022463)88:0.0050934945,REF_sp.isolate_PZ716338.1:0.0186037083)48:0.0014412785)50:0.0044025598,REF_polyspermastrain_MH861109.1:0.0539383276)47:0.0021957903)55:0.0269255344,((((REF_caninastrain_MH866063.1:0.0000010000,REF_caninaclone_PZ691405.1:0.0000010000)99:0.0111749032,REF_sp.isolate_PZ690816.1:0.2708128802)71:0.0000024769,REF_cateniformisstrain_MH865902.1:0.0284681058)94:0.0138439803,REF_discosporastrain_MH857740.1:0.0000023983)98:0.0265675652);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -9732.481447
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--ASV_1774d1f9_rel0.6
+|
+|                 +--ASV_d045f091_rel0.7
+|              +--| (71)
+|              |  +--REF_verticillatastrain_MH860369.1
+|           +--| (71)
+|           |  |     +--REF_sp.clone_PZ691471.1
+|           |  |  +--| (100)
+|           |  |  |  +--REF_sp.clone_PZ691382.1
+|           |  +--| (98)
+|           |     +--REF_sp.clone_PZ691433.1
+|        +--| (52)
+|        |  +--REF_ostreastrain_MH859821.1
+|     +--| (63)
+|     |  |           +---------------------------------------------------------REF_discosporaculture_MH869278.1
+|     |  |        +--| (29)
+|     |  |        |  |           +--REF_cypraeaesporastrain_MH862420.1
+|     |  |        |  |        +--| (100)
+|     |  |        |  |        |  +--REF_arxiistrain_MH862164.1
+|     |  |        |  |     +--| (76)
+|     |  |        |  |     |  |        +--REF_sp.clone_PZ692139.1
+|     |  |        |  |     |  |     +--| (98)
+|     |  |        |  |     |  |     |  +--REF_sp.clone_PZ691972.1
+|     |  |        |  |     |  |  +--| (72)
+|     |  |        |  |     |  |  |  |  +--REF_velutinaclone_PZ691698.1
+|     |  |        |  |     |  |  |  +--| (90)
+|     |  |        |  |     |  |  |     |     +--REF_sp.clone_PZ691671.1
+|     |  |        |  |     |  |  |     |  +--| (99)
+|     |  |        |  |     |  |  |     |  |  +--REF_sp.clone_PZ691629.1
+|     |  |        |  |     |  |  |     +--| (95)
+|     |  |        |  |     |  |  |        +--REF_ligniariaclone_PZ691606.1
+|     |  |        |  |     |  +--| (95)
+|     |  |        |  |     |     +----------REF_Lecythophoraclone_PZ692031.1
+|     |  |        |  |  +--| (69)
+|     |  |        |  |  |  +--REF_caninaclone_PZ691603.1
+|     |  |        |  +--| (25)
+|     |  |        |     +--REF_cateniformisclone_PZ691845.1
+|     |  |     +--| (24)
+|     |  |     |  |  +--REF_Lecythophoraclone_PZ691832.1
+|     |  |     |  +--| (37)
+|     |  |     |     |  +--REF_Lecythophoraclone_PZ691576.1
+|     |  |     |     +--| (61)
+|     |  |     |        +--REF_Lecythophoraclone_PZ691561.1
+|     |  |  +--| (76)
+|     |  |  |  |        +--REF_verruculosastrain_MH864668.1
+|     |  |  |  |     +--| (96)
+|     |  |  |  |     |  +--REF_inaequalisstrain_MH861634.1
+|     |  |  |  |  +--| (60)
+|     |  |  |  |  |  +--REF_ellipsoideastrain_MH860482.1
+|     |  |  |  +--| (94)
+|     |  |  |     |     +--REF_bisbyistrain_MH858544.1
+|     |  |  |     |  +--| (91)
+|     |  |  |     |  |  +--REF_ligniculture_PZ221274.1
+|     |  |  |     +--| (96)
+|     |  |  |        +--REF_terrestrisstrain_MH857096.1
+|     |  +--| (76)
+|     |     |                 +--REF_punctulatastrain_MH861254.1
+|     |     |              +--| (99)
+|     |     |              |  |  +--REF_ellipsoideastrain_MH859092.1
+|     |     |              |  +--| (83)
+|     |     |              |     +--REF_ellipsoideastrain_MH859091.1
+|     |     |           +--| (48)
+|     |     |           |  +--REF_sp.isolate_PZ690815.1
+|     |     |        +--| (47)
+|     |     |        |  +--REF_savoryistrain_MH860890.1
+|     |     |     +--| (91)
+|     |     |     |  |  +--REF_discoideastrain_MH861253.1
+|     |     |     |  +--| (46)
+|     |     |     |     |  +--REF_urdiaestrain_PZ123755.1
+|     |     |     |     +--| (58)
+|     |     |     |        |  +--REF_sp.T744351_PX596880.1
+|     |     |     |        +--| (99)
+|     |     |     |           +--REF_sp.T744351_PX596879.1
+|     |     |  +--| (95)
+|     |     |  |  +--REF_extramundanastrain_MH861057.1
+|     |     +--| (94)
+|     |        +--REF_boothiistrain_MH860862.1
+|  +--| (39)
+|  |  |  +--REF_luteorubrastrain_MH865901.1
+|  |  +--| (43)
+|  |     |  +--REF_sp.isolate_PZ716337.1
+|  |     +--| (84)
+|  |        +--REF_ligniariaclone_PZ691480.1
++--| (55)
+|  |        +--REF_africanastrain_MH863095.1
+|  |     +--| (54)
+|  |     |  +--REF_mutabilisstrain_MH856122.1
+|  |  +--| (50)
+|  |  |  |        +--REF_luteoviridisstrain_MH855948.1
+|  |  |  |     +--| (99)
+|  |  |  |     |  +--REF_fasciculatastrain_MH855947.1
+|  |  |  |  +--| (88)
+|  |  |  |  |  +--REF_lignicolastrain_MH855438.1
+|  |  |  +--| (48)
+|  |  |     +--REF_sp.isolate_PZ716338.1
+|  +--| (47)
+|     +--REF_polyspermastrain_MH861109.1
+|
+|           +--REF_caninastrain_MH866063.1
+|        +--| (99)
+|        |  +--REF_caninaclone_PZ691405.1
+|     +--| (71)
+|     |  +--REF_sp.isolate_PZ690816.1
+|  +--| (94)
+|  |  +--REF_cateniformisstrain_MH865902.1
++--| (98)
+   +--REF_discosporastrain_MH857740.1
+
+
+Consensus tree in newick format: 
+
+(ASV_1774d1f9_rel0.6:0.1687566550,((((((ASV_d045f091_rel0.7:0.0180849972,REF_verticillatastrain_MH860369.1:0.0839531653)71:0.0024885081,((REF_sp.clone_PZ691471.1:0.0070937703,REF_sp.clone_PZ691382.1:0.0000024521)100:0.1201078872,REF_sp.clone_PZ691433.1:0.0659671635)98:0.0252924287)71:0.0334096916,REF_ostreastrain_MH859821.1:0.0630678866)52:0.0185054801,((((REF_discosporaculture_MH869278.1:6.4344486946,((((REF_cypraeaesporastrain_MH862420.1:0.0179128595,REF_arxiistrain_MH862164.1:0.0048171208)100:0.2500088072,(((REF_sp.clone_PZ692139.1:0.0489056128,REF_sp.clone_PZ691972.1:0.1042449306)98:0.1436521507,(REF_velutinaclone_PZ691698.1:0.1174148665,((REF_sp.clone_PZ691671.1:0.1385882828,REF_sp.clone_PZ691629.1:0.1577117747)99:0.1640808390,REF_ligniariaclone_PZ691606.1:0.1582103907)95:0.0888730734)90:0.0746508747)72:0.0617053139,REF_Lecythophoraclone_PZ692031.1:1.2518202953)95:0.2400982246)76:0.0984985486,REF_caninaclone_PZ691603.1:0.2730934329)69:0.0498610116,REF_cateniformisclone_PZ691845.1:0.0948520003)25:0.0000027223)29:0.0260267275,(REF_Lecythophoraclone_PZ691832.1:0.2363804699,(REF_Lecythophoraclone_PZ691576.1:0.1702449166,REF_Lecythophoraclone_PZ691561.1:0.3929815020)61:0.0156163801)37:0.0215789392)24:0.0095733514,(((REF_verruculosastrain_MH864668.1:0.0692345268,REF_inaequalisstrain_MH861634.1:0.0532754518)96:0.0133386686,REF_ellipsoideastrain_MH860482.1:0.0589559925)60:0.0140946981,((REF_bisbyistrain_MH858544.1:0.0216336973,REF_ligniculture_PZ221274.1:0.0207185246)91:0.0117518642,REF_terrestrisstrain_MH857096.1:0.0137316446)96:0.0410211311)94:0.0436729957)76:0.0542613231,((((((REF_punctulatastrain_MH861254.1:0.0000028538,(REF_ellipsoideastrain_MH859092.1:0.0000028538,REF_ellipsoideastrain_MH859091.1:0.0000028538)83:0.0000028579)99:0.0094054661,REF_sp.isolate_PZ690815.1:0.0759530909)48:0.0096056055,REF_savoryistrain_MH860890.1:0.0028305279)47:0.0136838532,(REF_discoideastrain_MH861253.1:0.0565765697,(REF_urdiaestrain_PZ123755.1:0.0014159653,(REF_sp.T744351_PX596880.1:0.0039136746,REF_sp.T744351_PX596879.1:0.0000028538)99:0.0137787767)58:0.0033501742)46:0.0045439459)91:0.0023387761,REF_extramundanastrain_MH861057.1:0.0101975609)95:0.0160491975,REF_boothiistrain_MH860862.1:0.0549705688)94:0.0183079991)76:0.0259388261)63:0.0213149122,(REF_luteorubrastrain_MH865901.1:0.0548367737,(REF_sp.isolate_PZ716337.1:0.0184643145,REF_ligniariaclone_PZ691480.1:0.0338540443)84:0.0288016455)43:0.0127206840)39:0.0063325351,(((REF_africanastrain_MH863095.1:0.0217661591,REF_mutabilisstrain_MH856122.1:0.0440053777)54:0.0082898325,(((REF_luteoviridisstrain_MH855948.1:0.0136416147,REF_fasciculatastrain_MH855947.1:0.0105620240)99:0.0063472557,REF_lignicolastrain_MH855438.1:0.0000022912)88:0.0050962198,REF_sp.isolate_PZ716338.1:0.0185877825)48:0.0014571093)50:0.0036415922,REF_polyspermastrain_MH861109.1:0.0549547179)47:0.0022317299)55:0.0266263343,((((REF_caninastrain_MH866063.1:0.0000028538,REF_caninaclone_PZ691405.1:0.0000028538)99:0.0111759261,REF_sp.isolate_PZ690816.1:0.2715387393)71:0.0000021800,REF_cateniformisstrain_MH865902.1:0.0284682973)94:0.0138457316,REF_discosporastrain_MH857740.1:0.0000024409)98:0.0279639166);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Coniochaetales_tree.treefile -m "GTR{1.54277,1.95366,2.10386,1.30573,4.59881}+F{0.242666,0.259672,0.262927,0.234735}+G4{0.402919}" --length 2105
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Coniochaetales_aln.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Coniochaetales_aln.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Aug 10 13:47:57 2026
+Total CPU time used: 56.37972 seconds (0h:0m:56s)
+Total wall-clock time used: 14.9755982 seconds (0h:0m:14s)
+

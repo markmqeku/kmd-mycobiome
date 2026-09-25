@@ -1,0 +1,218 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    PHP25R-008 (AVX512, FMA3, 7 GB RAM)
+Command: iqtree2 -s Mortierellaceae_aln.fasta -m GTR+G -B 1000 -T 4 --prefix Mortierellaceae_tree -quiet -redo
+Seed:    86524 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug 10 13:46:27 2026
+Kernel:  AVX+FMA - 4 threads (8 CPU cores detected)
+
+Reading alignment file Mortierellaceae_aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.00323804 secs
+Alignment most likely contains DNA/RNA sequences
+Alignment has 57 sequences with 1741 columns, 702 distinct patterns
+392 parsimony-informative, 223 singleton sites, 1126 constant sites
+                                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.4677e-05 secs using 98.48% CPU
+   1  ASV_5f1ce530_rel1.0                      77.31%    passed     96.70%
+   2  ASV_b4a48131_rel1.8                      77.31%    passed     95.00%
+   3  ASV_f19ce87c_rel0.8                      77.31%    passed     95.20%
+   4  REF_sp.12201_LC904870.1                  86.44%    passed     84.48%
+   5  REF_sp.54219_LC904863.1                  86.33%    passed     91.64%
+   6  REF_sp.11293_LC904852.1                  86.33%    passed     60.90%
+   7  REF_sp.14196_LC904848.1                  86.73%    passed     66.32%
+   8  REF_sp.23203_LC904846.1                  86.21%    passed     58.76%
+   9  REF_acrotonaculture_MH871944.1           25.04%    failed      4.62%
+  10  REF_antarcticaculture_MH871660.1         25.04%    passed      8.07%
+  11  REF_gamsiiculture_MH868591.1             24.58%    failed      3.02%
+  12  REF_gamsiiculture_MH867300.1             25.16%    failed      4.06%
+  13  REF_stylosporaculture_MH866744.1         15.85%    failed      1.95%
+  14  REF_sp.SW2013_MH866079.1                 63.64%    passed     59.80%
+  15  REF_sp.DV2018a_MH862832.1                66.28%    passed     36.69%
+  16  REF_microzygosporastrain_MH862681.1      59.45%    passed     59.64%
+  17  REF_cogitansstrain_MH862680.1            66.11%    passed     25.61%
+  18  REF_verticillatastrain_MH862533.1        59.10%    passed     78.46%
+  19  REF_verticillatastrain_MH862532.1        59.62%    passed     82.18%
+  20  REF_biramosastrain_MH862531.1            65.59%    passed     38.95%
+  21  REF_histoplasmatoidesstrain_MH861142.1   67.60%    passed     33.80%
+  22  REF_multidivaricatastrain_MH861129.1     55.72%    passed     33.08%
+  23  REF_ornatastrain_MH861074.1              63.53%    passed     19.54%
+  24  REF_ornatastrain_MH861073.1              61.92%    passed     26.01%
+  25  REF_epicladiastrain_MH860987.1           63.93%    passed     29.13%
+  26  REF_armillariicolastrain_MH860821.1      66.00%    passed     76.22%
+  27  REF_basiparvisporastrain_MH860552.1      60.25%    passed     43.79%
+  28  REF_beljakovaestrain_MH860410.1          65.54%    failed      1.14%
+  29  REF_parazychaestrain_MH860387.1          65.48%    failed      2.40%
+  30  REF_fatshederaestrain_MH860177.1         63.64%    passed     52.36%
+  31  REF_acrotonastrain_MH860176.1            25.04%    failed      4.62%
+  32  REF_kuhlmaniistrain_MH860045.1           59.16%    passed     50.35%
+  33  REF_chieniistrain_MH860031.1             64.73%    passed     57.19%
+  34  REF_alpinaisolate_PZ770547.1             66.57%    passed     86.30%
+  35  REF_elongataisolate_PZ770546.1           75.70%    passed     46.22%
+  36  REF_sp.strain_PZ738711.1                 63.30%    passed     71.95%
+  37  REF_sp.clone_PZ692090.1                  86.10%    passed     19.90%
+  38  REF_sp.clone_PZ691992.1                  86.33%    failed      0.15%
+  39  REF_sp.clone_PZ691916.1                  84.66%    failed      1.44%
+  40  REF_sp.clone_PZ691862.1                  86.50%    failed      0.02%
+  41  REF_sp.clone_PZ691791.1                  86.39%    failed      0.09%
+  42  REF_sp.clone_PZ691725.1                  84.66%    failed      1.48%
+  43  REF_amoeboideaclone_PZ691675.1           83.97%    failed      0.01%
+  44  REF_sp.clone_PZ691658.1                  85.93%    failed      0.19%
+  45  REF_sp.clone_PZ691594.1                  86.10%    failed      0.23%
+  46  REF_hyalinaclone_PZ691586.1              78.23%    passed     11.26%
+  47  REF_sp.clone_PZ691552.1                  87.59%    passed     35.01%
+  48  REF_humilisclone_PZ691525.1              86.67%    passed     19.48%
+  49  REF_sp.clone_PZ691520.1                  85.35%    passed     32.21%
+  50  REF_sp.clone_PZ691499.1                  87.25%    passed     14.94%
+  51  REF_sp.clone_PZ691493.1                  87.31%    passed     20.20%
+  52  REF_sp.clone_PZ691459.1                  86.56%    passed     11.01%
+  53  REF_sp.clone_PZ691435.1                  87.25%    passed     12.08%
+  54  REF_sp.clone_PZ691395.1                  85.35%    passed     49.60%
+  55  REF_sp.clone_PZ691352.1                  87.25%    passed     13.55%
+  56  REF_sp.clone_PZ691317.1                  87.59%    passed     26.84%
+  57  REF_tsukubaensisisolate_PZ690756.1       74.44%    passed     82.05%
+WARNING: 51 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                    70.16%  15 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: REF_acrotonastrain_MH860176.1 is identical to REF_acrotonaculture_MH871944.1 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.008 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 86524)...
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -12735.580
+2. Current log-likelihood: -11187.524
+3. Current log-likelihood: -11154.251
+4. Current log-likelihood: -11153.362
+Optimal log-likelihood: -11153.339
+Rate parameters:  A-C: 1.33323  A-G: 2.87578  A-T: 1.63621  C-G: 0.94957  C-T: 4.58413  G-T: 1.00000
+Base frequencies:  A: 0.281  C: 0.207  G: 0.216  T: 0.295
+Gamma shape alpha: 0.295
+Parameters optimization took 4 rounds (0.188 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00354674 secs using 636.2% CPU
+Computing ML distances took 0.004382 sec (of wall-clock time) 0.022896 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.00154192 secs using 142% CPU
+Computing RapidNJ tree took 0.077612 sec (of wall-clock time) 0.100916 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -11677.458
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.385 second
+Computing log-likelihood of 98 initial trees ... 0.611 seconds
+Current best score: -11153.339
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -11143.454
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -11136.426
+Iteration 10 / LogL: -11136.938 / Time: 0h:0m:2s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 17: -11136.004
+Iteration 20 / LogL: -11136.778 / Time: 0h:0m:4s
+Finish initializing candidate tree set (18)
+Current best tree score: -11136.004 / CPU time: 3.897
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -11136.253 / Time: 0h:0m:5s (0h:0m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -11135.854
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -11135.244
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -11134.991
+Iteration 40 / LogL: -11136.200 / Time: 0h:0m:7s (0h:0m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -11134.890
+Iteration 50 / LogL: -11136.791 / Time: 0h:0m:8s (0h:0m:16s left)
+Log-likelihood cutoff on original alignment: -11166.143
+Iteration 60 / LogL: -11136.717 / Time: 0h:0m:9s (0h:0m:14s left)
+Iteration 70 / LogL: -11134.891 / Time: 0h:0m:11s (0h:0m:12s left)
+Iteration 80 / LogL: -11135.051 / Time: 0h:0m:12s (0h:0m:11s left)
+Iteration 90 / LogL: -11134.892 / Time: 0h:0m:13s (0h:0m:9s left)
+Iteration 100 / LogL: -11136.311 / Time: 0h:0m:15s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -11166.143
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 110 / LogL: -11139.236 / Time: 0h:0m:16s (0h:0m:13s left)
+Iteration 120 / LogL: -11139.577 / Time: 0h:0m:17s (0h:0m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 127: -11134.815
+Iteration 130 / LogL: -11135.722 / Time: 0h:0m:19s (0h:0m:14s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 131: -11134.449
+Iteration 140 / LogL: -11138.700 / Time: 0h:0m:20s (0h:0m:13s left)
+Iteration 150 / LogL: -11135.070 / Time: 0h:0m:21s (0h:0m:11s left)
+Log-likelihood cutoff on original alignment: -11166.143
+Iteration 160 / LogL: -11136.159 / Time: 0h:0m:23s (0h:0m:10s left)
+Iteration 170 / LogL: -11134.710 / Time: 0h:0m:24s (0h:0m:8s left)
+Iteration 180 / LogL: -11138.695 / Time: 0h:0m:25s (0h:0m:7s left)
+Iteration 190 / LogL: -11135.840 / Time: 0h:0m:26s (0h:0m:5s left)
+Iteration 200 / LogL: -11135.521 / Time: 0h:0m:28s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -11166.143
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 210 / LogL: -11135.524 / Time: 0h:0m:29s (0h:0m:12s left)
+UPDATE BEST LOG-LIKELIHOOD: -11134.449
+BETTER TREE FOUND at iteration 220: -11134.448
+Iteration 220 / LogL: -11134.448 / Time: 0h:0m:30s (0h:0m:14s left)
+Iteration 230 / LogL: -11136.284 / Time: 0h:0m:32s (0h:0m:12s left)
+Iteration 240 / LogL: -11134.449 / Time: 0h:0m:33s (0h:0m:11s left)
+Iteration 250 / LogL: -11134.705 / Time: 0h:0m:34s (0h:0m:9s left)
+Log-likelihood cutoff on original alignment: -11166.143
+UPDATE BEST LOG-LIKELIHOOD: -11134.448
+Iteration 260 / LogL: -11138.449 / Time: 0h:0m:35s (0h:0m:8s left)
+Iteration 270 / LogL: -11136.286 / Time: 0h:0m:36s (0h:0m:6s left)
+Iteration 280 / LogL: -11135.264 / Time: 0h:0m:37s (0h:0m:5s left)
+Iteration 290 / LogL: -11137.587 / Time: 0h:0m:39s (0h:0m:4s left)
+Iteration 300 / LogL: -11135.112 / Time: 0h:0m:40s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -11166.143
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 310 / LogL: -11135.599 / Time: 0h:0m:41s (0h:0m:12s left)
+Iteration 320 / LogL: -11135.612 / Time: 0h:0m:42s (0h:0m:10s left)
+TREE SEARCH COMPLETED AFTER 321 ITERATIONS / Time: 0h:0m:42s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -11134.448
+Optimal log-likelihood: -11134.448
+Rate parameters:  A-C: 1.36434  A-G: 3.01527  A-T: 1.72978  C-G: 1.02306  C-T: 4.85719  G-T: 1.00000
+Base frequencies:  A: 0.281  C: 0.207  G: 0.216  T: 0.295
+Gamma shape alpha: 0.295
+Parameters optimization took 1 rounds (0.012 sec)
+BEST SCORE FOUND : -11134.448
+Creating bootstrap support values...
+Split supports printed to NEXUS file Mortierellaceae_tree.splits.nex
+Total tree length: 12.070
+
+Total number of iterations: 321
+CPU time used for tree search: 164.370 sec (0h:2m:44s)
+Wall-clock time used for tree search: 42.342 sec (0h:0m:42s)
+Total CPU time used: 165.837 sec (0h:2m:45s)
+Total wall-clock time used: 43.011 sec (0h:0m:43s)
+
+Computing bootstrap consensus tree...
+Reading input file Mortierellaceae_tree.splits.nex...
+57 taxa and 573 splits.
+Consensus tree written to Mortierellaceae_tree.contree
+Reading input trees file Mortierellaceae_tree.contree
+Log-likelihood of consensus tree: -11134.783
+
+Analysis results written to: 
+  IQ-TREE report:                Mortierellaceae_tree.iqtree
+  Maximum-likelihood tree:       Mortierellaceae_tree.treefile
+  Likelihood distances:          Mortierellaceae_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Mortierellaceae_tree.splits.nex
+  Consensus tree:                Mortierellaceae_tree.contree
+  Screen log file:               Mortierellaceae_tree.log
+
+Date and Time: Mon Aug 10 13:47:10 2026

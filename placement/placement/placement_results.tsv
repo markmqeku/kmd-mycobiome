@@ -1,0 +1,25 @@
+neighbourhood	ASV	nearest_reference	identity_pct	alignment_len	query_cov_pct	evalue	node_support_UFBoot	placement	sister_taxa
+Didymellaceae	ASV_95f22b73_rel18.1	Nothophoma brennandiae (PZ779685.1)	99.7	302	100	2.12e-160	27	placed within Didymellaceae, position weakly supported	MH861767.1; MH861755.1; MH861770.1
+Didymellaceae	ASV_a8b4345a_rel7.1	Epicoccum sp. (PZ745922.1)	100.0	303	100	1.27e-162	98	placed within Didymellaceae, sister to Epicoccum sp. (PZ745922.1)	Epicoccum sp. (PZ745922.1)
+Didymellaceae	ASV_bf565f10_rel1.6	Didymella maydis (PZ745917.1)	100.0	302	100	4.56e-162	23	placed within Didymellaceae, position weakly supported	MH862222.1; MH861912.1; MH862064.1
+Didymellaceae	ASV_89fc352d_rel1.5	Neodidymelliopsis tinkyukuku (PZ779985.1)	100.0	302	100	4.56e-162	46	placed within Didymellaceae, position weakly supported	PZ779821.1; MH862956.1; PZ779834.1
+Didymellaceae	ASV_0a2b6529_rel1.0	Didymella maydis (PZ745917.1)	99.7	302	100	2.12e-160	58	placed within Didymellaceae, position weakly supported	ASV e0bfdf36 rel0.5
+Didymellaceae	ASV_fe25c615_rel0.7	Neodidymelliopsis tinkyukuku (PZ779985.1)	99.3	303	100	9.91e-159	49	placed within Didymellaceae, position weakly supported	MH861962.1
+Didymellaceae	ASV_3257692a_rel0.6	Ascochyta phacae (MH868978.1)	99.0	302	100	4.59e-157	49	placed within Didymellaceae, position weakly supported	MH861745.1; MH862568.1
+Didymellaceae	ASV_cee4bd47_rel0.6	Neodidymelliopsis tinkyukuku (PZ779985.1)	99.7	302	100	2.12e-160	58	placed within Didymellaceae, position weakly supported	ASV e0bfdf36 rel0.5; ASV 0a2b6529 rel1.0
+Didymellaceae	ASV_e0bfdf36_rel0.5	Didymella longicolla (MH863382.1)	99.3	303	100	2.76e-159	58	placed within Didymellaceae, position weakly supported	ASV 0a2b6529 rel1.0
+Microbotryomycetes	ASV_183e70fc_rel9.5	Curvibasidium sp. (PZ444431.1)	99.4	362	100	0.0	100	placed within Microbotryomycetes, sister to ASV 92c16f1b rel0.9; ASV 1686839a rel3.0	ASV 92c16f1b rel0.9; ASV 1686839a rel3.0
+Microbotryomycetes	ASV_1686839a_rel3.0	Curvibasidium sp. (PZ444431.1)	98.6	362	100	0.0	100	placed within Microbotryomycetes, sister to ASV 92c16f1b rel0.9	ASV 92c16f1b rel0.9
+Microbotryomycetes	ASV_92c16f1b_rel0.9	Curvibasidium sp. (PZ444431.1)	98.3	362	100	0.0	100	placed within Microbotryomycetes, sister to ASV 1686839a rel3.0	ASV 1686839a rel3.0
+Mortierellaceae	ASV_b4a48131_rel1.8	Gamsiella stylospora (MH866744.1)	99.7	395	100	0.0	88	placed within Mortierellaceae, sister to ASV 5f1ce530 rel1.0	ASV 5f1ce530 rel1.0
+Mortierellaceae	ASV_5f1ce530_rel1.0	Gamsiella stylospora (MH866744.1)	99.5	395	100	0.0	88	placed within Mortierellaceae, sister to ASV b4a48131 rel1.8	ASV b4a48131 rel1.8
+Mortierellaceae	ASV_f19ce87c_rel0.8	Gamsiella stylospora (MH866744.1)	100.0	395	100	0.0	95	placed within Mortierellaceae, sister to Gamsiella stylospora (MH866744.1)	Gamsiella stylospora (MH866744.1)
+Dothideomycetes	ASV_6edfc1f5_rel31.4	Botryosphaeria sp. (PZ780163.1)	82.2	309	100	3.40e-69	96	placed within Dothideomycetes, sister to ASV 9af7b54c rel2.4	ASV 9af7b54c rel2.4
+Dothideomycetes	ASV_9af7b54c_rel2.4	Botryosphaeria sp. (PZ780163.1)	82.7	313	100	7.31e-71	96	placed within Dothideomycetes, sister to ASV 6edfc1f5 rel31.4	ASV 6edfc1f5 rel31.4
+Dothideomycetes	ASV_dde6e8a1_rel0.8	Botryosphaeria sp. (PZ780163.1)	82.2	309	100	3.40e-69	96	placed within Dothideomycetes, sister to ASV 9af7b54c rel2.4; ASV 6edfc1f5 rel31.4	ASV 9af7b54c rel2.4; ASV 6edfc1f5 rel31.4
+Coniochaetales	ASV_d045f091_rel0.7	Coniochaeta africana (MH863095.1)	94.1	305	100	1.20e-132	71	placed within Coniochaetales, sister to MH860369.1	MH860369.1
+Coniochaetales	ASV_1774d1f9_rel0.6	Coniochaeta luteoviridis (MH855948.1)	88.8	313	100	2.09e-105	55	placed within Coniochaetales, position weakly supported	MH857740.1; MH865902.1; PZ690816.1
+Dothideaceae	ASV_3a5c2083_rel23.7	Endoconidioma populi (PX205938.1)	98.1	311	100	7.10e-156	98	placed within Dothideaceae, sister to ASV abea193f rel6.4	ASV abea193f rel6.4
+Dothideaceae	ASV_abea193f_rel6.4	Endoconidioma sp. (PZ165507.1)	98.4	311	100	4.24e-158	98	placed within Dothideaceae, sister to ASV 3a5c2083 rel23.7	ASV 3a5c2083 rel23.7
+Saccotheciaceae	ASV_2d66fd30_rel10.2	Paivomyces mimosae (PQ811698.1)	92.6	297	94	1.09e-119	64	placed within Saccotheciaceae, position weakly supported	australiensisITS NR 156527.1; MH863414.1
+Sclerotiniaceae	ASV_c154b836_rel2.1	Botrytis cinerea (PZ626198.1)	100.0	293	100	4.97e-157	27	placed within Sclerotiniaceae, position weakly supported	PZ742338.1

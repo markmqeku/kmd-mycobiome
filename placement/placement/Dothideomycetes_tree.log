@@ -1,0 +1,227 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    PHP25R-008 (AVX512, FMA3, 7 GB RAM)
+Command: iqtree2 -s Dothideomycetes_aln.fasta -m GTR+G -B 1000 -T 4 --prefix Dothideomycetes_tree -quiet -redo
+Seed:    140922 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug 10 13:47:14 2026
+Kernel:  AVX+FMA - 4 threads (8 CPU cores detected)
+
+Reading alignment file Dothideomycetes_aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.00212083 secs using 40.64% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 58 sequences with 1198 columns, 579 distinct patterns
+354 parsimony-informative, 260 singleton sites, 584 constant sites
+                                       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.3861e-05 secs using 96.39% CPU
+   1  ASV_6edfc1f5_rel31.4                    75.29%    passed     52.50%
+   2  ASV_9af7b54c_rel2.4                     75.29%    passed     56.76%
+   3  ASV_dde6e8a1_rel0.8                     75.29%    passed     60.39%
+   4  REF_guizhouensisMFLU_NR_191277.1        56.59%    failed      0.93%
+   5  REF_piniMUM_NR_177557.1                 51.50%    failed      0.00%
+   6  REF_lincangensisHKAS_NR_172455.1        61.52%    failed      0.04%
+   7  REF_brachylaenaeCPC_NR_165522.1         50.83%    failed      0.06%
+   8  REF_arctostaphyliITS_NR_155391.1        53.92%    passed     72.47%
+   9  REF_sp.T823861_PZ745140.1               29.38%    failed      0.00%
+  10  REF_fueloephazaevoucher_PZ744921.1      19.62%    failed      0.91%
+  11  REF_fueloephazaevoucher_PZ744920.1      22.04%    failed      1.10%
+  12  REF_neomacrospinosavoucher_PZ744919.1   57.01%    passed     69.46%
+  13  REF_macrospinosavoucher_PZ744918.1      57.01%    passed     64.07%
+  14  REF_macrospinosavoucher_PZ744917.1      57.01%    passed     64.07%
+  15  REF_neomacrospinosavoucher_PZ744916.1   57.01%    passed     69.46%
+  16  REF_neomacrospinosavoucher_PZ744915.1   57.01%    passed     69.46%
+  17  REF_macrospinosavoucher_PZ744914.1      57.01%    passed     64.07%
+  18  REF_neomacrospinosavoucher_PZ744913.1   57.51%    passed     59.58%
+  19  REF_macrospinosavoucher_PZ744912.1      56.76%    passed     68.72%
+  20  REF_macrospinosavoucher_PZ744911.1      56.84%    passed     66.72%
+  21  REF_macrospinosavoucher_PZ744910.1      57.01%    passed     63.40%
+  22  REF_macrospinosavoucher_PZ744909.1      58.93%    passed     86.01%
+  23  REF_macrospinosavoucher_PZ744908.1      56.84%    passed     66.72%
+  24  REF_macrospinosavoucher_PZ744907.1      57.10%    passed     67.35%
+  25  REF_macrospinosavoucher_PZ744906.1      56.84%    passed     66.72%
+  26  REF_macrospinosavoucher_PZ744905.1      56.76%    passed     62.76%
+  27  REF_macrospinosavoucher_PZ744904.1      56.84%    passed     66.72%
+  28  REF_macrospinosavoucher_PZ744903.1      56.84%    passed     66.72%
+  29  REF_macrospinosavoucher_PZ744902.1      56.84%    passed     66.72%
+  30  REF_macrospinosavoucher_PZ744901.1      56.84%    passed     66.72%
+  31  REF_macrospinosavoucher_PZ744900.1      56.84%    passed     66.72%
+  32  REF_circinatavoucher_PZ744899.1         56.68%    passed     68.86%
+  33  REF_circinatavoucher_PZ744898.1         56.68%    passed     68.86%
+  34  REF_musaeisolate_PZ783935.1             41.90%    passed      8.03%
+  35  REF_rostratumisolate_PZ783594.1         51.84%    passed      5.06%
+  36  REF_sorghinumstrain_PZ780856.1          54.09%    failed      0.59%
+  37  REF_sp.isolate_PZ780180.1               53.42%    passed     85.74%
+  38  REF_sp.isolate_PZ780179.1               53.42%    passed     85.74%
+  39  REF_sp.isolate_PZ780178.1               53.42%    passed     85.74%
+  40  REF_sp.isolate_PZ780165.1               53.92%    passed     76.39%
+  41  REF_sp.isolate_PZ780164.1               53.92%    passed     76.39%
+  42  REF_sp.isolate_PZ780163.1               53.92%    passed     76.39%
+  43  REF_lunataisolate_PZ780068.1            54.84%    failed      4.27%
+  44  REF_tinkyukukuisolate_PZ779985.1        56.34%    failed      4.14%
+  45  REF_exiguaisolate_PZ779849.1            60.77%    passed      7.25%
+  46  REF_exiguaisolate_PZ779848.1            60.02%    passed      7.33%
+  47  REF_exiguaisolate_PZ779847.1            60.02%    passed      7.33%
+  48  REF_exiguaisolate_PZ779846.1            61.44%    passed      8.00%
+  49  REF_exiguaisolate_PZ779845.1            60.02%    passed      7.33%
+  50  REF_sp.isolate_PZ779844.1               56.18%    passed     73.43%
+  51  REF_sp.isolate_PZ779843.1               56.18%    passed     73.43%
+  52  REF_sp.isolate_PZ779842.1               56.18%    passed     73.43%
+  53  REF_sp.isolate_PZ779841.1               56.18%    passed     73.43%
+  54  REF_sp.isolate_PZ779840.1               56.18%    passed     73.43%
+  55  REF_sp.isolate_PZ779839.1               55.93%    passed     68.96%
+  56  REF_sp.isolate_PZ779838.1               55.76%    passed     66.21%
+  57  REF_sp.isolate_PZ779837.1               56.68%    passed     76.27%
+  58  REF_sp.isolate_PZ779836.1               56.68%    passed     76.27%
+WARNING: 54 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                   55.43%  10 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: REF_neomacrospinosavoucher_PZ744916.1 is identical to REF_neomacrospinosavoucher_PZ744919.1 but kept for subsequent analysis
+NOTE: REF_macrospinosavoucher_PZ744917.1 is identical to REF_macrospinosavoucher_PZ744918.1 but kept for subsequent analysis
+NOTE: REF_macrospinosavoucher_PZ744908.1 is identical to REF_macrospinosavoucher_PZ744911.1 but kept for subsequent analysis
+NOTE: REF_circinatavoucher_PZ744898.1 is identical to REF_circinatavoucher_PZ744899.1 but kept for subsequent analysis
+NOTE: REF_sp.isolate_PZ780179.1 is identical to REF_sp.isolate_PZ780180.1 but kept for subsequent analysis
+NOTE: REF_sp.isolate_PZ780164.1 is identical to REF_sp.isolate_PZ780165.1 but kept for subsequent analysis
+NOTE: REF_exiguaisolate_PZ779847.1 is identical to REF_exiguaisolate_PZ779848.1 but kept for subsequent analysis
+NOTE: REF_sp.isolate_PZ779843.1 is identical to REF_sp.isolate_PZ779844.1 but kept for subsequent analysis
+NOTE: REF_sp.isolate_PZ779836.1 is identical to REF_sp.isolate_PZ779837.1 but kept for subsequent analysis
+NOTE: 14 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: REF_neomacrospinosavoucher_PZ744915.1 (identical to REF_neomacrospinosavoucher_PZ744919.1) is ignored but added at the end
+NOTE: REF_macrospinosavoucher_PZ744914.1 (identical to REF_macrospinosavoucher_PZ744918.1) is ignored but added at the end
+NOTE: REF_macrospinosavoucher_PZ744906.1 (identical to REF_macrospinosavoucher_PZ744911.1) is ignored but added at the end
+NOTE: REF_macrospinosavoucher_PZ744904.1 (identical to REF_macrospinosavoucher_PZ744911.1) is ignored but added at the end
+NOTE: REF_macrospinosavoucher_PZ744903.1 (identical to REF_macrospinosavoucher_PZ744911.1) is ignored but added at the end
+NOTE: REF_macrospinosavoucher_PZ744902.1 (identical to REF_macrospinosavoucher_PZ744911.1) is ignored but added at the end
+NOTE: REF_macrospinosavoucher_PZ744901.1 (identical to REF_macrospinosavoucher_PZ744911.1) is ignored but added at the end
+NOTE: REF_macrospinosavoucher_PZ744900.1 (identical to REF_macrospinosavoucher_PZ744911.1) is ignored but added at the end
+NOTE: REF_sp.isolate_PZ780178.1 (identical to REF_sp.isolate_PZ780180.1) is ignored but added at the end
+NOTE: REF_sp.isolate_PZ780163.1 (identical to REF_sp.isolate_PZ780165.1) is ignored but added at the end
+NOTE: REF_exiguaisolate_PZ779845.1 (identical to REF_exiguaisolate_PZ779848.1) is ignored but added at the end
+NOTE: REF_sp.isolate_PZ779842.1 (identical to REF_sp.isolate_PZ779844.1) is ignored but added at the end
+NOTE: REF_sp.isolate_PZ779841.1 (identical to REF_sp.isolate_PZ779844.1) is ignored but added at the end
+NOTE: REF_sp.isolate_PZ779840.1 (identical to REF_sp.isolate_PZ779844.1) is ignored but added at the end
+Alignment was printed to Dothideomycetes_tree.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Dothideomycetes_tree.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 140922)...
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -7574.094
+2. Current log-likelihood: -7128.194
+3. Current log-likelihood: -7118.768
+4. Current log-likelihood: -7117.934
+Optimal log-likelihood: -7117.814
+Rate parameters:  A-C: 1.64847  A-G: 2.98741  A-T: 1.62628  C-G: 2.06233  C-T: 4.69934  G-T: 1.00000
+Base frequencies:  A: 0.225  C: 0.277  G: 0.252  T: 0.246
+Gamma shape alpha: 0.558
+Parameters optimization took 4 rounds (0.060 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00209494 secs using 451.9% CPU
+Computing ML distances took 0.002760 sec (of wall-clock time) 0.010140 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000560969 secs using 160.1% CPU
+Computing RapidNJ tree took 0.034376 sec (of wall-clock time) 0.003261 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -7130.316
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.139 second
+Computing log-likelihood of 98 initial trees ... 0.214 seconds
+Current best score: -7117.814
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7115.176
+BETTER TREE FOUND at iteration 3: -7115.175
+BETTER TREE FOUND at iteration 4: -7115.175
+BETTER TREE FOUND at iteration 5: -7115.174
+BETTER TREE FOUND at iteration 6: -7115.174
+Iteration 10 / LogL: -7115.175 / Time: 0h:0m:1s
+Iteration 20 / LogL: -7115.175 / Time: 0h:0m:1s
+Finish initializing candidate tree set (20)
+Current best tree score: -7115.174 / CPU time: 1.669
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -7115.150
+Iteration 30 / LogL: -7115.156 / Time: 0h:0m:2s (0h:0m:8s left)
+Iteration 40 / LogL: -7115.152 / Time: 0h:0m:3s (0h:0m:6s left)
+Iteration 50 / LogL: -7136.986 / Time: 0h:0m:4s (0h:0m:5s left)
+Log-likelihood cutoff on original alignment: -7147.999
+Iteration 60 / LogL: -7115.184 / Time: 0h:0m:4s (0h:0m:5s left)
+Iteration 70 / LogL: -7115.153 / Time: 0h:0m:5s (0h:0m:4s left)
+Iteration 80 / LogL: -7115.181 / Time: 0h:0m:6s (0h:0m:3s left)
+BETTER TREE FOUND at iteration 90: -7115.150
+Iteration 90 / LogL: -7115.150 / Time: 0h:0m:7s (0h:0m:8s left)
+Iteration 100 / LogL: -7115.155 / Time: 0h:0m:8s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -7147.999
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 110 / LogL: -7115.151 / Time: 0h:0m:8s (0h:0m:7s left)
+Iteration 120 / LogL: -7115.151 / Time: 0h:0m:9s (0h:0m:6s left)
+Iteration 130 / LogL: -7115.150 / Time: 0h:0m:10s (0h:0m:5s left)
+Iteration 140 / LogL: -7115.181 / Time: 0h:0m:11s (0h:0m:5s left)
+Iteration 150 / LogL: -7115.181 / Time: 0h:0m:12s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -7148.859
+Iteration 160 / LogL: -7115.152 / Time: 0h:0m:14s (0h:0m:3s left)
+Iteration 170 / LogL: -7115.151 / Time: 0h:0m:15s (0h:0m:2s left)
+Iteration 180 / LogL: -7149.883 / Time: 0h:0m:15s (0h:0m:1s left)
+BETTER TREE FOUND at iteration 183: -7115.149
+Iteration 190 / LogL: -7115.152 / Time: 0h:0m:16s (0h:0m:8s left)
+Iteration 200 / LogL: -7115.151 / Time: 0h:0m:17s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -7148.859
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Iteration 210 / LogL: -7142.295 / Time: 0h:0m:18s (0h:0m:7s left)
+Iteration 220 / LogL: -7130.268 / Time: 0h:0m:18s (0h:0m:6s left)
+Iteration 230 / LogL: -7115.152 / Time: 0h:0m:19s (0h:0m:6s left)
+Iteration 240 / LogL: -7115.151 / Time: 0h:0m:20s (0h:0m:5s left)
+Iteration 250 / LogL: -7115.150 / Time: 0h:0m:21s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -7148.859
+Iteration 260 / LogL: -7115.181 / Time: 0h:0m:22s (0h:0m:3s left)
+Iteration 270 / LogL: -7130.268 / Time: 0h:0m:22s (0h:0m:2s left)
+Iteration 280 / LogL: -7115.151 / Time: 0h:0m:23s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 284 ITERATIONS / Time: 0h:0m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7115.149
+Optimal log-likelihood: -7115.148
+Rate parameters:  A-C: 1.71177  A-G: 3.06290  A-T: 1.69491  C-G: 2.13380  C-T: 4.92297  G-T: 1.00000
+Base frequencies:  A: 0.225  C: 0.277  G: 0.252  T: 0.246
+Gamma shape alpha: 0.552
+Parameters optimization took 1 rounds (0.007 sec)
+BEST SCORE FOUND : -7115.148
+Creating bootstrap support values...
+Split supports printed to NEXUS file Dothideomycetes_tree.splits.nex
+Total tree length: 5.410
+
+Total number of iterations: 284
+CPU time used for tree search: 91.765 sec (0h:1m:31s)
+Wall-clock time used for tree search: 23.759 sec (0h:0m:23s)
+Total CPU time used: 92.299 sec (0h:1m:32s)
+Total wall-clock time used: 24.090 sec (0h:0m:24s)
+
+Computing bootstrap consensus tree...
+Reading input file Dothideomycetes_tree.splits.nex...
+44 taxa and 446 splits.
+Consensus tree written to Dothideomycetes_tree.contree
+Reading input trees file Dothideomycetes_tree.contree
+Log-likelihood of consensus tree: -7115.178
+
+Analysis results written to: 
+  IQ-TREE report:                Dothideomycetes_tree.iqtree
+  Maximum-likelihood tree:       Dothideomycetes_tree.treefile
+  Likelihood distances:          Dothideomycetes_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Dothideomycetes_tree.splits.nex
+  Consensus tree:                Dothideomycetes_tree.contree
+  Screen log file:               Dothideomycetes_tree.log
+
+Date and Time: Mon Aug 10 13:47:38 2026

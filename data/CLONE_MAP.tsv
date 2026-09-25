@@ -1,0 +1,72 @@
+clone	ASV_ID_md5	total_reads	libraries	sites	blastn_hit_Tremellomycetes_refs	inside_Tremellomycetes_clade_rerun_tree	organism	taxid
+KMD_ITS2_ASV001	976ad936417bf9cbabab97e4a7f5ff60	278643	7	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV002	9beca8508d6987a6c98146c11ef23ed2	156355	19	Bloemfontein, Christiana, Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV003	64ed2f208d12e4cc180e6224c44e70ba	121713	23	Bloemfontein, Christiana	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV004	a23ce701075f4e8461e9fdd691d4694e	18251	18	Bloemfontein, Christiana	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV005	acb3df07531cec55e1fd9853d68b4a9e	14593	19	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV006	9e836b53a86da9d0bf93131eb36da0b0	10534	10	Bloemfontein, Christiana	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV007	da2d6ae38f9dd0ec138bce6815a83abf	9993	9	Christiana	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV008	604792970eca5b7b847b77905d6a83a4	8983	7	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV009	a624f9a145696876deee22df3f43a175	5075	17	Bloemfontein, Christiana, Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV010	263b1affbb9a2a054210e02d6ffd3e51	3841	7	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV011	6f71c818b93c94ce60c9d39db2432ac8	3645	9	Christiana	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV012	defcb0ce54b743c90edf5a2df66dce0b	3511	8	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV013	041023c3657264067a4d9589176d0a5d	3369	10	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV014	dac38306be6be9671eae417b202eb172	2286	7	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV015	b238e7f11ed01fd7b86d6b73648700fe	910	5	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV016	7a86df1ebb13c638f1b944946d36c087	909	6	Christiana	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV017	b4195e23237d829c72c71702f7d574dc	529	5	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV018	82f3de1d5ec65d3de7c08aef52b966c8	506	5	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV019	d1875b5b99eac06bbacf0c755540c556	450	1	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV020	78420c106cb4bcd4d22505d1c004076b	396	2	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV021	aad6fb6cafa4805d84935b7800dd0b58	378	1	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV022	c7badd36678438f66de6080cbdef6b89	316	1	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV023	3873ba42f15c0df026cc4ad48bd78d63	272	1	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV024	98806ac34e2a8c9454ed3561152e807f	256	2	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV025	dfd2872576ee819d7c429d8ea77fabb5	199	2	Christiana	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV026	f1747db146f65ab597ec1795d67b0221	155	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV027	1705dbfd38595733fdc6aa34e904f791	143	1	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV028	752b8e2c8177e25b649e284795c3ffd0	125	5	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV029	ce993a45a30876b4f2a134df63ec4a22	116	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV030	0505492ffb7328a9f2aa11b3de979b8a	102	2	Bloemfontein	no	yes	uncultured fungus	175245
+KMD_ITS2_ASV031	e1bc6d43fb23399619795eb82b40b3e8	91	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV032	c7a038d528532909f493c17ba55d654c	64	2	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV033	0ce39a0273affda6997d1fa5f698d4ba	58	2	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV034	3d4f6cfcf1a3d1964095056d8570dbdd	57	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV035	9b494c507f5316497418d1e231e77274	51	2	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV036	7f4d64a01663b7ae12fe0d3e75b566ce	47	2	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV037	d6f84becc049cdb515580cfc083ebd58	43	2	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV038	b5e0956cab8edacc6e6bfd56c74493d6	41	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV039	8e80cbb2128a4a1c7185436bfa7187fe	38	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV040	2298db48ae801bbf09d6933a8e260f16	37	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV041	ead91cfaa95e5a87a6eef11bdcd16450	35	2	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV042	aebc39bc23569690916376c1448996a8	29	4	Christiana, Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV043	5c89900193c6987c138c978ff7f1bdc1	25	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV044	da50460392e620bef2f677057e98a829	25	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV045	1b7143e53d67b723340348c546eb288f	19	2	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV046	2026eb02f7784e39cd2bea4b2c5d8d95	17	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV047	2dccfee04f4044794137d4371a5934e6	16	1	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV048	f8212ac85653749125fe80ac6d0734df	16	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV049	3fe1fce83b7f853b40cee06f800d8ac2	13	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV050	9e292f53aa27fd10d9dd0ca618c7ceda	13	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV051	ffd8286f7c6a9a44c2094216aceb910d	13	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV052	32ff51ed52c6e03f383d25087364b5d5	10	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV053	2380d87df69bca787f8e0acd6d66a5ae	9	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV054	5052240ae0c772b30a2c5e51659b095e	9	1	Bloemfontein	no	yes	uncultured fungus	175245
+KMD_ITS2_ASV055	e28b6f17f3ed114cf1b8da66f4771dde	8	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV056	68a874f667d28c1cbe5d16d89162670f	7	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV057	f4dfa3abed5b85556d9bd0ef031ef24a	7	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV058	23dd83242079b334db6d2a5a5b164066	5	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV059	ac4a686faf19910479ec930c2a8846d8	5	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV060	010fdafd3a42d4064a3e5fa9fb028930	4	1	Pretoria	no	yes	uncultured fungus	175245
+KMD_ITS2_ASV061	2141f6466015212b2d9dad84eeffb480	4	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV062	d4f8e0b2d0a8c630ebc637ed8a5aa166	4	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV063	f3564bc792dc8f4ad0bc8389fa12baa1	4	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV064	676c20baad68624c30a42ccc04077cb6	3	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV065	76ad754a9ee8b1c79ec08f33bd4a2cf8	3	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV066	f93930c68d1018f14a02fe7192c5fde9	3	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV067	f9d51acaa08fd38a15641fdf4181a593	3	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV068	83ab6f6dae9c5e772c56985e106ecf0e	2	1	Pretoria	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV069	aa120699a93f1f9b33e0dea8dcafc228	2	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743
+KMD_ITS2_ASV070	ac5340750a11ecf5f55f8d7761ed5aa5	2	1	Pretoria	yes	no	uncultured fungus	175245
+KMD_ITS2_ASV071	09e1f7d7c1d954304ba73fd5ea8db6ae	1	1	Bloemfontein	yes	yes	uncultured Tremellomycetes	543743

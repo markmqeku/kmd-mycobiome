@@ -1,0 +1,627 @@
+IQ-TREE 2.3.6 built Dec 11 2024
+
+Input file name: fig3_71_aln.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 276583
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 124 sequences with 1949 nucleotide sites
+Number of constant sites: 1068 (= 54.7973% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1068 (= 54.7973% of all sites)
+Number of parsimony informative sites: 651
+Number of distinct site patterns: 966
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.3235
+  A-G: 2.3621
+  A-T: 1.1570
+  C-G: 0.8044
+  C-T: 3.7190
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2515
+  pi(C) = 0.224
+  pi(G) = 0.2371
+  pi(T) = 0.2874
+
+Rate matrix Q:
+
+  A   -0.9156    0.2283    0.4312     0.256
+  C    0.2563    -1.226    0.1468     0.823
+  G    0.4574    0.1388   -0.8175    0.2213
+  T    0.2241    0.6416    0.1825    -1.048
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.7181
+
+ Category  Relative_rate  Proportion
+  1         0.07806        0.25
+  2         0.3719         0.25
+  3         0.9314         0.25
+  4         2.619          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -20634.0336 (s.e. 697.0961)
+Unconstrained log-likelihood (without tree): -10897.5643
+Number of free parameters (#branches + #model parameters): 252
+Akaike information criterion (AIC) score: 41772.0672
+Corrected Akaike information criterion (AICc) score: 41847.2511
+Bayesian information criterion (BIC) score: 43176.9852
+
+Total tree length (sum of branch lengths): 31.1037
+Sum of internal branch lengths: 15.6948 (50.4596% of tree length)
+
+WARNING: 25 near-zero internal branches (<0.0005) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ASV_976ad936_reads278643' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**ASV_976ad936_reads278643
+|
+|                             +**ASV_9beca850_reads156355
+|                          +**| (65)
+|                          |  +--ASV_60479297_reads8983
+|                       +--| (74)
+|                       |  |  +--ASV_263b1aff_reads3841
+|                       |  +--| (74)
+|                       |     |     +--ASV_6f71c818_reads3645
+|                       |     |  +**| (93)
+|                       |     |  |  +**ASV_b238e7f1_reads910
+|                       |     +--| (99)
+|                       |        +--ASV_2298db48_reads37
+|                    +**| (20)
+|                    |  |        +**ASV_64ed2f20_reads121713
+|                    |  |     +--| (51)
+|                    |  |     |  |  +**ASV_9e836b53_reads10534
+|                    |  |     |  +--| (98)
+|                    |  |     |     +--ASV_0ce39a02_reads58
+|                    |  |  +**| (27)
+|                    |  |  |  |  +**ASV_a624f9a1_reads5075
+|                    |  |  |  +--| (69)
+|                    |  |  |     |  +**ASV_041023c3_reads3369
+|                    |  |  |     +--| (76)
+|                    |  |  |        |  +**ASV_82f3de1d_reads506
+|                    |  |  |        +--| (100)
+|                    |  |  |           +**UNNAMED_Cryptococcus_sp_OTU796_MK019123.1
+|                    |  +**| (24)
+|                    |     +--ASV_7a86df1e_reads909
+|                 +**| (6)
+|                 |  |  +**ASV_defcb0ce_reads3511
+|                 |  +--| (57)
+|                 |     |  +--ASV_dac38306_reads2286
+|                 |     +**| (50)
+|                 |        +--ASV_e1bc6d43_reads91
+|              +**| (5)
+|              |  +--ASV_f1747db1_reads155
+|           +**| (6)
+|           |  +**ASV_acb3df07_reads14593
+|        +**| (14)
+|        |  +--ASV_dfd28725_reads199
+|     +**| (10)
+|     |  +--ASV_3873ba42_reads272
+|  +**| (4)
+|  |  +--ASV_1705dbfd_reads143
++**| (3)
+|  +--ASV_c7badd36_reads316
+|
+|        +**ASV_a23ce701_reads18251
+|     +**| (89)
+|     |  +--ASV_da2d6ae3_reads9993
+|  +--| (98)
+|  |  +--ASV_b4195e23_reads529
++**| (2)
+   |  +--ASV_d1875b5b_reads450
+   +**| (4)
+      |                                         +--ASV_78420c10_reads396
+      |                                      +--| (92)
+      |                                      |  |  +--ASV_da504603_reads25
+      |                                      |  +--| (99)
+      |                                      |     |  +--ASV_2380d87d_reads9
+      |                                      |     +--| (100)
+      |                                      |        +--ASV_f93930c6_reads3
+      |                                   +--| (97)
+      |                                   |  +--ASV_aebc39bc_reads29
+      |                                +--| (54)
+      |                                |  |    +--ASV_f8212ac8_reads16
+      |                                |  +----| (100)
+      |                                |       +--ASV_f3564bc7_reads4
+      |                             +--| (84)
+      |                             |  |      +--ASV_68a874f6_reads7
+      |                             |  +------| (100)
+      |                             |         +--ASV_f9d51aca_reads3
+      |                          +--| (85)
+      |                          |  +----ASV_8e80cbb2_reads38
+      |                       +--| (89)
+      |                       |  |                             +--ASV_0505492f_reads102
+      |                       |  |                          +--| (99)
+      |                       |  |                          |  |  +--ASV_d6f84bec_reads43
+      |                       |  |                          |  +--| (100)
+      |                       |  |                          |     +--ASV_9e292f53_reads13
+      |                       |  |                       +--| (71)
+      |                       |  |                       |  +--ASV_676c20ba_reads3
+      |                       |  |                    +--| (93)
+      |                       |  |                    |  |        +--ASV_9b494c50_reads51
+      |                       |  |                    |  |     +--| (11)
+      |                       |  |                    |  |     |  +--ASV_2141f646_reads4
+      |                       |  |                    |  |  +--| (25)
+      |                       |  |                    |  |  |  |     +--ASV_ead91cfa_reads35
+      |                       |  |                    |  |  |  |  +--| (100)
+      |                       |  |                    |  |  |  |  |  +--ASV_e28b6f17_reads8
+      |                       |  |                    |  |  |  +--| (100)
+      |                       |  |                    |  |  |     +--ASV_76ad754a_reads3
+      |                       |  |                    |  +--| (41)
+      |                       |  |                    |     +--ASV_32ff51ed_reads10
+      |                       |  |              +-----| (100)
+      |                       |  |              |     +----ASV_010fdafd_reads4
+      |                       |  |           +--| (87)
+      |                       |  |           |  +------ASV_1b7143e5_reads19
+      |                       |  |        +--| (73)
+      |                       |  |        |  +-----ASV_d4f8e0b2_reads4
+      |                       |  |     +--| (64)
+      |                       |  |     |  |       +--ASV_3d4f6cfc_reads57
+      |                       |  |     |  |  +----| (100)
+      |                       |  |     |  |  |    +--ASV_5c899001_reads25
+      |                       |  |     |  +--| (78)
+      |                       |  |     |     |     +------ASV_b5e0956c_reads41
+      |                       |  |     |     |  +--| (65)
+      |                       |  |     |     |  |  +--ASV_3fe1fce8_reads13
+      |                       |  |     |     +--| (86)
+      |                       |  |     |        |  +**ASV_2026eb02_reads17
+      |                       |  |     |        +--| (100)
+      |                       |  |     |           +--ASV_aa120699_reads2
+      |                       |  |  +--| (48)
+      |                       |  |  |  |  +---ASV_ffd8286f_reads13
+      |                       |  |  |  +--| (76)
+      |                       |  |  |     +---------ASV_5052240a_reads9
+      |                       |  +**| (42)
+      |                       |     |                                         +--REF_Naganishia_PZ692100.1
+      |                       |     |                                      +--| (90)
+      |                       |     |                                      |  +--REF_Naganishia_PZ692058.1
+      |                       |     |                                   +--| (92)
+      |                       |     |                                   |  +--REF_Solicoccozyma_PZ691900.1
+      |                       |     +-----------------------------------| (100)
+      |                       |                                         |  +--REF_Naganishia_PZ691886.1
+      |                       |                                         +--| (83)
+      |                       |                                            |  +-----REF_Naganishia_PZ691583.1
+      |                       |                                            +--| (85)
+      |                       |                                               |      +------REF_Solicoccozyma_PZ692016.1
+      |                       |                                               +------| (99)
+      |                       |                                                      |  +--REF_Solicoccozyma_PZ691391.1
+      |                       |                                                      +--| (98)
+      |                       |                                                         +--REF_Solicoccozyma_PZ691381.1
+      |                    +--| (32)
+      |                    |  |        +--ASV_c7a038d5_reads64
+      |                    |  |     +--| (98)
+      |                    |  |     |  |  +--ASV_ac4a686f_reads5
+      |                    |  |     |  +--| (96)
+      |                    |  |     |     +**ASV_09e1f7d7_reads1
+      |                    |  +-----| (99)
+      |                    |        +--ASV_f4dfa3ab_reads7
+      |                 +--| (34)
+      |                 |  |  +-----ASV_23dd8324_reads5
+      |                 |  +--| (40)
+      |                 |     |                       +--REF_Cryptococcus_PZ690574.1
+      |                 |     |                    +--| (100)
+      |                 |     |                    |  |     +--REF_Cryptococcus_PZ585986.1
+      |                 |     |                    |  |  +--| (100)
+      |                 |     |                    |  |  |  +**REF_Cryptococcus_PZ559754.1
+      |                 |     |                    |  +--| (100)
+      |                 |     |                    |     +**REF_Cryptococcus_PZ559753.1
+      |                 |     |                 +--| (100)
+      |                 |     |                 |  |     +--REF_Kwoniella_PZ690633.1
+      |                 |     |                 |  |  +--| (100)
+      |                 |     |                 |  |  |  +--REF_Kwoniella_PP844237.1
+      |                 |     |                 |  +--| (98)
+      |                 |     |                 |     |  +--REF_Kwoniella_PZ690604.1
+      |                 |     |                 |     +--| (100)
+      |                 |     |                 |        +--REF_Kwoniella_PZ568726.1
+      |                 |     |              +--| (86)
+      |                 |     |              |  +--REF_Tremella_PZ690631.1
+      |                 |     |           +**| (17)
+      |                 |     |           |  +--REF_Vishniacozyma_PZ661254.1
+      |                 |     |        +--| (24)
+      |                 |     |        |  |     +--REF_Tremella_PZ690903.1
+      |                 |     |        |  |  +--| (99)
+      |                 |     |        |  |  |  +--REF_Tremella_PZ689558.1
+      |                 |     |        |  +--| (100)
+      |                 |     |        |     +--REF_Tremella_PZ690902.1
+      |                 |     |     +--| (27)
+      |                 |     |     |  |           +**REF_Papiliotrema_PZ690150.1
+      |                 |     |     |  |        +--| (100)
+      |                 |     |     |  |        |  +**REF_Papiliotrema_PP844140.1
+      |                 |     |     |  |     +--| (99)
+      |                 |     |     |  |     |  |  +**REF_Papiliotrema_PP844278.1
+      |                 |     |     |  |     |  +--| (100)
+      |                 |     |     |  |     |     +**REF_Papiliotrema_PP844277.1
+      |                 |     |     |  |  +--| (85)
+      |                 |     |     |  |  |  |        +**REF_Bullera_PQ350848.1
+      |                 |     |     |  |  |  |     +**| (82)
+      |                 |     |     |  |  |  |     |  +**REF_Bullera_PQ350729.1
+      |                 |     |     |  |  |  |  +**| (87)
+      |                 |     |     |  |  |  |  |  +**REF_Bullera_PQ350709.1
+      |                 |     |     |  |  |  +--| (100)
+      |                 |     |     |  |  |     +--REF_Bullera_PV682924.1
+      |                 |     |     |  +--| (95)
+      |                 |     |     |     |     +**REF_Saitozyma_PZ689375.1
+      |                 |     |     |     |  +--| (95)
+      |                 |     |     |     |  |  |  +**REF_Saitozyma_PZ622241.1
+      |                 |     |     |     |  |  +**| (76)
+      |                 |     |     |     |  |     +--REF_Saitozyma_PZ242142.1
+      |                 |     |     |     +--| (100)
+      |                 |     |     |        +--REF_Saitozyma_PZ671361.1
+      |                 |     |  +--| (27)
+      |                 |     |  |  |        +--REF_Hannaella_PZ690629.1
+      |                 |     |  |  |     +--| (100)
+      |                 |     |  |  |     |  +--REF_Hannaella_PX607723.1
+      |                 |     |  |  |  +--| (100)
+      |                 |     |  |  |  |  |  +--REF_Hannaella_PZ689361.1
+      |                 |     |  |  |  |  +--| (100)
+      |                 |     |  |  |  |     +--REF_Hannaella_PZ622170.1
+      |                 |     |  |  +--| (100)
+      |                 |     |  |     |        +--REF_Dioszegia_PZ444491.1
+      |                 |     |  |     |     +--| (100)
+      |                 |     |  |     |     |  +--REF_Dioszegia_PZ058078.1
+      |                 |     |  |     |  +--| (93)
+      |                 |     |  |     |  |  +--REF_Dioszegia_PV682919.1
+      |                 |     |  |     +--| (95)
+      |                 |     |  |        +--REF_Dioszegia_PZ057556.1
+      |                 |     +--| (91)
+      |                 |        |     +--REF_Vishniacozyma_PZ690762.1
+      |                 |        |  +--| (100)
+      |                 |        |  |  +--REF_Vishniacozyma_PZ575979.1
+      |                 |        +--| (100)
+      |                 |           +--REF_Vishniacozyma_PP844159.1
+      |              +--| (44)
+      |              |  |  +--ASV_ac534075_reads2
+      |              |  +--| (97)
+      |              |     |   +--REF_Curvibasidium_PQ350815.1
+      |              |     +---| (100)
+      |              |         |  +**REF_Curvibasidium_PQ350801.1
+      |              |         +--| (100)
+      |              |            +**REF_Curvibasidium_PQ350800.1
+      |           +--| (100)
+      |           |  |     +----ASV_7f4d64a0_reads47
+      |           |  |  +--| (19)
+      |           |  |  |  +-----ASV_83ab6f6d_reads2
+      |           |  +--| (29)
+      |           |     |     +**REF_Filobasidium_PP844450.1
+      |           |     |  +**| (83)
+      |           |     |  |  +**REF_Filobasidium_PP844422.1
+      |           |     +--| (96)
+      |           |        |  +**REF_Filobasidium_PP844429.1
+      |           |        +--| (99)
+      |           |           +--REF_Filobasidium_PP844425.1
+      |        +--| (74)
+      |        |  +--ASV_ce993a45_reads116
+      |     +**| (25)
+      |     |  +--ASV_98806ac3_reads256
+      |  +**| (24)
+      |  |  |  +**ASV_752b8e2c_reads125
+      |  |  +--| (100)
+      |  |     +--ASV_2dccfee0_reads16
+      +**| (4)
+         +--ASV_aad6fb6c_reads378
+
+Tree in newick format:
+
+(ASV_976ad936_reads278643:0.0000010000,((((((((((ASV_9beca850_reads156355:0.0000010000,ASV_60479297_reads8983:0.0030889278)65:0.0000024696,(ASV_263b1aff_reads3841:0.0030948264,((ASV_6f71c818_reads3645:0.0030958733,ASV_b238e7f1_reads910:0.0000010000)93:0.0000010000,ASV_2298db48_reads37:0.0031058748)99:0.0030998260)74:0.0030680853)74:0.0030891628,(((ASV_64ed2f20_reads121713:0.0000024241,(ASV_9e836b53_reads10534:0.0000021868,ASV_0ce39a02_reads58:0.0030726584)98:0.0062055889)51:0.0030819841,(ASV_a624f9a1_reads5075:0.0000023620,(ASV_041023c3_reads3369:0.0000029453,(ASV_82f3de1d_reads506:0.0000010000,UNNAMED_Cryptococcus_sp_OTU796_MK019123.1:0.0000010000)100:0.0031658767)76:0.0031598410)69:0.0031645947)27:0.0000024425,ASV_7a86df1e_reads909:0.0030828402)24:0.0000024475)20:0.0000025041,(ASV_defcb0ce_reads3511:0.0000010000,(ASV_dac38306_reads2286:0.0030873165,ASV_e1bc6d43_reads91:0.0062530206)50:0.0000021198)57:0.0030956147)6:0.0000020690,ASV_f1747db1_reads155:0.0030835029)5:0.0000010000,ASV_acb3df07_reads14593:0.0000010000)6:0.0000019404,ASV_dfd28725_reads199:0.0030812764)14:0.0000029016,ASV_3873ba42_reads272:0.0031062482)10:0.0000027411,ASV_1705dbfd_reads143:0.0062545447)4:0.0000027881,ASV_c7badd36_reads316:0.0031053662)3:0.0000010210,(((ASV_a23ce701_reads18251:0.0000010000,ASV_da2d6ae3_reads9993:0.0031072122)89:0.0000029656,ASV_b4195e23_reads529:0.0031214101)98:0.0031104937,(ASV_d1875b5b_reads450:0.0031052117,((((((((((((((ASV_78420c10_reads396:0.3646623774,(ASV_da504603_reads25:0.3753038358,(ASV_2380d87d_reads9:0.3207231167,ASV_f93930c6_reads3:0.3076684548)100:0.1814825199)99:0.2969689496)92:0.0917398511,ASV_aebc39bc_reads29:0.2553136404)97:0.2565908386,(ASV_f8212ac8_reads16:0.3050861149,ASV_f3564bc7_reads4:0.3007319582)100:0.5094487961)54:0.0573622040,(ASV_68a874f6_reads7:0.1291157640,ASV_f9d51aca_reads3:0.1354958182)100:0.7579785608)84:0.1335023423,ASV_8e80cbb2_reads38:0.5404944117)85:0.3071097512,(((((((((ASV_0505492f_reads102:0.1071239454,(ASV_d6f84bec_reads43:0.0441638739,ASV_9e292f53_reads13:0.0804668664)100:0.1261903539)99:0.1241442371,ASV_676c20ba_reads3:0.2081639405)71:0.0180136873,(((ASV_9b494c50_reads51:0.1326320455,ASV_2141f646_reads4:0.3978659144)11:0.0027757787,((ASV_ead91cfa_reads35:0.0629563340,ASV_e28b6f17_reads8:0.0179706080)100:0.0309698644,ASV_76ad754a_reads3:0.1197298280)100:0.1257126068)25:0.0713448417,ASV_32ff51ed_reads10:0.1841864700)41:0.0533979366)93:0.2412996613,ASV_010fdafd_reads4:0.5377453315)100:0.6581129815,ASV_1b7143e5_reads19:0.7330059208)87:0.2167932750,ASV_d4f8e0b2_reads4:0.6425436999)73:0.1756881558,((ASV_3d4f6cfc_reads57:0.0864677786,ASV_5c899001_reads25:0.0176464041)100:0.5670794937,((ASV_b5e0956c_reads41:0.7372528032,ASV_3fe1fce8_reads13:0.1520789350)65:0.0678046474,(ASV_2026eb02_reads17:0.0000010000,ASV_aa120699_reads2:0.0028601103)100:0.3095986829)86:0.2241233718)78:0.1735839235)64:0.2198235488,(ASV_ffd8286f_reads13:0.4659783488,ASV_5052240a_reads9:1.0159456497)76:0.1139670690)48:0.1523504190,(((REF_Naganishia_PZ692100.1:0.1001377545,REF_Naganishia_PZ692058.1:0.1964659385)90:0.0973749500,REF_Solicoccozyma_PZ691900.1:0.3741016552)92:0.0898869521,(REF_Naganishia_PZ691886.1:0.1791132127,(REF_Naganishia_PZ691583.1:0.6134854521,(REF_Solicoccozyma_PZ692016.1:0.7156819232,(REF_Solicoccozyma_PZ691391.1:0.3219331264,REF_Solicoccozyma_PZ691381.1:0.0333766506)98:0.2459823524)99:0.7086689821)85:0.0848226576)83:0.1117425395)100:3.7303959170)42:0.0000027284)89:0.1901703699,((ASV_c7a038d5_reads64:0.0306541633,(ASV_ac4a686f_reads5:0.0237771355,ASV_09e1f7d7_reads1:0.0000020678)96:0.0194502328)98:0.1128929891,ASV_f4dfa3ab_reads7:0.0217803504)99:0.6359645130)32:0.0502153717,(ASV_23dd8324_reads5:0.6727275722,((((((((REF_Cryptococcus_PZ690574.1:0.0377463658,((REF_Cryptococcus_PZ585986.1:0.0129592267,REF_Cryptococcus_PZ559754.1:0.0000024627)100:0.0084877143,REF_Cryptococcus_PZ559753.1:0.0000026290)100:0.0259782231)100:0.1048159078,((REF_Kwoniella_PZ690633.1:0.0207676963,REF_Kwoniella_PP844237.1:0.0568272754)100:0.0761151341,(REF_Kwoniella_PZ690604.1:0.0138876048,REF_Kwoniella_PZ568726.1:0.0169033974)100:0.0504125240)98:0.0354563071)100:0.0679498515,REF_Tremella_PZ690631.1:0.1592100449)86:0.0168433811,REF_Vishniacozyma_PZ661254.1:0.3567161215)17:0.0000027801,((REF_Tremella_PZ690903.1:0.0125027042,REF_Tremella_PZ689558.1:0.0481596806)99:0.0404365801,REF_Tremella_PZ690902.1:0.1003863137)100:0.1990587699)24:0.0165690493,((((REF_Papiliotrema_PZ690150.1:0.0000021537,REF_Papiliotrema_PP844140.1:0.0000023540)100:0.1741598924,(REF_Papiliotrema_PP844278.1:0.0000028640,REF_Papiliotrema_PP844277.1:0.0000026757)100:0.0626524624)99:0.0560581440,(((REF_Bullera_PQ350848.1:0.0000010000,REF_Bullera_PQ350729.1:0.0000010000)82:0.0000010000,REF_Bullera_PQ350709.1:0.0000010000)87:0.0000023891,REF_Bullera_PV682924.1:0.0023027281)100:0.1452959730)85:0.0620274382,((REF_Saitozyma_PZ689375.1:0.0000010000,(REF_Saitozyma_PZ622241.1:0.0000010000,REF_Saitozyma_PZ242142.1:0.0389076904)76:0.0000025061)95:0.0091592578,REF_Saitozyma_PZ671361.1:0.0134649366)100:0.1785458848)95:0.0612636300)27:0.0209135456,(((REF_Hannaella_PZ690629.1:0.0257280356,REF_Hannaella_PX607723.1:0.0299983632)100:0.1413390022,(REF_Hannaella_PZ689361.1:0.0374901351,REF_Hannaella_PZ622170.1:0.0137592570)100:0.0670060964)100:0.0858641838,(((REF_Dioszegia_PZ444491.1:0.0153889569,REF_Dioszegia_PZ058078.1:0.0299992401)100:0.0290970431,REF_Dioszegia_PV682919.1:0.0764685512)93:0.0134756879,REF_Dioszegia_PZ057556.1:0.0412514775)95:0.0255256359)100:0.0772894441)27:0.0462782012,((REF_Vishniacozyma_PZ690762.1:0.0127599450,REF_Vishniacozyma_PZ575979.1:0.0469874372)100:0.0542265218,REF_Vishniacozyma_PP844159.1:0.0230725791)100:0.2066618719)91:0.0385828553)40:0.0388654195)34:0.0756755261,(ASV_ac534075_reads2:0.3635414222,(REF_Curvibasidium_PQ350815.1:0.0090932835,(REF_Curvibasidium_PQ350801.1:0.0000010000,REF_Curvibasidium_PQ350800.1:0.0000010000)100:0.0047472530)100:0.4891916589)97:0.1026569749)44:0.1809038081,((ASV_7f4d64a0_reads47:0.5527083683,ASV_83ab6f6d_reads2:0.6533586398)19:0.1009477623,((REF_Filobasidium_PP844450.1:0.0000020539,REF_Filobasidium_PP844422.1:0.0000010000)83:0.0000024564,(REF_Filobasidium_PP844429.1:0.0000021084,REF_Filobasidium_PP844425.1:0.1939592707)99:0.0036041219)96:0.0895224558)29:0.0462730085)100:0.2162657296,ASV_ce993a45_reads116:0.0023153696)74:0.0039895952,ASV_98806ac3_reads256:0.0094023867)25:0.0000025398,(ASV_752b8e2c_reads125:0.0000022334,ASV_2dccfee0_reads16:0.0125254347)100:0.0125314376)24:0.0000020022,ASV_aad6fb6c_reads378:0.0031052846)4:0.0000010000)4:0.0000025156)2:0.0000026455);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -20636.067928
+Robinson-Foulds distance between ML tree and consensus tree: 42
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--ASV_976ad936_reads278643
+|
+|                             +--ASV_9beca850_reads156355
+|                          +--| (65)
+|                          |  +--ASV_60479297_reads8983
+|                       +--| (74)
+|                       |  |  +--ASV_263b1aff_reads3841
+|                       |  +--| (74)
+|                       |     |     +--ASV_6f71c818_reads3645
+|                       |     |  +--| (93)
+|                       |     |  |  +--ASV_b238e7f1_reads910
+|                       |     +--| (99)
+|                       |        +--ASV_2298db48_reads37
+|                    +--| (20)
+|                    |  |        +--ASV_64ed2f20_reads121713
+|                    |  |     +--| (51)
+|                    |  |     |  |  +--ASV_9e836b53_reads10534
+|                    |  |     |  +--| (98)
+|                    |  |     |     +--ASV_0ce39a02_reads58
+|                    |  |  +--| (27)
+|                    |  |  |  |  +--ASV_a624f9a1_reads5075
+|                    |  |  |  +--| (69)
+|                    |  |  |     |  +--ASV_041023c3_reads3369
+|                    |  |  |     +--| (76)
+|                    |  |  |        |  +--ASV_82f3de1d_reads506
+|                    |  |  |        +--| (100)
+|                    |  |  |           +--UNNAMED_Cryptococcus_sp_OTU796_MK019123.1
+|                    |  +--| (24)
+|                    |     +--ASV_7a86df1e_reads909
+|                 +--| (10)
+|                 |  +--ASV_f1747db1_reads155
+|              +--| (11)
+|              |  +--ASV_acb3df07_reads14593
+|           +--| (14)
+|           |  +--ASV_dfd28725_reads199
+|        +--| (11)
+|        |  |                                            +--ASV_78420c10_reads396
+|        |  |                                         +--| (92)
+|        |  |                                         |  |  +--ASV_da504603_reads25
+|        |  |                                         |  +--| (99)
+|        |  |                                         |     |  +--ASV_2380d87d_reads9
+|        |  |                                         |     +--| (100)
+|        |  |                                         |        +--ASV_f93930c6_reads3
+|        |  |                                      +--| (97)
+|        |  |                                      |  +--ASV_aebc39bc_reads29
+|        |  |                                   +--| (54)
+|        |  |                                   |  |   +--ASV_f8212ac8_reads16
+|        |  |                                   |  +---| (100)
+|        |  |                                   |      +--ASV_f3564bc7_reads4
+|        |  |                                +--| (84)
+|        |  |                                |  |      +--ASV_68a874f6_reads7
+|        |  |                                |  +------| (100)
+|        |  |                                |         +--ASV_f9d51aca_reads3
+|        |  |                             +--| (85)
+|        |  |                             |  +----ASV_8e80cbb2_reads38
+|        |  |                          +--| (89)
+|        |  |                          |  |                                   +--ASV_0505492f_reads102
+|        |  |                          |  |                                +--| (99)
+|        |  |                          |  |                                |  |  +--ASV_d6f84bec_reads43
+|        |  |                          |  |                                |  +--| (100)
+|        |  |                          |  |                                |     +--ASV_9e292f53_reads13
+|        |  |                          |  |                             +--| (71)
+|        |  |                          |  |                             |  +--ASV_676c20ba_reads3
+|        |  |                          |  |                          +--| (24)
+|        |  |                          |  |                          |  +--ASV_32ff51ed_reads10
+|        |  |                          |  |                       +--| (51)
+|        |  |                          |  |                       |  |  +--ASV_9b494c50_reads51
+|        |  |                          |  |                       |  +--| (62)
+|        |  |                          |  |                       |     |     +--ASV_ead91cfa_reads35
+|        |  |                          |  |                       |     |  +--| (100)
+|        |  |                          |  |                       |     |  |  +--ASV_e28b6f17_reads8
+|        |  |                          |  |                       |     +--| (100)
+|        |  |                          |  |                       |        +--ASV_76ad754a_reads3
+|        |  |                          |  |                    +--| (93)
+|        |  |                          |  |                    |  +--ASV_2141f646_reads4
+|        |  |                          |  |              +-----| (100)
+|        |  |                          |  |              |     +----ASV_010fdafd_reads4
+|        |  |                          |  |           +--| (87)
+|        |  |                          |  |           |  +------ASV_1b7143e5_reads19
+|        |  |                          |  |        +--| (73)
+|        |  |                          |  |        |  +-----ASV_d4f8e0b2_reads4
+|        |  |                          |  |     +--| (64)
+|        |  |                          |  |     |  |       +--ASV_3d4f6cfc_reads57
+|        |  |                          |  |     |  |  +----| (100)
+|        |  |                          |  |     |  |  |    +--ASV_5c899001_reads25
+|        |  |                          |  |     |  +--| (78)
+|        |  |                          |  |     |     |     +------ASV_b5e0956c_reads41
+|        |  |                          |  |     |     |  +--| (65)
+|        |  |                          |  |     |     |  |  +--ASV_3fe1fce8_reads13
+|        |  |                          |  |     |     +--| (86)
+|        |  |                          |  |     |        |  +--ASV_2026eb02_reads17
+|        |  |                          |  |     |        +--| (100)
+|        |  |                          |  |     |           +--ASV_aa120699_reads2
+|        |  |                          |  |  +--| (48)
+|        |  |                          |  |  |  |  +---ASV_ffd8286f_reads13
+|        |  |                          |  |  |  +--| (76)
+|        |  |                          |  |  |     +--------ASV_5052240a_reads9
+|        |  |                          |  +--| (42)
+|        |  |                          |     |                                         +--REF_Naganishia_PZ692100.1
+|        |  |                          |     |                                      +--| (90)
+|        |  |                          |     |                                      |  +--REF_Naganishia_PZ692058.1
+|        |  |                          |     |                                   +--| (92)
+|        |  |                          |     |                                   |  +--REF_Solicoccozyma_PZ691900.1
+|        |  |                          |     +-----------------------------------| (100)
+|        |  |                          |                                         |  +--REF_Naganishia_PZ691886.1
+|        |  |                          |                                         +--| (83)
+|        |  |                          |                                            |  +----REF_Naganishia_PZ691583.1
+|        |  |                          |                                            +--| (85)
+|        |  |                          |                                               |     +-----REF_Solicoccozyma_PZ692016.1
+|        |  |                          |                                               +-----| (99)
+|        |  |                          |                                                     |  +--REF_Solicoccozyma_PZ691391.1
+|        |  |                          |                                                     +--| (98)
+|        |  |                          |                                                        +--REF_Solicoccozyma_PZ691381.1
+|        |  |                       +--| (15)
+|        |  |                       |  |           +--ASV_c7a038d5_reads64
+|        |  |                       |  |        +--| (98)
+|        |  |                       |  |        |  |  +--ASV_ac4a686f_reads5
+|        |  |                       |  |        |  +--| (96)
+|        |  |                       |  |        |     +--ASV_09e1f7d7_reads1
+|        |  |                       |  |  +-----| (99)
+|        |  |                       |  |  |     +--ASV_f4dfa3ab_reads7
+|        |  |                       |  +--| (44)
+|        |  |                       |     |                    +--REF_Cryptococcus_PZ690574.1
+|        |  |                       |     |                 +--| (100)
+|        |  |                       |     |                 |  |     +--REF_Cryptococcus_PZ585986.1
+|        |  |                       |     |                 |  |  +--| (100)
+|        |  |                       |     |                 |  |  |  +--REF_Cryptococcus_PZ559754.1
+|        |  |                       |     |                 |  +--| (100)
+|        |  |                       |     |                 |     +--REF_Cryptococcus_PZ559753.1
+|        |  |                       |     |              +--| (100)
+|        |  |                       |     |              |  |     +--REF_Kwoniella_PZ690633.1
+|        |  |                       |     |              |  |  +--| (100)
+|        |  |                       |     |              |  |  |  +--REF_Kwoniella_PP844237.1
+|        |  |                       |     |              |  +--| (98)
+|        |  |                       |     |              |     |  +--REF_Kwoniella_PZ690604.1
+|        |  |                       |     |              |     +--| (100)
+|        |  |                       |     |              |        +--REF_Kwoniella_PZ568726.1
+|        |  |                       |     |           +--| (86)
+|        |  |                       |     |           |  +--REF_Tremella_PZ690631.1
+|        |  |                       |     |        +--| (34)
+|        |  |                       |     |        |  |     +--REF_Tremella_PZ690903.1
+|        |  |                       |     |        |  |  +--| (99)
+|        |  |                       |     |        |  |  |  +--REF_Tremella_PZ689558.1
+|        |  |                       |     |        |  +--| (100)
+|        |  |                       |     |        |     +--REF_Tremella_PZ690902.1
+|        |  |                       |     |     +--| (42)
+|        |  |                       |     |     |  |           +--REF_Papiliotrema_PZ690150.1
+|        |  |                       |     |     |  |        +--| (100)
+|        |  |                       |     |     |  |        |  +--REF_Papiliotrema_PP844140.1
+|        |  |                       |     |     |  |     +--| (99)
+|        |  |                       |     |     |  |     |  |  +--REF_Papiliotrema_PP844278.1
+|        |  |                       |     |     |  |     |  +--| (100)
+|        |  |                       |     |     |  |     |     +--REF_Papiliotrema_PP844277.1
+|        |  |                       |     |     |  |  +--| (85)
+|        |  |                       |     |     |  |  |  |        +--REF_Bullera_PQ350848.1
+|        |  |                       |     |     |  |  |  |     +--| (82)
+|        |  |                       |     |     |  |  |  |     |  +--REF_Bullera_PQ350729.1
+|        |  |                       |     |     |  |  |  |  +--| (87)
+|        |  |                       |     |     |  |  |  |  |  +--REF_Bullera_PQ350709.1
+|        |  |                       |     |     |  |  |  +--| (100)
+|        |  |                       |     |     |  |  |     +--REF_Bullera_PV682924.1
+|        |  |                       |     |     |  +--| (95)
+|        |  |                       |     |     |     |     +--REF_Saitozyma_PZ689375.1
+|        |  |                       |     |     |     |  +--| (95)
+|        |  |                       |     |     |     |  |  |  +--REF_Saitozyma_PZ622241.1
+|        |  |                       |     |     |     |  |  +--| (76)
+|        |  |                       |     |     |     |  |     +--REF_Saitozyma_PZ242142.1
+|        |  |                       |     |     |     +--| (100)
+|        |  |                       |     |     |        +--REF_Saitozyma_PZ671361.1
+|        |  |                       |     |  +--| (41)
+|        |  |                       |     |  |  |        +--REF_Hannaella_PZ690629.1
+|        |  |                       |     |  |  |     +--| (100)
+|        |  |                       |     |  |  |     |  +--REF_Hannaella_PX607723.1
+|        |  |                       |     |  |  |  +--| (100)
+|        |  |                       |     |  |  |  |  |  +--REF_Hannaella_PZ689361.1
+|        |  |                       |     |  |  |  |  +--| (100)
+|        |  |                       |     |  |  |  |     +--REF_Hannaella_PZ622170.1
+|        |  |                       |     |  |  +--| (100)
+|        |  |                       |     |  |     |        +--REF_Dioszegia_PZ444491.1
+|        |  |                       |     |  |     |     +--| (100)
+|        |  |                       |     |  |     |     |  +--REF_Dioszegia_PZ058078.1
+|        |  |                       |     |  |     |  +--| (93)
+|        |  |                       |     |  |     |  |  +--REF_Dioszegia_PV682919.1
+|        |  |                       |     |  |     +--| (95)
+|        |  |                       |     |  |        +--REF_Dioszegia_PZ057556.1
+|        |  |                       |     +--| (91)
+|        |  |                       |        |        +--REF_Vishniacozyma_PZ690762.1
+|        |  |                       |        |     +--| (100)
+|        |  |                       |        |     |  +--REF_Vishniacozyma_PZ575979.1
+|        |  |                       |        |  +--| (100)
+|        |  |                       |        |  |  +--REF_Vishniacozyma_PP844159.1
+|        |  |                       |        +--| (70)
+|        |  |                       |           +--REF_Vishniacozyma_PZ661254.1
+|        |  |                    +--| (34)
+|        |  |                    |  +-----ASV_23dd8324_reads5
+|        |  |                 +--| (44)
+|        |  |                 |  |  +--ASV_ac534075_reads2
+|        |  |                 |  +--| (97)
+|        |  |                 |     |   +--REF_Curvibasidium_PQ350815.1
+|        |  |                 |     +---| (100)
+|        |  |                 |         |     +**REF_Curvibasidium_PQ350801.1
+|        |  |                 |         |  +--|
+|        |  |                 |         |  |  +**REF_Curvibasidium_PQ350799.1
+|        |  |                 |         +--| (100)
+|        |  |                 |            +--REF_Curvibasidium_PQ350800.1
+|        |  |              +--| (27)
+|        |  |              |  +----ASV_7f4d64a0_reads47
+|        |  |           +--| (49)
+|        |  |           |  +-----ASV_83ab6f6d_reads2
+|        |  |        +--| (100)
+|        |  |        |  |     +--REF_Filobasidium_PP844450.1
+|        |  |        |  |  +--| (83)
+|        |  |        |  |  |  +--REF_Filobasidium_PP844422.1
+|        |  |        |  +--| (96)
+|        |  |        |     |  +--REF_Filobasidium_PP844429.1
+|        |  |        |     +--| (99)
+|        |  |        |        +--REF_Filobasidium_PP844425.1
+|        |  |     +--| (74)
+|        |  |     |  +--ASV_ce993a45_reads116
+|        |  |  +--| (25)
+|        |  |  |  +--ASV_98806ac3_reads256
+|        |  +--| (24)
+|        |     |  +--ASV_752b8e2c_reads125
+|        |     +--| (100)
+|        |        +--ASV_2dccfee0_reads16
+|     +--| (5)
+|     |  +--ASV_aad6fb6c_reads378
+|  +--| (3)
+|  |  |     +--ASV_a23ce701_reads18251
+|  |  |  +--| (89)
+|  |  |  |  +--ASV_da2d6ae3_reads9993
+|  |  +--| (98)
+|  |     +--ASV_b4195e23_reads529
++--| (5)
+|  +--ASV_c7badd36_reads316
+|
+|           +--ASV_defcb0ce_reads3511
+|        +--| (57)
+|        |  |  +--ASV_dac38306_reads2286
+|        |  +--| (50)
+|        |     +--ASV_e1bc6d43_reads91
+|     +--| (15)
+|     |  +--ASV_3873ba42_reads272
+|  +--| (6)
+|  |  +--ASV_1705dbfd_reads143
++--| (5)
+   +--ASV_d1875b5b_reads450
+
+
+Consensus tree in newick format: 
+
+(ASV_976ad936_reads278643:0.0000020010,((((((((((ASV_9beca850_reads156355:0.0000020010,ASV_60479297_reads8983:0.0030462516)65:0.0000020010,(ASV_263b1aff_reads3841:0.0030521542,((ASV_6f71c818_reads3645:0.0030530198,ASV_b238e7f1_reads910:0.0000020010)93:0.0000020010,ASV_2298db48_reads37:0.0030619606)99:0.0030569170)74:0.0030259820)74:0.0030464983,(((ASV_64ed2f20_reads121713:0.0000020010,(ASV_9e836b53_reads10534:0.0000020010,ASV_0ce39a02_reads58:0.0030305796)98:0.0061181754)51:0.0030394476,(ASV_a624f9a1_reads5075:0.0000020010,(ASV_041023c3_reads3369:0.0000020010,(ASV_82f3de1d_reads506:0.0000020010,UNNAMED_Cryptococcus_sp_OTU796_MK019123.1:0.0000022573)100:0.0031127729)76:0.0031078927)69:0.0031126550)27:0.0000027633,ASV_7a86df1e_reads909:0.0030399975)24:0.0000025101)20:0.0000025101,ASV_f1747db1_reads155:0.0030409400)10:0.0000025101,ASV_acb3df07_reads14593:0.0000020010)11:0.0000025101,ASV_dfd28725_reads199:0.0030387501)14:0.0000025101,(((((((((((((((ASV_78420c10_reads396:0.3610765974,(ASV_da504603_reads25:0.3660052670,(ASV_2380d87d_reads9:0.3153256314,ASV_f93930c6_reads3:0.3015157767)100:0.1818622918)99:0.2846673872)92:0.0887786873,ASV_aebc39bc_reads29:0.2535309431)97:0.2443076896,(ASV_f8212ac8_reads16:0.2952374201,ASV_f3564bc7_reads4:0.2993613148)100:0.5013678379)54:0.0552898507,(ASV_68a874f6_reads7:0.1234625638,ASV_f9d51aca_reads3:0.1374539339)100:0.7307769490)84:0.1475913239,ASV_8e80cbb2_reads38:0.5124397745)85:0.2973623833,(((((((((((ASV_0505492f_reads102:0.1071571249,(ASV_d6f84bec_reads43:0.0440746778,ASV_9e292f53_reads13:0.0786211417)100:0.1220290706)99:0.1317879524,ASV_676c20ba_reads3:0.2042526785)71:0.0480373286,ASV_32ff51ed_reads10:0.1833270101)24:0.0596364498,(ASV_9b494c50_reads51:0.1256611694,((ASV_ead91cfa_reads35:0.0625988653,ASV_e28b6f17_reads8:0.0171737756)100:0.0275445552,ASV_76ad754a_reads3:0.1212471840)100:0.1279617732)62:0.0234734652)51:0.1049739070,ASV_2141f646_reads4:0.2914294823)93:0.2086541006,ASV_010fdafd_reads4:0.5142930094)100:0.6741788440,ASV_1b7143e5_reads19:0.7385347033)87:0.2153820665,ASV_d4f8e0b2_reads4:0.6449308588)73:0.1630677297,((ASV_3d4f6cfc_reads57:0.0886237759,ASV_5c899001_reads25:0.0140539175)100:0.5539163810,((ASV_b5e0956c_reads41:0.7213807191,ASV_3fe1fce8_reads13:0.1580461151)65:0.0514085516,(ASV_2026eb02_reads17:0.0000020010,ASV_aa120699_reads2:0.0028147696)100:0.3123246769)86:0.2286067341)78:0.1648043025)64:0.2223329015,(ASV_ffd8286f_reads13:0.4526601366,ASV_5052240a_reads9:0.9995574974)76:0.1214218477)48:0.1445718921,(((REF_Naganishia_PZ692100.1:0.0992611647,REF_Naganishia_PZ692058.1:0.1931015397)90:0.0964490042,REF_Solicoccozyma_PZ691900.1:0.3663984153)92:0.0886898781,(REF_Naganishia_PZ691886.1:0.1757006704,(REF_Naganishia_PZ691583.1:0.6035863603,(REF_Solicoccozyma_PZ692016.1:0.7066664392,(REF_Solicoccozyma_PZ691391.1:0.3170925138,REF_Solicoccozyma_PZ691381.1:0.0329465874)98:0.2413590211)99:0.6989903911)85:0.0827437390)83:0.1087329836)100:3.7237305495)42:0.0000028898)89:0.2205403073,(((ASV_c7a038d5_reads64:0.0302222514,(ASV_ac4a686f_reads5:0.0234854084,ASV_09e1f7d7_reads1:0.0000025059)96:0.0192424806)98:0.1111403909,ASV_f4dfa3ab_reads7:0.0213776245)99:0.6478114419,(((((((REF_Cryptococcus_PZ690574.1:0.0370322852,((REF_Cryptococcus_PZ585986.1:0.0127757028,REF_Cryptococcus_PZ559754.1:0.0000020010)100:0.0083778136,REF_Cryptococcus_PZ559753.1:0.0000020049)100:0.0256248442)100:0.1022781356,((REF_Kwoniella_PZ690633.1:0.0203654694,REF_Kwoniella_PP844237.1:0.0560767021)100:0.0748732433,(REF_Kwoniella_PZ690604.1:0.0136474936,REF_Kwoniella_PZ568726.1:0.0167951772)100:0.0502890444)98:0.0356767046)100:0.0682247996,REF_Tremella_PZ690631.1:0.1564029612)86:0.0168584454,((REF_Tremella_PZ690903.1:0.0123547045,REF_Tremella_PZ689558.1:0.0475488236)99:0.0396787996,REF_Tremella_PZ690902.1:0.0989753532)100:0.1956187273)34:0.0147291298,((((REF_Papiliotrema_PZ690150.1:0.0000020010,REF_Papiliotrema_PP844140.1:0.0000023382)100:0.1713315365,(REF_Papiliotrema_PP844278.1:0.0000025059,REF_Papiliotrema_PP844277.1:0.0000020010)100:0.0615643103)99:0.0548830797,(((REF_Bullera_PQ350848.1:0.0000020010,REF_Bullera_PQ350729.1:0.0000020010)82:0.0000020010,REF_Bullera_PQ350709.1:0.0000020010)87:0.0000020010,REF_Bullera_PV682924.1:0.0022724743)100:0.1435026991)85:0.0589112322,((REF_Saitozyma_PZ689375.1:0.0000020010,(REF_Saitozyma_PZ622241.1:0.0000020010,REF_Saitozyma_PZ242142.1:0.0000020703)76:0.0387495253)95:0.0081904419,REF_Saitozyma_PZ671361.1:0.0140085942)100:0.1760454676)95:0.0624524014)42:0.0197063155,(((REF_Hannaella_PZ690629.1:0.0254208450,REF_Hannaella_PX607723.1:0.0294648965)100:0.1390187841,(REF_Hannaella_PZ689361.1:0.0365845022,REF_Hannaella_PZ622170.1:0.0140487798)100:0.0658543643)100:0.0839302029,(((REF_Dioszegia_PZ444491.1:0.0154440292,REF_Dioszegia_PZ058078.1:0.0295671814)100:0.0293873694,REF_Dioszegia_PV682919.1:0.0753347338)93:0.0137989049,REF_Dioszegia_PZ057556.1:0.0397974147)95:0.0259879569)100:0.0786372462)41:0.0273601589,(((REF_Vishniacozyma_PZ690762.1:0.0129854650,REF_Vishniacozyma_PZ575979.1:0.0456590973)100:0.0472225845,REF_Vishniacozyma_PP844159.1:0.0257705313)100:0.1112407693,REF_Vishniacozyma_PZ661254.1:0.3105590867)70:0.0684466599)91:0.0594046310)44:0.0349954263)15:0.0099180743,ASV_23dd8324_reads5:0.6718589435)34:0.0669113665,(ASV_ac534075_reads2:0.3587018100,(REF_Curvibasidium_PQ350815.1:0.0086184419,((REF_Curvibasidium_PQ350801.1:0.0000000000,REF_Curvibasidium_PQ350799.1:0.0000000000):0.0000020010,REF_Curvibasidium_PQ350800.1:0.0000020010)100:0.0050676927)100:0.4778807836)97:0.0951443258)44:0.1580205079,ASV_7f4d64a0_reads47:0.6000707700)27:0.0032853072,ASV_83ab6f6d_reads2:0.7016392481)49:0.0464485695,((REF_Filobasidium_PP844450.1:0.0000020010,REF_Filobasidium_PP844422.1:0.0000020010)83:0.0000023044,(REF_Filobasidium_PP844429.1:0.0000020326,REF_Filobasidium_PP844425.1:0.1916276823)99:0.0035650448)96:0.1118809957)100:0.2266118849,ASV_ce993a45_reads116:0.0023003120)74:0.0039046696,ASV_98806ac3_reads256:0.0092707068)25:0.0000027633,(ASV_752b8e2c_reads125:0.0000020010,ASV_2dccfee0_reads16:0.0123494368)100:0.0123552905)24:0.0000025101)11:0.0008172235,ASV_aad6fb6c_reads378:0.0030620483)5:0.0000020010,((ASV_a23ce701_reads18251:0.0000020010,ASV_da2d6ae3_reads9993:0.0030639133)89:0.0000020010,ASV_b4195e23_reads529:0.0030777399)98:0.0030671373)3:0.0000020010,ASV_c7badd36_reads316:0.0030621407)5:0.0001327865,((((ASV_defcb0ce_reads3511:0.0000020010,(ASV_dac38306_reads2286:0.0030445660,ASV_e1bc6d43_reads91:0.0061645938)50:0.0000020010)57:0.0004935643,ASV_3873ba42_reads272:0.0030626879)15:0.0005381421,ASV_1705dbfd_reads143:0.0061648391)6:0.0005341337,ASV_d1875b5b_reads450:0.0030619655)5:0.0005279513);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t fig3_71_tree.treefile -m "GTR{1.32354,2.36206,1.15701,0.804354,3.71903}+F{0.251492,0.224036,0.23707,0.287402}+G4{0.718104}" --length 1949
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s fig3_71_aln.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s fig3_71_aln.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Sep 25 21:53:44 2026
+Total CPU time used: 285.384887 seconds (0h:4m:45s)
+Total wall-clock time used: 79.38922019 seconds (0h:1m:19s)
+

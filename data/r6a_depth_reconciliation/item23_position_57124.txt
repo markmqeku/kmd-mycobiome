@@ -1,0 +1,42 @@
+=== 23d. group composition ===
+Christiana asymptomatic: ['25-C', '26-C', '27-C']  (n=3)
+Christiana symptomatic : ['OL-C', 'OM-C', 'OT-C', 'YL-C', 'YM-C', 'YT-C']  (n=6)
+The three samples in question ARE the entire Christiana asymptomatic group.
+Reclassifying them would leave Christiana with 0 asymptomatic samples and would remove
+the site's only within-site contrast, collapsing the core set from 16 to 13 usable for
+any Christiana condition comparison.
+
+=== 23b. mean dissimilarity to each Christiana group (self excluded) ===
+
+-- Bray-Curtis --
+sample    to asym group   to sym group   difference  closer to
+25-C             0.4132         0.3911      -0.0221  SYMPTOMATIC
+26-C             0.3940         0.3616      -0.0324  SYMPTOMATIC
+27-C             0.5383         0.5506      +0.0123  asymptomatic
+   for reference, the 6 symptomatic samples' own mean distance to the other
+   symptomatic samples: 0.3757 (range 0.3316 to 0.4456)
+
+-- Jaccard --
+sample    to asym group   to sym group   difference  closer to
+25-C             0.6125         0.6401      +0.0276  asymptomatic
+26-C             0.6247         0.6481      +0.0235  asymptomatic
+27-C             0.6251         0.6408      +0.0157  asymptomatic
+   for reference, the 6 symptomatic samples' own mean distance to the other
+   symptomatic samples: 0.5686 (range 0.5372 to 0.5942)
+
+=== 23c. Curvibasidium and yeast lineage ===
+sample  group           Curvibasidium %  yeast lineage %
+25-C    asymptomatic *             0.33            41.11
+26-C    asymptomatic *             0.10            55.79
+27-C    asymptomatic *             0.24            25.95
+OL-C    symptomatic                0.27            41.76
+OM-C    symptomatic                6.10            37.52
+OT-C    symptomatic                5.25            42.21
+YL-C    symptomatic                2.27            51.91
+YM-C    symptomatic               20.23            28.12
+YT-C    symptomatic                1.00            38.11
+   asymptomatic (the 3)   Curvibasidium mean   0.23 (range 0.10-0.33) | yeast mean  40.95 (range 25.95-55.79)
+   symptomatic (n=6)      Curvibasidium mean   5.85 (range 0.27-20.23) | yeast mean  39.94 (range 28.12-51.91)
+
+-> <KMD_ROOT>/__reanalysis_2026-06/phase3/outputs_27-07-2026/clean/item23_position.tsv
+NO LABELS CHANGED.

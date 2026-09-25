@@ -1,0 +1,16 @@
+sample-id	forward-absolute-filepath	reverse-absolute-filepath
+25-C	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/25-C_S53_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/25-C_S53_L001_R2_001.fastq
+26-C	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/26-C_S54_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/26-C_S54_L001_R2_001.fastq
+27-C	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/27-C_S55_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/27-C_S55_L001_R2_001.fastq
+OL-C	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/OL-C_S41_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/OL-C_S41_L001_R2_001.fastq
+OM-C	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/OM-C_S43_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/OM-C_S43_L001_R2_001.fastq
+OT-C	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/OT-C_S42_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/OT-C_S42_L001_R2_001.fastq
+YL-C	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/YL-C_S44_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/YL-C_S44_L001_R2_001.fastq
+YM-C	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/YM-C_S46_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/YM-C_S46_L001_R2_001.fastq
+YT-C	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/YT-C_S45_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/YT-C_S45_L001_R2_001.fastq
+28-C	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/28-C_S56_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/28-C_S56_L001_R2_001.fastq
+29-C	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/29-C_S57_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/29-C_S57_L001_R2_001.fastq
+OL-P	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/OL-P_S47_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/OL-P_S47_L001_R2_001.fastq
+OM-P	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/OM-P_S49_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/OM-P_S49_L001_R2_001.fastq
+YL-P	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/YL-P_S50_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/YL-P_S50_L001_R2_001.fastq
+YM-P	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/YM-P_S52_L001_R1_001.fastq	<KMD_ROOT>/__restructured_16-05-2026/raw_reads/YM-P_S52_L001_R2_001.fastq

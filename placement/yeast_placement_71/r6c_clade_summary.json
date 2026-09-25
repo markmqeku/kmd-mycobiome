@@ -1,0 +1,26 @@
+{
+ "rerun": {
+  "tips": 124,
+  "asvs": 71,
+  "alignment_columns": 1949,
+  "tremellomycetes_clade_support": 44,
+  "asvs_inside": 70,
+  "asvs_outside": [
+   "ASV_ac534075_reads2"
+  ],
+  "curvibasidium_inside": 0,
+  "mk019123_clade_asvs": 32,
+  "mk019123_clade_support": 74,
+  "mk019123_clade_reads": 646258,
+  "lineage_reads_in_tree": 647397,
+  "mk019123_clade_read_pct": 99.82,
+  "most_abundant_in_mk_clade": true
+ },
+ "original_78": {
+  "tremellomycetes_clade_support": 21,
+  "retained_inside": 70,
+  "retained": 71,
+  "green_algal_inside": 7,
+  "green_algal": 7
+ }
+}

@@ -1,0 +1,63 @@
+=== H-0: pre-trained UNITE classifier availability ===
+   not available: unite_ver10_dynamic_all_04.04.2024-Q2-2024.5.qza  [HTTPError]
+   not available: unite-ver10-dynamic-classifier.qza  [HTTPError]
+   QIIME 2 ships pre-trained classifiers for SILVA/Greengenes; UNITE classifiers are
+   conventionally user-trained, so the rank-threshold fallback stands as a documented limitation.
+
+=== H-4: ORDINATION on the rarefied core 16 (depth 57,141) ===
+PCoA coordinates only. NO PERMANOVA, NO p-values (every cell is n=1-2).
+
+-- Bray-Curtis PCoA (axis1 63.1%, axis2 12.4% of variation) --
+   25-C   Christiana  asymptomatic  Leaves         ax1= -0.427 ax2= +0.102
+   26-C   Christiana  asymptomatic  Twigs          ax1= -0.420 ax2= +0.100
+   YL-C   Christiana  symptomatic   Leaves         ax1= -0.381 ax2= +0.067
+   OT-C   Christiana  symptomatic   Twigs          ax1= -0.340 ax2= +0.145
+   27-C   Christiana  asymptomatic  Inflorescence  ax1= -0.317 ax2= -0.039
+   OL-C   Christiana  symptomatic   Leaves         ax1= -0.300 ax2= +0.085
+   YT-C   Christiana  symptomatic   Twigs          ax1= -0.241 ax2= -0.235
+   OM-C   Christiana  symptomatic   Malformation   ax1= -0.222 ax2= -0.089
+   YM-C   Christiana  symptomatic   Malformation   ax1= -0.121 ax2= -0.334
+   29-C   Pretoria    asymptomatic  Twigs          ax1= +0.292 ax2= +0.204
+   OT-P   Pretoria    symptomatic   Twigs          ax1= +0.372 ax2= +0.144
+   YM-P   Pretoria    symptomatic   Malformation   ax1= +0.394 ax2= -0.275
+   28-C   Pretoria    asymptomatic  Leaves         ax1= +0.422 ax2= +0.077
+   OM-P   Pretoria    symptomatic   Malformation   ax1= +0.424 ax2= +0.069
+   OL-P   Pretoria    symptomatic   Leaves         ax1= +0.430 ax2= +0.094
+   YL-P   Pretoria    symptomatic   Leaves         ax1= +0.435 ax2= -0.116
+
+-- Jaccard PCoA (axis1 34.4%, axis2 9.0% of variation) --
+   OL-P   Pretoria    symptomatic   Leaves         ax1= -0.376 ax2= +0.046
+   OT-P   Pretoria    symptomatic   Twigs          ax1= -0.359 ax2= -0.020
+   YM-P   Pretoria    symptomatic   Malformation   ax1= -0.339 ax2= +0.204
+   YL-P   Pretoria    symptomatic   Leaves         ax1= -0.334 ax2= +0.190
+   OM-P   Pretoria    symptomatic   Malformation   ax1= -0.332 ax2= -0.090
+   28-C   Pretoria    asymptomatic  Leaves         ax1= -0.302 ax2= -0.170
+   29-C   Pretoria    asymptomatic  Twigs          ax1= -0.274 ax2= -0.237
+   YM-C   Christiana  symptomatic   Malformation   ax1= +0.205 ax2= +0.189
+   OM-C   Christiana  symptomatic   Malformation   ax1= +0.223 ax2= +0.155
+   YT-C   Christiana  symptomatic   Twigs          ax1= +0.253 ax2= +0.179
+   OL-C   Christiana  symptomatic   Leaves         ax1= +0.257 ax2= +0.057
+   25-C   Christiana  asymptomatic  Leaves         ax1= +0.265 ax2= -0.210
+   26-C   Christiana  asymptomatic  Twigs          ax1= +0.270 ax2= -0.194
+   OT-C   Christiana  symptomatic   Twigs          ax1= +0.275 ax2= +0.006
+   YL-C   Christiana  symptomatic   Leaves         ax1= +0.278 ax2= -0.007
+   27-C   Christiana  asymptomatic  Inflorescence  ax1= +0.290 ax2= -0.097
+
+=== H-4: EFFORT-CORRECTED ASV SHARING (replaces the naive 81% vs 46-48%) ===
+Method: within each site, the larger condition group is subsampled WITHOUT replacement to the
+smaller group's sample count, 1,000 iterations; ASVs are counted as present if present in any
+sample of the subsample. Rarefied tables are used so per-sample read depth is also equal.
+
+--- Christiana: 3 asymptomatic vs 6 symptomatic; total ASVs detected = 289 ---
+   NAIVE (unequal effort): asymptomatic 141 (49%), symptomatic 241 (83%)
+   EFFORT-CORRECTED at n=3 per group, equal read depth:
+      asymptomatic  mean richness =  141.0 ASVs   95% range [141, 141]
+      symptomatic   mean richness =  180.4 ASVs   95% range [155, 204]
+   difference (symptomatic - asymptomatic) = +39.4 ASVs
+
+--- Pretoria: 2 asymptomatic vs 5 symptomatic; total ASVs detected = 340 ---
+   NAIVE (unequal effort): asymptomatic 209 (61%), symptomatic 254 (75%)
+   EFFORT-CORRECTED at n=2 per group, equal read depth:
+      asymptomatic  mean richness =  209.0 ASVs   95% range [209, 209]
+      symptomatic   mean richness =  164.5 ASVs   95% range [115, 222]
+   difference (symptomatic - asymptomatic) = -44.5 ASVs

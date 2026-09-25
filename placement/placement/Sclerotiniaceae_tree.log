@@ -1,0 +1,207 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    PHP25R-008 (AVX512, FMA3, 7 GB RAM)
+Command: iqtree2 -s Sclerotiniaceae_aln.fasta -m GTR+G -B 1000 -T 4 --prefix Sclerotiniaceae_tree -quiet -redo
+Seed:    437446 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug 10 13:49:29 2026
+Kernel:  AVX+FMA - 4 threads (8 CPU cores detected)
+
+Reading alignment file Sclerotiniaceae_aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.00208778 secs
+Alignment most likely contains DNA/RNA sequences
+Alignment has 55 sequences with 1806 columns, 661 distinct patterns
+304 parsimony-informative, 290 singleton sites, 1212 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.4877e-05 secs using 72.36% CPU
+   1  ASV_c154b836_rel2.1                  83.78%    passed     95.07%
+   2  REF_camelliaeisolate_PZ738151.1      71.93%    passed     60.14%
+   3  REF_cinereaculture_MH871883.1        33.61%    passed      5.17%
+   4  REF_ranunculiculture_MH869860.1      27.80%    failed      2.31%
+   5  REF_porriculture_MH866378.1          33.44%    passed      6.03%
+   6  REF_polystromastrain_MH862805.1      69.55%    passed     95.68%
+   7  REF_cistophilastrain_MH862558.1      54.93%    failed      0.08%
+   8  REF_cinereastrain_MH860108.1         33.61%    passed      5.17%
+   9  REF_caulophyllistrain_MH858318.1     74.58%    passed     82.66%
+  10  REF_ranunculistrain_MH858258.1       27.80%    failed      2.31%
+  11  REF_ficariarumstrain_MH858256.1      74.31%    passed     49.29%
+  12  REF_ochraceastrain_MH857685.1        70.27%    passed     54.56%
+  13  REF_pelargoniistrain_MH856724.1      74.36%    passed     43.96%
+  14  REF_convolutastrain_MH855964.1       71.93%    passed     57.28%
+  15  REF_podophyllinastrain_MH855916.1    44.91%    passed     77.14%
+  16  REF_erythroniistrain_MH855221.1      74.86%    failed      2.16%
+  17  REF_fabaestrain_MH855020.1           74.31%    passed     44.82%
+  18  REF_porristrain_MH854885.1           33.44%    passed      6.03%
+  19  REF_fructicolastrain_MH854846.1      70.27%    passed     75.13%
+  20  REF_byssoideastrain_MH854739.1       74.36%    passed     48.70%
+  21  REF_padivoucher_PZ593357.1           69.16%    passed     12.85%
+  22  REF_panamaensisvoucher_PZ331252.1    51.77%    failed      0.00%
+  23  REF_rufescensvoucher_PZ573064.1      87.15%    failed      0.11%
+  24  REF_panamaensisnom._PZ561618.1       86.71%    failed      0.15%
+  25  REF_sp.voucher_PZ554599.1            69.60%    failed      0.00%
+  26  REF_sp.voucher_PZ554598.1            69.77%    failed      0.00%
+  27  REF_cinereastrain_PZ481171.1         67.77%    passed     95.59%
+  28  REF_cinereastrain_PZ481170.1         71.32%    passed     72.44%
+  29  REF_cinereastrain_PZ481169.1         71.26%    passed     81.17%
+  30  REF_cinereastrain_PZ481168.1         70.16%    passed     51.30%
+  31  REF_cinereastrain_PZ481167.1         71.32%    passed     88.52%
+  32  REF_cinereaisolate_PZ774987.1        68.33%    passed     71.76%
+  33  REF_sclerotiorumisolate_PZ764065.1   71.32%    passed     92.71%
+  34  REF_cinereastrain_PZ756805.1         70.43%    passed     77.10%
+  35  REF_cinereastrain_PZ756804.1         71.98%    passed     73.46%
+  36  REF_fructicolaisolate_PZ756650.1     72.43%    passed     67.35%
+  37  REF_fructicolaisolate_PZ756649.1     72.37%    passed     67.14%
+  38  REF_fructicolaisolate_PZ756648.1     72.37%    passed     67.14%
+  39  REF_fructicolaisolate_PZ747052.1     76.85%    passed     38.43%
+  40  REF_fructicolaisolate_PZ747051.1     76.85%    passed     38.43%
+  41  REF_sclerotiorumisolate_PZ742346.1   73.37%    passed     56.58%
+  42  REF_cinereaisolate_PZ742338.1        77.52%    passed     65.57%
+  43  REF_cinereaisolate_PZ683305.1        68.33%    passed     71.76%
+  44  REF_cinereaisolate_PZ675420.1        68.38%    passed     76.09%
+  45  REF_cinereaisolate_PZ626198.1        68.33%    passed     71.76%
+  46  REF_sclerotiorumisolate_PZ741729.1   88.15%    passed     48.74%
+  47  REF_sp.clone_PZ524750.1              84.72%    passed     99.38%
+  48  REF_sp.clone_PZ524676.1              84.16%    passed      7.91%
+  49  REF_sp.clone_PZ524529.1              84.94%    passed     87.79%
+  50  REF_sp.clone_PZ524505.1              83.61%    passed     75.41%
+  51  REF_sp.clone_PZ524483.1              86.71%    failed      3.62%
+  52  REF_sp.clone_PZ524421.1              84.27%    passed      6.30%
+  53  REF_sp.clone_PZ524411.1              85.27%    passed     10.86%
+  54  REF_sp.clone_PZ524397.1              81.84%    passed     62.59%
+  55  REF_sp.clone_PZ524386.1              82.67%    passed     40.43%
+WARNING: 48 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                69.37%  10 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: REF_cinereastrain_MH860108.1 is identical to REF_cinereaculture_MH871883.1 but kept for subsequent analysis
+NOTE: REF_ranunculistrain_MH858258.1 is identical to REF_ranunculiculture_MH869860.1 but kept for subsequent analysis
+NOTE: REF_porristrain_MH854885.1 is identical to REF_porriculture_MH866378.1 but kept for subsequent analysis
+NOTE: REF_cinereaisolate_PZ683305.1 is identical to REF_cinereaisolate_PZ774987.1 but kept for subsequent analysis
+NOTE: REF_fructicolaisolate_PZ756648.1 is identical to REF_fructicolaisolate_PZ756649.1 but kept for subsequent analysis
+NOTE: REF_fructicolaisolate_PZ747051.1 is identical to REF_fructicolaisolate_PZ747052.1 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: REF_cinereaisolate_PZ626198.1 (identical to REF_cinereaisolate_PZ774987.1) is ignored but added at the end
+Alignment was printed to Sclerotiniaceae_tree.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Sclerotiniaceae_tree.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 437446)...
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -9274.910
+2. Current log-likelihood: -8162.119
+3. Current log-likelihood: -8151.899
+4. Current log-likelihood: -8151.085
+Optimal log-likelihood: -8150.947
+Rate parameters:  A-C: 1.35939  A-G: 2.82054  A-T: 0.90860  C-G: 1.00038  C-T: 3.66764  G-T: 1.00000
+Base frequencies:  A: 0.248  C: 0.231  G: 0.249  T: 0.273
+Gamma shape alpha: 0.642
+Parameters optimization took 4 rounds (0.074 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00248144 secs using 484.9% CPU
+Computing ML distances took 0.003145 sec (of wall-clock time) 0.012267 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000545181 secs using 188.2% CPU
+Computing RapidNJ tree took 0.031884 sec (of wall-clock time) 0.011563 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -8259.956
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.224 second
+Computing log-likelihood of 98 initial trees ... 0.317 seconds
+Current best score: -8150.947
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -8144.818
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -8122.195
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -8121.137
+Iteration 10 / LogL: -8133.496 / Time: 0h:0m:1s
+Iteration 20 / LogL: -8141.207 / Time: 0h:0m:2s
+Finish initializing candidate tree set (20)
+Current best tree score: -8121.137 / CPU time: 2.614
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -8119.761
+Iteration 30 / LogL: -8119.761 / Time: 0h:0m:3s (0h:0m:12s left)
+Iteration 40 / LogL: -8119.765 / Time: 0h:0m:4s (0h:0m:9s left)
+Iteration 50 / LogL: -8142.280 / Time: 0h:0m:5s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -8160.480
+Iteration 60 / LogL: -8119.770 / Time: 0h:0m:6s (0h:0m:7s left)
+Iteration 70 / LogL: -8120.669 / Time: 0h:0m:7s (0h:0m:6s left)
+Iteration 80 / LogL: -8119.761 / Time: 0h:0m:8s (0h:0m:5s left)
+UPDATE BEST LOG-LIKELIHOOD: -8119.761
+UPDATE BEST LOG-LIKELIHOOD: -8119.760
+Iteration 90 / LogL: -8135.560 / Time: 0h:0m:9s (0h:0m:3s left)
+Iteration 100 / LogL: -8135.695 / Time: 0h:0m:10s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -8160.480
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 110 / LogL: -8119.767 / Time: 0h:0m:11s (0h:0m:9s left)
+Iteration 120 / LogL: -8119.933 / Time: 0h:0m:12s (0h:0m:8s left)
+BETTER TREE FOUND at iteration 126: -8119.759
+Iteration 130 / LogL: -8119.759 / Time: 0h:0m:13s (0h:0m:10s left)
+Iteration 140 / LogL: -8119.886 / Time: 0h:0m:14s (0h:0m:9s left)
+BETTER TREE FOUND at iteration 142: -8119.759
+UPDATE BEST LOG-LIKELIHOOD: -8119.759
+Iteration 150 / LogL: -8119.928 / Time: 0h:0m:15s (0h:0m:9s left)
+Log-likelihood cutoff on original alignment: -8160.480
+Iteration 160 / LogL: -8119.762 / Time: 0h:0m:16s (0h:0m:8s left)
+Iteration 170 / LogL: -8133.799 / Time: 0h:0m:17s (0h:0m:7s left)
+Iteration 180 / LogL: -8119.762 / Time: 0h:0m:18s (0h:0m:6s left)
+Iteration 190 / LogL: -8137.739 / Time: 0h:0m:19s (0h:0m:5s left)
+Iteration 200 / LogL: -8121.463 / Time: 0h:0m:19s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -8160.480
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 210 / LogL: -8142.218 / Time: 0h:0m:21s (0h:0m:9s left)
+Iteration 220 / LogL: -8135.695 / Time: 0h:0m:21s (0h:0m:7s left)
+Iteration 230 / LogL: -8123.700 / Time: 0h:0m:22s (0h:0m:6s left)
+Iteration 240 / LogL: -8119.760 / Time: 0h:0m:23s (0h:0m:5s left)
+TREE SEARCH COMPLETED AFTER 243 ITERATIONS / Time: 0h:0m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -8119.759
+Optimal log-likelihood: -8119.757
+Rate parameters:  A-C: 1.49188  A-G: 3.01849  A-T: 0.97232  C-G: 1.02633  C-T: 3.87780  G-T: 1.00000
+Base frequencies:  A: 0.248  C: 0.231  G: 0.249  T: 0.273
+Gamma shape alpha: 0.604
+Parameters optimization took 1 rounds (0.009 sec)
+BEST SCORE FOUND : -8119.757
+Creating bootstrap support values...
+Split supports printed to NEXUS file Sclerotiniaceae_tree.splits.nex
+Total tree length: 9.014
+
+Total number of iterations: 243
+CPU time used for tree search: 92.650 sec (0h:1m:32s)
+Wall-clock time used for tree search: 23.738 sec (0h:0m:23s)
+Total CPU time used: 93.391 sec (0h:1m:33s)
+Total wall-clock time used: 24.246 sec (0h:0m:24s)
+
+Computing bootstrap consensus tree...
+Reading input file Sclerotiniaceae_tree.splits.nex...
+54 taxa and 995 splits.
+Consensus tree written to Sclerotiniaceae_tree.contree
+Reading input trees file Sclerotiniaceae_tree.contree
+Log-likelihood of consensus tree: -8121.478
+
+Analysis results written to: 
+  IQ-TREE report:                Sclerotiniaceae_tree.iqtree
+  Maximum-likelihood tree:       Sclerotiniaceae_tree.treefile
+  Likelihood distances:          Sclerotiniaceae_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Sclerotiniaceae_tree.splits.nex
+  Consensus tree:                Sclerotiniaceae_tree.contree
+  Screen log file:               Sclerotiniaceae_tree.log
+
+Date and Time: Mon Aug 10 13:49:53 2026

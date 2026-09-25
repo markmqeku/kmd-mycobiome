@@ -1,0 +1,285 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    PHP25R-008 (AVX512, FMA3, 7 GB RAM)
+Command: iqtree2 -s fig3_71_aln.fasta -m GTR+G -B 1000 -T 4 -seed 276583 --prefix fig3_71_tree -quiet -redo
+Seed:    276583 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep 25 21:52:28 2026
+Kernel:  AVX+FMA - 4 threads (8 CPU cores detected)
+
+Reading alignment file fig3_71_aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.00764348 secs
+Alignment most likely contains DNA/RNA sequences
+Alignment has 124 sequences with 1949 columns, 966 distinct patterns
+651 parsimony-informative, 230 singleton sites, 1068 constant sites
+                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000288206 secs using 386.9% CPU
+   1  ASV_976ad936_reads278643                    81.17%    passed     12.15%
+   2  ASV_9beca850_reads156355                    81.12%    passed     10.48%
+   3  ASV_64ed2f20_reads121713                    81.12%    passed     11.26%
+   4  ASV_a23ce701_reads18251                     81.17%    passed     14.12%
+   5  ASV_acb3df07_reads14593                     81.12%    passed     10.39%
+   6  ASV_9e836b53_reads10534                     81.12%    passed     15.82%
+   7  ASV_da2d6ae3_reads9993                      81.17%    passed     10.80%
+   8  ASV_60479297_reads8983                      81.12%    passed     12.28%
+   9  ASV_a624f9a1_reads5075                      81.12%    passed      9.23%
+  10  ASV_263b1aff_reads3841                      81.12%    passed     10.48%
+  11  ASV_6f71c818_reads3645                      81.17%    passed     21.44%
+  12  ASV_defcb0ce_reads3511                      81.12%    passed     12.18%
+  13  ASV_041023c3_reads3369                      81.12%    passed     10.10%
+  14  ASV_dac38306_reads2286                      81.12%    passed     13.32%
+  15  ASV_b238e7f1_reads910                       81.17%    passed     17.11%
+  16  ASV_7a86df1e_reads909                       81.12%    passed      7.79%
+  17  ASV_b4195e23_reads529                       81.17%    passed     16.09%
+  18  ASV_82f3de1d_reads506                       81.07%    passed      8.83%
+  19  ASV_d1875b5b_reads450                       81.17%    passed     13.16%
+  20  ASV_78420c10_reads396                       79.43%    passed     90.31%
+  21  ASV_aad6fb6c_reads378                       81.17%    passed      9.20%
+  22  ASV_c7badd36_reads316                       81.17%    passed      9.20%
+  23  ASV_3873ba42_reads272                       81.17%    passed     13.16%
+  24  ASV_98806ac3_reads256                       81.22%    passed     10.79%
+  25  ASV_dfd28725_reads199                       81.12%    passed     11.26%
+  26  ASV_f1747db1_reads155                       81.12%    passed     12.18%
+  27  ASV_1705dbfd_reads143                       81.17%    passed      9.38%
+  28  ASV_752b8e2c_reads125                       81.17%    passed      8.32%
+  29  ASV_ce993a45_reads116                       81.12%    passed     14.00%
+  30  ASV_0505492f_reads102                       81.58%    passed     25.44%
+  31  ASV_e1bc6d43_reads91                        81.12%    passed     15.80%
+  32  ASV_c7a038d5_reads64                        79.12%    passed      6.50%
+  33  ASV_0ce39a02_reads58                        81.12%    passed     15.77%
+  34  ASV_3d4f6cfc_reads57                        79.43%    passed     39.89%
+  35  ASV_9b494c50_reads51                        81.63%    passed      8.59%
+  36  ASV_7f4d64a0_reads47                        80.91%    passed      5.16%
+  37  ASV_d6f84bec_reads43                        81.53%    passed     34.67%
+  38  ASV_b5e0956c_reads41                        82.20%    failed      0.58%
+  39  ASV_8e80cbb2_reads38                        79.89%    passed     86.82%
+  40  ASV_2298db48_reads37                        81.17%    passed     16.98%
+  41  ASV_ead91cfa_reads35                        81.48%    passed     83.26%
+  42  ASV_aebc39bc_reads29                        80.86%    passed     11.08%
+  43  ASV_da504603_reads25                        80.09%    failed      2.72%
+  44  ASV_5c899001_reads25                        79.78%    passed     44.69%
+  45  ASV_1b7143e5_reads19                        81.07%    passed     34.81%
+  46  ASV_2026eb02_reads17                        79.43%    failed      0.08%
+  47  ASV_f8212ac8_reads16                        81.94%    passed     79.25%
+  48  ASV_2dccfee0_reads16                        81.17%    passed     11.19%
+  49  ASV_9e292f53_reads13                        80.91%    passed      7.49%
+  50  ASV_3fe1fce8_reads13                        80.35%    failed      1.46%
+  51  ASV_ffd8286f_reads13                        79.89%    passed     24.34%
+  52  ASV_32ff51ed_reads10                        80.55%    passed     37.41%
+  53  ASV_5052240a_reads9                         81.27%    passed     58.79%
+  54  ASV_2380d87d_reads9                         79.22%    passed     86.96%
+  55  ASV_e28b6f17_reads8                         81.22%    passed     68.03%
+  56  ASV_68a874f6_reads7                         82.40%    failed      1.12%
+  57  ASV_f4dfa3ab_reads7                         79.32%    failed      2.25%
+  58  ASV_23dd8324_reads5                         79.27%    passed     81.87%
+  59  ASV_ac4a686f_reads5                         79.01%    failed      0.80%
+  60  ASV_d4f8e0b2_reads4                         80.25%    passed     97.57%
+  61  ASV_010fdafd_reads4                         81.53%    failed      2.04%
+  62  ASV_f3564bc7_reads4                         81.32%    passed      9.16%
+  63  ASV_2141f646_reads4                         81.17%    passed      8.65%
+  64  ASV_f93930c6_reads3                         79.68%    passed     47.27%
+  65  ASV_676c20ba_reads3                         81.63%    passed     21.77%
+  66  ASV_f9d51aca_reads3                         82.76%    failed      0.74%
+  67  ASV_76ad754a_reads3                         80.66%    passed     79.82%
+  68  ASV_83ab6f6d_reads2                         81.27%    passed     20.92%
+  69  ASV_aa120699_reads2                         79.43%    failed      0.05%
+  70  ASV_ac534075_reads2                         79.68%    passed     78.34%
+  71  ASV_09e1f7d7_reads1                         78.91%    failed      0.85%
+  72  REF_Cryptococcus_PZ690574.1                 80.76%    passed     55.73%
+  73  REF_Cryptococcus_PZ585986.1                 74.14%    passed     77.70%
+  74  REF_Cryptococcus_PZ559754.1                 73.52%    passed     82.44%
+  75  REF_Cryptococcus_PZ559753.1                 70.24%    passed     47.96%
+  76  REF_Naganishia_PZ692100.1                   87.58%    passed      6.79%
+  77  REF_Naganishia_PZ692058.1                   89.23%    passed     96.69%
+  78  REF_Naganishia_PZ691886.1                   85.89%    failed      4.76%
+  79  REF_Naganishia_PZ691583.1                   82.97%    passed     18.54%
+  80  REF_Papiliotrema_PZ690150.1                 81.58%    passed     92.41%
+  81  REF_Papiliotrema_PP844278.1                 78.14%    passed     28.91%
+  82  REF_Papiliotrema_PP844277.1                 75.89%    passed     26.49%
+  83  REF_Papiliotrema_PP844140.1                 75.63%    passed     31.45%
+  84  REF_Vishniacozyma_PZ690762.1                83.22%    passed     92.66%
+  85  REF_Vishniacozyma_PZ661254.1                83.53%    passed     23.79%
+  86  REF_Vishniacozyma_PP844159.1                81.17%    passed     57.33%
+  87  REF_Vishniacozyma_PZ575979.1                85.53%    passed     99.40%
+  88  REF_Filobasidium_PP844450.1                 70.34%    failed      3.76%
+  89  REF_Filobasidium_PP844429.1                 70.04%    failed      4.57%
+  90  REF_Filobasidium_PP844425.1                 76.19%    passed      9.74%
+  91  REF_Filobasidium_PP844422.1                 70.24%    failed      3.97%
+  92  REF_Kwoniella_PZ690633.1                    80.71%    passed     41.26%
+  93  REF_Kwoniella_PZ690604.1                    80.40%    passed     15.53%
+  94  REF_Kwoniella_PP844237.1                    76.09%    passed     49.38%
+  95  REF_Kwoniella_PZ568726.1                    24.53%    failed      0.00%
+  96  REF_Hannaella_PZ690629.1                    84.30%    passed     58.07%
+  97  REF_Hannaella_PZ689361.1                    84.15%    passed     70.56%
+  98  REF_Hannaella_PZ622170.1                    78.45%    passed     13.22%
+  99  REF_Hannaella_PX607723.1                    79.78%    passed     11.46%
+ 100  REF_Saitozyma_PZ689375.1                    85.27%    passed     20.83%
+ 101  REF_Saitozyma_PZ671361.1                    73.32%    passed     71.66%
+ 102  REF_Saitozyma_PZ622241.1                    77.68%    passed     84.18%
+ 103  REF_Saitozyma_PZ242142.1                    74.96%    passed     72.99%
+ 104  REF_Solicoccozyma_PZ692016.1                87.58%    passed     16.45%
+ 105  REF_Solicoccozyma_PZ691900.1                85.84%    failed      0.00%
+ 106  REF_Solicoccozyma_PZ691391.1                87.74%    failed      4.46%
+ 107  REF_Solicoccozyma_PZ691381.1                87.69%    passed     25.74%
+ 108  REF_Bullera_PQ350848.1                      77.27%    passed     75.45%
+ 109  REF_Bullera_PQ350729.1                      75.37%    passed     62.84%
+ 110  REF_Bullera_PQ350709.1                      74.24%    passed     54.54%
+ 111  REF_Bullera_PV682924.1                      74.60%    passed     71.45%
+ 112  REF_Dioszegia_PZ444491.1                    49.00%    failed      2.52%
+ 113  REF_Dioszegia_PZ058078.1                    88.87%    passed     32.41%
+ 114  REF_Dioszegia_PZ057556.1                    87.89%    passed     32.90%
+ 115  REF_Dioszegia_PV682919.1                    77.27%    passed      5.75%
+ 116  REF_Tremella_PZ690903.1                     83.27%    passed     45.77%
+ 117  REF_Tremella_PZ690902.1                     81.89%    passed     23.54%
+ 118  REF_Tremella_PZ690631.1                     81.58%    passed     46.19%
+ 119  REF_Tremella_PZ689558.1                     82.56%    passed     16.45%
+ 120  REF_Curvibasidium_PQ350815.1                70.96%    passed      6.88%
+ 121  REF_Curvibasidium_PQ350801.1                71.78%    passed      7.26%
+ 122  REF_Curvibasidium_PQ350800.1                71.78%    passed      7.26%
+ 123  REF_Curvibasidium_PQ350799.1                71.78%    passed      7.26%
+ 124  UNNAMED_Cryptococcus_sp_OTU796_MK019123.1   78.71%    passed     20.50%
+WARNING: 122 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                       79.53%  19 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: REF_Curvibasidium_PQ350800.1 is identical to REF_Curvibasidium_PQ350801.1 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: REF_Curvibasidium_PQ350799.1 (identical to REF_Curvibasidium_PQ350801.1) is ignored but added at the end
+Alignment was printed to fig3_71_tree.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to fig3_71_tree.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.013 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 276583)...
+
+NOTE: 19 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -24348.983
+2. Current log-likelihood: -20754.444
+3. Current log-likelihood: -20719.136
+4. Current log-likelihood: -20717.047
+5. Current log-likelihood: -20716.620
+Optimal log-likelihood: -20716.526
+Rate parameters:  A-C: 1.26945  A-G: 2.28622  A-T: 1.10167  C-G: 0.82153  C-T: 3.72576  G-T: 1.00000
+Base frequencies:  A: 0.251  C: 0.224  G: 0.237  T: 0.287
+Gamma shape alpha: 0.729
+Parameters optimization took 5 rounds (0.288 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00973976 secs using 380.2% CPU
+Computing ML distances took 0.010924 sec (of wall-clock time) 0.037598 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000821669 secs using 158.8% CPU
+Computing RapidNJ tree took 0.100558 sec (of wall-clock time) 0.003989 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -21080.658
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.096 second
+Computing log-likelihood of 98 initial trees ... 0.967 seconds
+Current best score: -20716.526
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -20651.286
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -20649.198
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -20648.180
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -20645.425
+Iteration 10 / LogL: -20645.425 / Time: 0h:0m:6s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 19: -20640.258
+Iteration 20 / LogL: -20656.583 / Time: 0h:0m:10s
+Finish initializing candidate tree set (20)
+Current best tree score: -20640.258 / CPU time: 10.020
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -20638.362
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -20638.150
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -20635.525
+Iteration 30 / LogL: -20635.526 / Time: 0h:0m:13s (0h:0m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -20634.952
+Iteration 40 / LogL: -20636.431 / Time: 0h:0m:16s (0h:0m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -20634.284
+Iteration 50 / LogL: -20634.651 / Time: 0h:0m:19s (0h:0m:37s left)
+Log-likelihood cutoff on original alignment: -20680.202
+Iteration 60 / LogL: -20635.407 / Time: 0h:0m:23s (0h:0m:32s left)
+Iteration 70 / LogL: -20634.539 / Time: 0h:0m:26s (0h:0m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 71: -20634.142
+Iteration 80 / LogL: -20636.848 / Time: 0h:0m:29s (0h:0m:33s left)
+Iteration 90 / LogL: -20635.424 / Time: 0h:0m:32s (0h:0m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 97: -20634.114
+Iteration 100 / LogL: -20634.597 / Time: 0h:0m:35s (0h:0m:34s left)
+Log-likelihood cutoff on original alignment: -20678.952
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 109: -20634.071
+Iteration 110 / LogL: -20636.256 / Time: 0h:0m:39s (0h:0m:35s left)
+Iteration 120 / LogL: -20641.698 / Time: 0h:0m:42s (0h:0m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 129: -20634.037
+Iteration 130 / LogL: -20634.631 / Time: 0h:0m:45s (0h:0m:34s left)
+Iteration 140 / LogL: -20634.243 / Time: 0h:0m:48s (0h:0m:31s left)
+Iteration 150 / LogL: -20634.440 / Time: 0h:0m:52s (0h:0m:27s left)
+Log-likelihood cutoff on original alignment: -20679.007
+Iteration 160 / LogL: -20688.542 / Time: 0h:0m:55s (0h:0m:24s left)
+Iteration 170 / LogL: -20639.179 / Time: 0h:0m:58s (0h:0m:20s left)
+Iteration 180 / LogL: -20639.806 / Time: 0h:1m:1s (0h:0m:16s left)
+Iteration 190 / LogL: -20653.004 / Time: 0h:1m:4s (0h:0m:13s left)
+Iteration 200 / LogL: -20884.941 / Time: 0h:1m:7s (0h:0m:9s left)
+Log-likelihood cutoff on original alignment: -20679.007
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 210 / LogL: -20634.053 / Time: 0h:1m:11s (0h:0m:30s left)
+Iteration 220 / LogL: -20634.114 / Time: 0h:1m:15s (0h:0m:27s left)
+Iteration 230 / LogL: -20634.054 / Time: 0h:1m:18s (0h:0m:23s left)
+TREE SEARCH COMPLETED AFTER 230 ITERATIONS / Time: 0h:1m:18s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -20634.037
+Optimal log-likelihood: -20634.034
+Rate parameters:  A-C: 1.32354  A-G: 2.36206  A-T: 1.15701  C-G: 0.80435  C-T: 3.71903  G-T: 1.00000
+Base frequencies:  A: 0.251  C: 0.224  G: 0.237  T: 0.287
+Gamma shape alpha: 0.718
+Parameters optimization took 1 rounds (0.029 sec)
+BEST SCORE FOUND : -20634.034
+Creating bootstrap support values...
+Split supports printed to NEXUS file fig3_71_tree.splits.nex
+Total tree length: 31.104
+
+Total number of iterations: 230
+CPU time used for tree search: 283.597 sec (0h:4m:43s)
+Wall-clock time used for tree search: 77.734 sec (0h:1m:17s)
+Total CPU time used: 285.385 sec (0h:4m:45s)
+Total wall-clock time used: 79.006 sec (0h:1m:19s)
+
+Computing bootstrap consensus tree...
+Reading input file fig3_71_tree.splits.nex...
+123 taxa and 2051 splits.
+Consensus tree written to fig3_71_tree.contree
+Reading input trees file fig3_71_tree.contree
+Log-likelihood of consensus tree: -20636.068
+
+Analysis results written to: 
+  IQ-TREE report:                fig3_71_tree.iqtree
+  Maximum-likelihood tree:       fig3_71_tree.treefile
+  Likelihood distances:          fig3_71_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          fig3_71_tree.splits.nex
+  Consensus tree:                fig3_71_tree.contree
+  Screen log file:               fig3_71_tree.log
+
+Date and Time: Fri Sep 25 21:53:44 2026

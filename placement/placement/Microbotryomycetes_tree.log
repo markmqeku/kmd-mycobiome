@@ -1,0 +1,177 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    PHP25R-008 (AVX512, FMA3, 7 GB RAM)
+Command: iqtree2 -s Microbotryomycetes_aln.fasta -m GTR+G -B 1000 -T 4 --prefix Microbotryomycetes_tree -quiet -redo
+Seed:    80842 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug 10 13:46:06 2026
+Kernel:  AVX+FMA - 4 threads (8 CPU cores detected)
+
+Reading alignment file Microbotryomycetes_aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.00306955 secs using 40.79% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 57 sequences with 1497 columns, 714 distinct patterns
+453 parsimony-informative, 174 singleton sites, 870 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.8264e-05 secs using 78.73% CPU
+   1  ASV_1686839a_rel3.0                  75.82%    passed     53.40%
+   2  ASV_183e70fc_rel9.5                  75.82%    passed     45.90%
+   3  ASV_92c16f1b_rel0.9                  75.82%    passed     51.97%
+   4  REF_hylophilusstrain_MH861490.1      61.79%    failed      0.60%
+   5  REF_johnsoniistrain_MH856739.1       59.59%    passed     70.99%
+   6  REF_ruberrimusisolate_PZ444504.1     29.59%    passed     72.12%
+   7  REF_lactucaeisolate_PZ444499.1       32.20%    passed     60.12%
+   8  REF_roseusisolate_PZ444497.1         29.59%    passed     69.70%
+   9  REF_ruberrimusisolate_PZ444496.1     30.19%    passed     61.17%
+  10  REF_lactucaeisolate_PZ444487.1       29.53%    passed     66.08%
+  11  REF_golubeviiisolate_PZ444484.1      26.05%    passed     70.37%
+  12  REF_ruberrimusisolate_PZ444478.1     26.99%    passed     64.30%
+  13  REF_ruberrimusisolate_PZ444476.1     27.12%    passed     64.73%
+  14  REF_sp.isolate_PZ444475.1            28.06%    passed     61.67%
+  15  REF_ruberrimusisolate_PZ444472.1     30.33%    passed     63.82%
+  16  REF_graminisisolate_PZ444465.1       26.19%    passed     74.25%
+  17  REF_babjevaeisolate_PZ444462.1       29.39%    passed     77.96%
+  18  REF_sp.isolate_PZ444438.1            28.39%    passed     37.51%
+  19  REF_sp.isolate_PZ444431.1            25.65%    passed     50.74%
+  20  REF_sp.isolate_PZ444428.1            26.85%    passed     79.99%
+  21  REF_sp.isolate_PZ444426.1            27.05%    passed     81.60%
+  22  REF_ruberrimusisolate_PZ444412.1     29.99%    passed     67.96%
+  23  REF_roseusisolate_PZ444406.1         27.12%    passed     71.45%
+  24  REF_graminisisolate_PZ444401.1       29.46%    passed     71.85%
+  25  REF_sp.isolate_PZ444399.1            25.99%    passed     67.00%
+  26  REF_graecumSOMF_NR_202298.1          57.45%    passed     54.70%
+  27  REF_glutinisvoucher_PX872216.1       60.99%    passed     59.86%
+  28  REF_sphaerocarpavoucher_PX872215.1   60.12%    passed     76.98%
+  29  REF_paludigenastrain_PX574308.1      63.19%    passed     63.45%
+  30  REF_diobovatastrain_PX457243.1       62.46%    passed     38.55%
+  31  REF_paludigenastrain_PX457238.1      63.19%    passed     63.45%
+  32  REF_toruloidesstrain_PX457235.1      66.40%    passed     39.85%
+  33  REF_toruloidesstrain_PX454513.1      65.93%    passed     27.92%
+  34  REF_johnsoniistrain_PZ785095.1       61.66%    passed     56.04%
+  35  REF_mucilaginosaisolate_PZ777223.1   41.55%    passed     11.75%
+  36  REF_mucilaginosaisolate_PZ745335.1   62.99%    passed     50.57%
+  37  REF_mucilaginosaisolate_PV998793.1   60.45%    passed     55.73%
+  38  REF_sp.strain_PZ736900.1             57.05%    passed     41.14%
+  39  REF_roseusisolate_PZ716334.1         71.88%    passed     19.12%
+  40  REF_roseusisolate_PZ716324.1         65.06%    passed     13.02%
+  41  REF_mucilaginosaisolate_PV836785.1   66.00%    passed     63.55%
+  42  REF_mucilaginosastrain_PZ715736.1    39.88%    passed     10.87%
+  43  REF_mucilaginosastrain_PZ715735.1    35.87%    passed     25.62%
+  44  REF_mucilaginosastrain_PZ715734.1    47.90%    passed     10.12%
+  45  REF_babjevaestrain_PZ695150.1        64.60%    passed     62.54%
+  46  REF_sp.clone_PZ692144.1              82.97%    failed      0.00%
+  47  REF_Udeniozymaclone_PZ692129.1       84.17%    failed      0.00%
+  48  REF_sp.clone_PZ692092.1              86.44%    passed     45.75%
+  49  REF_ferulicaclone_PZ692081.1         82.50%    passed     11.81%
+  50  REF_Udeniozymaclone_PZ692015.1       83.03%    failed      0.05%
+  51  REF_ferulicaclone_PZ691835.1         83.83%    failed      0.02%
+  52  REF_sp.clone_PZ691828.1              84.37%    passed     24.41%
+  53  REF_sp.clone_PZ691691.1              81.43%    failed      0.30%
+  54  REF_sp.isolate_PZ691161.1            72.28%    passed     64.11%
+  55  REF_sp.isolate_PZ690905.1            72.68%    passed     76.36%
+  56  REF_sp.isolate_PZ690806.1            71.61%    passed     96.19%
+  57  REF_sp.isolate_PZ690805.1            70.67%    passed     67.19%
+WARNING: 33 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                53.42%  6 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: REF_paludigenastrain_PX457238.1 is identical to REF_paludigenastrain_PX574308.1 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 80842)...
+
+NOTE: 8 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -10364.182
+2. Current log-likelihood: -9397.902
+3. Current log-likelihood: -9390.473
+4. Current log-likelihood: -9390.248
+Optimal log-likelihood: -9390.233
+Rate parameters:  A-C: 0.89701  A-G: 1.96596  A-T: 1.41980  C-G: 0.75954  C-T: 3.44415  G-T: 1.00000
+Base frequencies:  A: 0.277  C: 0.204  G: 0.236  T: 0.283
+Gamma shape alpha: 0.434
+Parameters optimization took 4 rounds (0.109 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00346601 secs using 570.1% CPU
+Computing ML distances took 0.004140 sec (of wall-clock time) 0.020477 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000571949 secs using 157.5% CPU
+Computing RapidNJ tree took 0.039377 sec (of wall-clock time) 0.013955 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -9562.970
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.352 second
+Computing log-likelihood of 98 initial trees ... 0.382 seconds
+Current best score: -9390.233
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -9364.675
+UPDATE BEST LOG-LIKELIHOOD: -9364.674
+UPDATE BEST LOG-LIKELIHOOD: -9364.672
+Iteration 10 / LogL: -9364.746 / Time: 0h:0m:2s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -9363.542
+Iteration 20 / LogL: -9364.691 / Time: 0h:0m:3s
+Finish initializing candidate tree set (6)
+Current best tree score: -9363.542 / CPU time: 2.853
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -9363.524
+Iteration 30 / LogL: -9366.403 / Time: 0h:0m:4s (0h:0m:13s left)
+Iteration 40 / LogL: -9363.530 / Time: 0h:0m:6s (0h:0m:11s left)
+Iteration 50 / LogL: -9364.410 / Time: 0h:0m:7s (0h:0m:9s left)
+Log-likelihood cutoff on original alignment: -9396.356
+Iteration 60 / LogL: -9363.530 / Time: 0h:0m:8s (0h:0m:7s left)
+Iteration 70 / LogL: -9371.485 / Time: 0h:0m:10s (0h:0m:6s left)
+Iteration 80 / LogL: -9363.532 / Time: 0h:0m:11s (0h:0m:4s left)
+Iteration 90 / LogL: -9364.421 / Time: 0h:0m:12s (0h:0m:3s left)
+Iteration 100 / LogL: -9363.538 / Time: 0h:0m:13s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -9396.356
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 110 / LogL: -9364.722 / Time: 0h:0m:15s (0h:0m:12s left)
+TREE SEARCH COMPLETED AFTER 114 ITERATIONS / Time: 0h:0m:15s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -9363.524
+Optimal log-likelihood: -9363.522
+Rate parameters:  A-C: 0.89161  A-G: 1.92243  A-T: 1.41665  C-G: 0.76929  C-T: 3.52355  G-T: 1.00000
+Base frequencies:  A: 0.277  C: 0.204  G: 0.236  T: 0.283
+Gamma shape alpha: 0.439
+Parameters optimization took 1 rounds (0.012 sec)
+BEST SCORE FOUND : -9363.522
+Creating bootstrap support values...
+Split supports printed to NEXUS file Microbotryomycetes_tree.splits.nex
+Total tree length: 6.052
+
+Total number of iterations: 114
+CPU time used for tree search: 59.417 sec (0h:0m:59s)
+Wall-clock time used for tree search: 15.433 sec (0h:0m:15s)
+Total CPU time used: 60.284 sec (0h:1m:0s)
+Total wall-clock time used: 15.906 sec (0h:0m:15s)
+
+Computing bootstrap consensus tree...
+Reading input file Microbotryomycetes_tree.splits.nex...
+57 taxa and 422 splits.
+Consensus tree written to Microbotryomycetes_tree.contree
+Reading input trees file Microbotryomycetes_tree.contree
+Log-likelihood of consensus tree: -9363.564
+
+Analysis results written to: 
+  IQ-TREE report:                Microbotryomycetes_tree.iqtree
+  Maximum-likelihood tree:       Microbotryomycetes_tree.treefile
+  Likelihood distances:          Microbotryomycetes_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Microbotryomycetes_tree.splits.nex
+  Consensus tree:                Microbotryomycetes_tree.contree
+  Screen log file:               Microbotryomycetes_tree.log
+
+Date and Time: Mon Aug 10 13:46:22 2026

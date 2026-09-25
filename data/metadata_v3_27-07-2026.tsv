@@ -1,0 +1,51 @@
+sample-id	location	condition	treatment	age	tissue	description	run_chemistry	condition_std
+#q2:types	categorical	categorical	categorical	categorical	categorical	categorical	categorical	categorical
+P1	Bloemfontein	Healthy	Young_Healthy	Young	Leaves	Leaves_Bloemfontein	MiSeq_2x250	reference_site
+P10	Bloemfontein	Healthy	Young_Healthy	Young	Twigs	Twigs_Bloemfontein	MiSeq_2x250	reference_site
+P11	Bloemfontein	Healthy	Young_Healthy	Young	Twigs	Twigs_Bloemfontein	MiSeq_2x250	reference_site
+P12	Bloemfontein	Healthy	Young_Healthy	Young	Twigs	Twigs_Bloemfontein	MiSeq_2x250	reference_site
+P13	Bloemfontein	Healthy	Young_Healthy	Young	Inflorescence	Inflorescence_Bloemfontein	MiSeq_2x250	reference_site
+P14	Bloemfontein	Healthy	Young_Healthy	Young	Inflorescence	Inflorescence_Bloemfontein	MiSeq_2x250	reference_site
+P15	Bloemfontein	Healthy	Young_Healthy	Young	Seeds	Seeds_Bloemfontein	MiSeq_2x250	reference_site
+P16	Bloemfontein	Healthy	Young_Healthy	Young	Seeds	Seeds_Bloemfontein	MiSeq_2x250	reference_site
+P17	Bloemfontein	Healthy	Old_Healthy	Old	Seeds	Seeds_Bloemfontein	MiSeq_2x250	reference_site
+P18	Bloemfontein	Healthy	Old_Healthy	Old	Seeds	Seeds_Bloemfontein	MiSeq_2x250	reference_site
+P19	Bloemfontein	Healthy	Old_Healthy	Old	Inflorescence	Inflorescence_Bloemfontein	MiSeq_2x250	reference_site
+P2	Bloemfontein	Healthy	Young_Healthy	Young	Leaves	Leaves_Bloemfontein	MiSeq_2x250	reference_site
+P20	Bloemfontein	Healthy	Old_Healthy	Old	Inflorescence	Inflorescence_Bloemfontein	MiSeq_2x250	reference_site
+P21	Bloemfontein	Healthy	Old_Healthy	Old	Leaves	Leaves_Bloemfontein	MiSeq_2x250	reference_site
+P22	Bloemfontein	Healthy	Old_Healthy	Old	Leaves	Leaves_Bloemfontein	MiSeq_2x250	reference_site
+P23	Bloemfontein	Healthy	Old_Healthy	Old	Leaves	Leaves_Bloemfontein	MiSeq_2x250	reference_site
+P24	Bloemfontein	Healthy	Old_Healthy	Old	Leaves	Leaves_Bloemfontein	MiSeq_2x250	reference_site
+P25	Bloemfontein	Healthy	Old_Healthy	Old	Leaves	Leaves_Bloemfontein	MiSeq_2x250	reference_site
+P26	Bloemfontein	Healthy	Old_Healthy	Old	Leaves	Leaves_Bloemfontein	MiSeq_2x250	reference_site
+P27	Bloemfontein	Healthy	Old_Healthy	Old	Twigs	Twigs_Bloemfontein	MiSeq_2x250	reference_site
+P28	Bloemfontein	Healthy	Old_Healthy	Old	Twigs	Twigs_Bloemfontein	MiSeq_2x250	reference_site
+P29	Bloemfontein	Healthy	Old_Healthy	Old	Twigs	Twigs_Bloemfontein	MiSeq_2x250	reference_site
+P3	Bloemfontein	Healthy	Young_Healthy	Young	Leaves	Leaves_Bloemfontein	MiSeq_2x250	reference_site
+P30	Bloemfontein	Healthy	Old_Healthy	Old	Twigs	Twigs_Bloemfontein	MiSeq_2x250	reference_site
+P31	Bloemfontein	Healthy	Old_Healthy	Old	Twigs	Twigs_Bloemfontein	MiSeq_2x250	reference_site
+P32	Bloemfontein	Healthy	Old_Healthy	Old	Twigs	Twigs_Bloemfontein	MiSeq_2x250	reference_site
+P4	Bloemfontein	Healthy	Young_Healthy	Young	Leaves	Leaves_Bloemfontein	MiSeq_2x250	reference_site
+P5	Bloemfontein	Healthy	Young_Healthy	Young	Leaves	Leaves_Bloemfontein	MiSeq_2x250	reference_site
+P6	Bloemfontein	Healthy	Young_Healthy	Young	Leaves	Leaves_Bloemfontein	MiSeq_2x250	reference_site
+P7	Bloemfontein	Healthy	Young_Healthy	Young	Twigs	Twigs_Bloemfontein	MiSeq_2x250	reference_site
+P8	Bloemfontein	Healthy	Young_Healthy	Young	Twigs	Twigs_Bloemfontein	MiSeq_2x250	reference_site
+P9	Bloemfontein	Healthy	Young_Healthy	Young	Twigs	Twigs_Bloemfontein	MiSeq_2x250	reference_site
+25-C	Christiana	Healthy	Old_Healthy	not specified	Leaves	Leaves_Christiana	MiSeq_2x301	asymptomatic
+26-C	Christiana	Healthy	Old_Healthy	not specified	Twigs	Twigs_Christiana	MiSeq_2x301	asymptomatic
+27-C	Christiana	Healthy	Old_Healthy	not specified	Inflorescence	Inflorescence_Christiana	MiSeq_2x301	asymptomatic
+OL-C	Christiana	Malformed	Old_Malformed	Old	Leaves	Leaves_Christiana	MiSeq_2x301	symptomatic
+OM-C	Christiana	Malformed	Old_Malformed	Old	Malformation	Malformation_Christiana	MiSeq_2x301	symptomatic
+OT-C	Christiana	Malformed	Old_Malformed	Old	Twigs	Twigs_Christiana	MiSeq_2x301	symptomatic
+YL-C	Christiana	Malformed	Young_Malformed	Young	Leaves	Leaves_Christiana	MiSeq_2x301	symptomatic
+YM-C	Christiana	Malformed	Young_Malformed	Young	Malformation	Malformation_Christiana	MiSeq_2x301	symptomatic
+YT-C	Christiana	Malformed	Young_Malformed	Young	Twigs	Twigs_Christiana	MiSeq_2x301	symptomatic
+28-C	Pretoria	Healthy	Old_Healthy	not specified	Leaves	Leaves_Pretoria	MiSeq_2x301	asymptomatic
+29-C	Pretoria	Healthy	Old_Healthy	not specified	Twigs	Twigs_Pretoria	MiSeq_2x301	asymptomatic
+OL-P	Pretoria	Malformed	Old_Malformed	Old	Leaves	Leaves_Pretoria	MiSeq_2x301	symptomatic
+OM-P	Pretoria	Malformed	Old_Malformed	Old	Malformation	Malformation_Pretoria	MiSeq_2x301	symptomatic
+OT-P	Pretoria	Malformed	Old_Malformed	Old	Twigs	Twigs_Pretoria	MiSeq_2x301	symptomatic
+YL-P	Pretoria	Malformed	Young_Malformed	Young	Leaves	Leaves_Pretoria	MiSeq_2x301	symptomatic
+YM-P	Pretoria	Malformed	Young_Malformed	Young	Malformation	Malformation_Pretoria	MiSeq_2x301	symptomatic
+YT-P	Pretoria	Malformed	Young_Malformed	Young	Twigs	Twigs_Pretoria	MiSeq_2x301	symptomatic

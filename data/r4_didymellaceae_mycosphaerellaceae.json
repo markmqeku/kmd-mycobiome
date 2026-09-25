@@ -1,0 +1,228 @@
+{
+ "groups": {
+  "Christiana|asymptomatic|Didymellaceae (family, all ASVs)": {
+   "n": 3,
+   "group_reads": 208618,
+   "taxon_reads": 39138,
+   "asvs_with_reads": 8,
+   "pooled_pct": 18.760605508633002,
+   "lib_min": 3.1375259156876294,
+   "lib_max": 54.62327568097472
+  },
+  "Christiana|asymptomatic|Didymellaceae, no deeper assignment": {
+   "n": 3,
+   "group_reads": 208618,
+   "taxon_reads": 39130,
+   "asvs_with_reads": 7,
+   "pooled_pct": 18.75677074844932,
+   "lib_min": 3.1375259156876294,
+   "lib_max": 54.60927105944962
+  },
+  "Christiana|asymptomatic|Didymella (genus)": {
+   "n": 3,
+   "group_reads": 208618,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  },
+  "Christiana|asymptomatic|Mycosphaerellaceae (family, all ASVs)": {
+   "n": 3,
+   "group_reads": 208618,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  },
+  "Christiana|asymptomatic|Mycosphaerellaceae, no deeper assignment": {
+   "n": 3,
+   "group_reads": 208618,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  },
+  "Christiana|asymptomatic|Mycosphaerella (genus)": {
+   "n": 3,
+   "group_reads": 208618,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  },
+  "Christiana|symptomatic|Didymellaceae (family, all ASVs)": {
+   "n": 6,
+   "group_reads": 519642,
+   "taxon_reads": 28114,
+   "asvs_with_reads": 17,
+   "pooled_pct": 5.410263219678163,
+   "lib_min": 1.7371515266451736,
+   "lib_max": 9.901636896429437
+  },
+  "Christiana|symptomatic|Didymellaceae, no deeper assignment": {
+   "n": 6,
+   "group_reads": 519642,
+   "taxon_reads": 28097,
+   "asvs_with_reads": 16,
+   "pooled_pct": 5.406991736618672,
+   "lib_min": 1.7257728048549212,
+   "lib_max": 9.894171006215354
+  },
+  "Christiana|symptomatic|Didymella (genus)": {
+   "n": 6,
+   "group_reads": 519642,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  },
+  "Christiana|symptomatic|Mycosphaerellaceae (family, all ASVs)": {
+   "n": 6,
+   "group_reads": 519642,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  },
+  "Christiana|symptomatic|Mycosphaerellaceae, no deeper assignment": {
+   "n": 6,
+   "group_reads": 519642,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  },
+  "Christiana|symptomatic|Mycosphaerella (genus)": {
+   "n": 6,
+   "group_reads": 519642,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  },
+  "Pretoria|asymptomatic|Didymellaceae (family, all ASVs)": {
+   "n": 2,
+   "group_reads": 203001,
+   "taxon_reads": 25345,
+   "asvs_with_reads": 15,
+   "pooled_pct": 12.48516017162477,
+   "lib_min": 9.611735258164037,
+   "lib_max": 14.592762112957491
+  },
+  "Pretoria|asymptomatic|Didymellaceae, no deeper assignment": {
+   "n": 2,
+   "group_reads": 203001,
+   "taxon_reads": 25326,
+   "asvs_with_reads": 14,
+   "pooled_pct": 12.475800611819647,
+   "lib_min": 9.611735258164037,
+   "lib_max": 14.576537495943846
+  },
+  "Pretoria|asymptomatic|Didymella (genus)": {
+   "n": 2,
+   "group_reads": 203001,
+   "taxon_reads": 19,
+   "asvs_with_reads": 1,
+   "pooled_pct": 0.009359559805124113,
+   "lib_min": 0.0,
+   "lib_max": 0.01622461701364576
+  },
+  "Pretoria|asymptomatic|Mycosphaerellaceae (family, all ASVs)": {
+   "n": 2,
+   "group_reads": 203001,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  },
+  "Pretoria|asymptomatic|Mycosphaerellaceae, no deeper assignment": {
+   "n": 2,
+   "group_reads": 203001,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  },
+  "Pretoria|asymptomatic|Mycosphaerella (genus)": {
+   "n": 2,
+   "group_reads": 203001,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  },
+  "Pretoria|symptomatic|Didymellaceae (family, all ASVs)": {
+   "n": 5,
+   "group_reads": 1315622,
+   "taxon_reads": 160528,
+   "asvs_with_reads": 17,
+   "pooled_pct": 12.201681029961494,
+   "lib_min": 8.758055487778623,
+   "lib_max": 12.976738365706817
+  },
+  "Pretoria|symptomatic|Didymellaceae, no deeper assignment": {
+   "n": 5,
+   "group_reads": 1315622,
+   "taxon_reads": 160524,
+   "asvs_with_reads": 16,
+   "pooled_pct": 12.201376991263448,
+   "lib_min": 8.758055487778623,
+   "lib_max": 12.971176707776587
+  },
+  "Pretoria|symptomatic|Didymella (genus)": {
+   "n": 5,
+   "group_reads": 1315622,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  },
+  "Pretoria|symptomatic|Mycosphaerellaceae (family, all ASVs)": {
+   "n": 5,
+   "group_reads": 1315622,
+   "taxon_reads": 9,
+   "asvs_with_reads": 2,
+   "pooled_pct": 0.0006840870706023462,
+   "lib_min": 0.0,
+   "lib_max": 0.000905285054146105
+  },
+  "Pretoria|symptomatic|Mycosphaerellaceae, no deeper assignment": {
+   "n": 5,
+   "group_reads": 1315622,
+   "taxon_reads": 9,
+   "asvs_with_reads": 2,
+   "pooled_pct": 0.0006840870706023462,
+   "lib_min": 0.0,
+   "lib_max": 0.000905285054146105
+  },
+  "Pretoria|symptomatic|Mycosphaerella (genus)": {
+   "n": 5,
+   "group_reads": 1315622,
+   "taxon_reads": 0,
+   "asvs_with_reads": 0,
+   "pooled_pct": 0.0,
+   "lib_min": 0.0,
+   "lib_max": 0.0
+  }
+ },
+ "bloemfontein_presence": {
+  "Didymellaceae (family, all ASVs)": 14,
+  "Didymellaceae, no deeper assignment": 14,
+  "Didymella (genus)": 0,
+  "Mycosphaerellaceae (family, all ASVs)": 1,
+  "Mycosphaerellaceae, no deeper assignment": 1,
+  "Mycosphaerella (genus)": 0
+ }
+}

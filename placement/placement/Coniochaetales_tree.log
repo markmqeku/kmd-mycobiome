@@ -1,0 +1,187 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    PHP25R-008 (AVX512, FMA3, 7 GB RAM)
+Command: iqtree2 -s Coniochaetales_aln.fasta -m GTR+G -B 1000 -T 4 --prefix Coniochaetales_tree -quiet -redo
+Seed:    823711 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug 10 13:47:42 2026
+Kernel:  AVX+FMA - 4 threads (8 CPU cores detected)
+
+Reading alignment file Coniochaetales_aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.00254277 secs using 34.25% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 54 sequences with 2105 columns, 578 distinct patterns
+290 parsimony-informative, 220 singleton sites, 1595 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.2094e-05 secs using 96.59% CPU
+   1  ASV_1774d1f9_rel0.6                  85.37%    passed     68.20%
+   2  ASV_d045f091_rel0.7                  85.51%    passed     78.75%
+   3  REF_discosporaculture_MH869278.1     55.44%    failed      0.16%
+   4  REF_caninastrain_MH866063.1          72.59%    passed     68.19%
+   5  REF_cateniformisstrain_MH865902.1    72.54%    passed     83.98%
+   6  REF_luteorubrastrain_MH865901.1      72.02%    passed     60.63%
+   7  REF_verruculosastrain_MH864668.1     73.54%    passed     19.71%
+   8  REF_africanastrain_MH863095.1        72.64%    passed     83.70%
+   9  REF_cypraeaesporastrain_MH862420.1   75.82%    passed     30.32%
+  10  REF_arxiistrain_MH862164.1           75.68%    passed     38.49%
+  11  REF_inaequalisstrain_MH861634.1      73.78%    passed     10.40%
+  12  REF_punctulatastrain_MH861254.1      77.43%    passed     83.77%
+  13  REF_discoideastrain_MH861253.1       76.44%    passed     93.27%
+  14  REF_polyspermastrain_MH861109.1      76.25%    passed     57.00%
+  15  REF_extramundanastrain_MH861057.1    76.67%    passed     70.88%
+  16  REF_savoryistrain_MH860890.1         76.48%    passed     94.35%
+  17  REF_boothiistrain_MH860862.1         77.10%    passed     97.90%
+  18  REF_ellipsoideastrain_MH860482.1     75.49%    passed     42.63%
+  19  REF_verticillatastrain_MH860369.1    74.82%    passed      9.10%
+  20  REF_ostreastrain_MH859821.1          75.87%    passed     28.71%
+  21  REF_ellipsoideastrain_MH859092.1     72.87%    passed     79.69%
+  22  REF_ellipsoideastrain_MH859091.1     77.39%    passed     42.28%
+  23  REF_bisbyistrain_MH858544.1          77.01%    passed     57.80%
+  24  REF_discosporastrain_MH857740.1      71.88%    passed     77.81%
+  25  REF_terrestrisstrain_MH857096.1      73.82%    passed     52.19%
+  26  REF_mutabilisstrain_MH856122.1       69.41%    passed     63.40%
+  27  REF_luteoviridisstrain_MH855948.1    72.54%    passed     99.51%
+  28  REF_fasciculatastrain_MH855947.1     69.26%    passed     82.17%
+  29  REF_lignicolastrain_MH855438.1       52.59%    passed     15.10%
+  30  REF_urdiaestrain_PZ123755.1          31.21%    passed     49.57%
+  31  REF_ligniculture_PZ221274.1          75.15%    passed     80.54%
+  32  REF_sp.isolate_PZ716338.1            76.67%    passed     92.05%
+  33  REF_sp.isolate_PZ716337.1            85.32%    passed     99.35%
+  34  REF_sp.T744351_PX596880.1            74.39%    passed     97.40%
+  35  REF_sp.T744351_PX596879.1            74.06%    passed     97.99%
+  36  REF_sp.clone_PZ692139.1              87.93%    passed     36.05%
+  37  REF_Lecythophoraclone_PZ692031.1     86.94%    passed     36.83%
+  38  REF_sp.clone_PZ691972.1              88.88%    passed     29.22%
+  39  REF_cateniformisclone_PZ691845.1     89.07%    passed     78.67%
+  40  REF_Lecythophoraclone_PZ691832.1     87.51%    passed     61.96%
+  41  REF_velutinaclone_PZ691698.1         88.22%    passed     52.56%
+  42  REF_sp.clone_PZ691671.1              87.51%    passed     44.53%
+  43  REF_sp.clone_PZ691629.1              85.75%    passed     21.62%
+  44  REF_ligniariaclone_PZ691606.1        87.32%    passed     74.32%
+  45  REF_caninaclone_PZ691603.1           89.45%    passed     75.88%
+  46  REF_Lecythophoraclone_PZ691576.1     89.12%    passed     92.33%
+  47  REF_Lecythophoraclone_PZ691561.1     88.65%    passed     29.87%
+  48  REF_ligniariaclone_PZ691480.1        87.84%    passed     31.37%
+  49  REF_sp.clone_PZ691471.1              88.17%    passed     90.77%
+  50  REF_sp.clone_PZ691433.1              87.46%    passed     36.12%
+  51  REF_caninaclone_PZ691405.1           88.03%    passed     45.53%
+  52  REF_sp.clone_PZ691382.1              88.17%    passed     75.50%
+  53  REF_sp.isolate_PZ690816.1            83.85%    passed     90.61%
+  54  REF_sp.isolate_PZ690815.1            83.75%    passed     80.88%
+WARNING: 53 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                78.12%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 823711)...
+
+NOTE: 6 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -11302.002
+2. Current log-likelihood: -9823.334
+3. Current log-likelihood: -9797.562
+4. Current log-likelihood: -9795.823
+5. Current log-likelihood: -9795.681
+Optimal log-likelihood: -9795.662
+Rate parameters:  A-C: 1.57876  A-G: 1.87873  A-T: 2.05423  C-G: 1.40089  C-T: 4.61423  G-T: 1.00000
+Base frequencies:  A: 0.243  C: 0.260  G: 0.263  T: 0.235
+Gamma shape alpha: 0.397
+Parameters optimization took 5 rounds (0.081 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00232494 secs using 678.5% CPU
+Computing ML distances took 0.002986 sec (of wall-clock time) 0.015969 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.0015554 secs using 140% CPU
+Computing RapidNJ tree took 0.031823 sec (of wall-clock time) 0.004271 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -10008.252
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.235 second
+Computing log-likelihood of 98 initial trees ... 0.341 seconds
+Current best score: -9795.662
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -9774.248
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -9735.477
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -9734.307
+Iteration 10 / LogL: -9747.052 / Time: 0h:0m:1s
+Iteration 20 / LogL: -9750.470 / Time: 0h:0m:2s
+Finish initializing candidate tree set (20)
+Current best tree score: -9734.307 / CPU time: 2.485
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -9731.460
+Iteration 30 / LogL: -9734.923 / Time: 0h:0m:3s (0h:0m:11s left)
+Iteration 40 / LogL: -9732.743 / Time: 0h:0m:4s (0h:0m:9s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -9731.426
+Iteration 50 / LogL: -9731.426 / Time: 0h:0m:5s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -9769.538
+Iteration 60 / LogL: -9731.433 / Time: 0h:0m:5s (0h:0m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -9730.932
+Iteration 70 / LogL: -9732.527 / Time: 0h:0m:6s (0h:0m:9s left)
+Iteration 80 / LogL: -9738.061 / Time: 0h:0m:7s (0h:0m:8s left)
+Iteration 90 / LogL: -9735.276 / Time: 0h:0m:8s (0h:0m:6s left)
+Iteration 100 / LogL: -9736.949 / Time: 0h:0m:9s (0h:0m:5s left)
+Log-likelihood cutoff on original alignment: -9769.538
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 110 / LogL: -9742.938 / Time: 0h:0m:10s (0h:0m:8s left)
+UPDATE BEST LOG-LIKELIHOOD: -9730.932
+Iteration 120 / LogL: -9731.468 / Time: 0h:0m:11s (0h:0m:7s left)
+Iteration 130 / LogL: -9748.524 / Time: 0h:0m:11s (0h:0m:6s left)
+Iteration 140 / LogL: -9732.060 / Time: 0h:0m:12s (0h:0m:5s left)
+Iteration 150 / LogL: -9732.126 / Time: 0h:0m:13s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -9769.538
+UPDATE BEST LOG-LIKELIHOOD: -9730.932
+Iteration 160 / LogL: -9738.943 / Time: 0h:0m:14s (0h:0m:3s left)
+TREE SEARCH COMPLETED AFTER 163 ITERATIONS / Time: 0h:0m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -9730.932
+Optimal log-likelihood: -9730.931
+Rate parameters:  A-C: 1.54277  A-G: 1.95366  A-T: 2.10386  C-G: 1.30573  C-T: 4.59881  G-T: 1.00000
+Base frequencies:  A: 0.243  C: 0.260  G: 0.263  T: 0.235
+Gamma shape alpha: 0.403
+Parameters optimization took 1 rounds (0.010 sec)
+BEST SCORE FOUND : -9730.931
+Creating bootstrap support values...
+Split supports printed to NEXUS file Coniochaetales_tree.splits.nex
+Total tree length: 13.002
+
+Total number of iterations: 163
+CPU time used for tree search: 55.581 sec (0h:0m:55s)
+Wall-clock time used for tree search: 14.380 sec (0h:0m:14s)
+Total CPU time used: 56.380 sec (0h:0m:56s)
+Total wall-clock time used: 14.816 sec (0h:0m:14s)
+
+Computing bootstrap consensus tree...
+Reading input file Coniochaetales_tree.splits.nex...
+54 taxa and 577 splits.
+Consensus tree written to Coniochaetales_tree.contree
+Reading input trees file Coniochaetales_tree.contree
+Log-likelihood of consensus tree: -9732.481
+
+Analysis results written to: 
+  IQ-TREE report:                Coniochaetales_tree.iqtree
+  Maximum-likelihood tree:       Coniochaetales_tree.treefile
+  Likelihood distances:          Coniochaetales_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Coniochaetales_tree.splits.nex
+  Consensus tree:                Coniochaetales_tree.contree
+  Screen log file:               Coniochaetales_tree.log
+
+Date and Time: Mon Aug 10 13:47:57 2026

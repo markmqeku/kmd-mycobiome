@@ -1,0 +1,6 @@
+*.fastq
+*.fastq.gz
+*.qza
+*.qzv
+__pycache__/
+*.ckp.gz

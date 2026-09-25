@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this archive."
+title: "Fungal communities of karee malformation disease in Searsia lancea: analysis code and data"
+type: software
+license: MIT
+version: "1.1.0"
+abstract: >-
+  Code, parameters, phylogenetic placement files and summary data for an ITS2 amplicon study of the
+  fungal communities of karee malformation disease in Searsia lancea, including an unresolved lineage
+  provisionally assigned to Tremellomycetes and six documented analytical failure modes.
+keywords:
+  - Searsia lancea
+  - karee malformation disease
+  - ITS2 amplicon metabarcoding
+  - Tremellomycetes
+  - QIIME 2
+authors:
+  - family-names: Mqeku
+    given-names: Mark
+    affiliation: "Department of Genetics, University of the Free State, Bloemfontein, South Africa"
+    orcid: "https://orcid.org/0000-0001-5743-6639"
+  - family-names: Cason
+    given-names: Errol
+    affiliation: "Department of Agriculture, Faculty of Natural and Agricultural Sciences, University of the Free State, Bloemfontein, South Africa"
+    orcid: "https://orcid.org/0000-0003-1598-6151"
+  - family-names: Kinge
+    given-names: Rosemary Tonjock
+    affiliation: "Department of Genetics, University of the Free State, Bloemfontein, South Africa; Department of Biological Sciences, Faculty of Sciences, University of Bamenda, Bambili, Cameroon"
+    orcid: "https://orcid.org/0000-0002-5402-1021"
+  - family-names: Gryzenhout
+    given-names: Marieka
+    affiliation: "Department of Genetics, University of the Free State, Bloemfontein, South Africa"
+    orcid: "https://orcid.org/0000-0002-9224-4277"

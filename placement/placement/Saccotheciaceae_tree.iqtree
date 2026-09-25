@@ -1,0 +1,345 @@
+IQ-TREE 2.3.6 built Dec 11 2024
+
+Input file name: Saccotheciaceae_aln.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 603035
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 53 sequences with 1334 nucleotide sites
+Number of constant sites: 1083 (= 81.1844% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1083 (= 81.1844% of all sites)
+Number of parsimony informative sites: 121
+Number of distinct site patterns: 373
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 2.3277
+  A-G: 2.3833
+  A-T: 3.0696
+  C-G: 0.8438
+  C-T: 6.8968
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2542
+  pi(C) = 0.2306
+  pi(G) = 0.2581
+  pi(T) = 0.2571
+
+Rate matrix Q:
+
+  A   -0.9525    0.2634    0.3018    0.3873
+  C    0.2904    -1.267    0.1068    0.8702
+  G    0.2973   0.09549   -0.5189    0.1262
+  T    0.3829    0.7805    0.1266     -1.29
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2507
+
+ Category  Relative_rate  Proportion
+  1         0.002143       0.25
+  2         0.06718        0.25
+  3         0.5029         0.25
+  4         3.428          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3448.4622 (s.e. 94.8159)
+Unconstrained log-likelihood (without tree): -6215.1332
+Number of free parameters (#branches + #model parameters): 112
+Akaike information criterion (AIC) score: 7120.9243
+Corrected Akaike information criterion (AICc) score: 7141.6549
+Bayesian information criterion (BIC) score: 7702.8693
+
+Total tree length (sum of branch lengths): 1.9790
+Sum of internal branch lengths: 0.1552 (7.8399% of tree length)
+
+WARNING: 30 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ASV_2d66fd30_rel10.2' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--ASV_2d66fd30_rel10.2
+|
+|  +**REF_australiensisstrain_MH863414.1
++--| (100)
+|  +**REF_australiensisITS_NR_156527.1
+|
+|                                      +**REF_subglacialestrain_MH863294.1
+|                                   +**| (59)
+|                                   |  +--REF_sp.isolate_PZ444425.1
+|                                +--| (98)
+|                                |  +**REF_subglacialeisolate_PZ444489.1
+|                             +--| (50)
+|                             |  |  +--REF_fermentansstrain_MH857648.1
+|                             |  +**| (40)
+|                             |     +**REF_frostiaestrain_PZ336258.1
+|                          +**| (36)
+|                          |  +**REF_sp.isolate_PZ716331.1
+|                       +**| (15)
+|                       |  |  +**REF_melanogenumstrain_MH854707.1
+|                       |  +--| (87)
+|                       |     |  +**REF_pullulansisolate_PZ661520.1
+|                       |     +**| (79)
+|                       |        |  +**REF_sp.isolate_PP844398.1
+|                       |        +**| (86)
+|                       |           +**REF_sp.isolate_PP844377.1
+|                    +--| (25)
+|                    |  |  +--REF_zhengzhenxiangiaestrain_PZ336262.1
+|                    |  +**| (72)
+|                    |     +**REF_gimbutasiaestrain_PZ336259.1
+|                 +--| (30)
+|                 |  +--REF_melanogenumisolate_PZ716316.1
+|              +--| (37)
+|              |  +**REF_orosaestrain_PZ274832.1
+|           +--| (57)
+|           |  |  +--REF_linistrain_MH854694.1
+|           |  +--| (75)
+|           |     |        +**REF_sp.isolate_PZ444502.1
+|           |     |     +**| (36)
+|           |     |     |  +**REF_sp.isolate_PZ716313.1
+|           |     |  +**| (19)
+|           |     |  |  +**REF_proteaeisolate_PZ716320.1
+|           |     +--| (44)
+|           |        |                                      +**REF_pullulansisolate_PZ444501.1
+|           |        |                                   +**| (77)
+|           |        |                                   |  +**REF_sp.isolate_PZ444495.1
+|           |        |                                +--| (92)
+|           |        |                                |  +**REF_pullulansisolate_PZ444479.1
+|           |        |                             +**| (11)
+|           |        |                             |  +--REF_sp.isolate_PV938371.1
+|           |        |                          +**| (24)
+|           |        |                          |  |     +**REF_pullulansisolate_PZ444471.1
+|           |        |                          |  |  +**| (19)
+|           |        |                          |  |  |  |                    +**REF_sp.isolate_PZ444452.1
+|           |        |                          |  |  |  |                 +**| (40)
+|           |        |                          |  |  |  |                 |  +**REF_sp.isolate_PZ444424.1
+|           |        |                          |  |  |  |              +**| (80)
+|           |        |                          |  |  |  |              |  +**REF_sp.isolate_PZ444407.1
+|           |        |                          |  |  |  |           +**| (70)
+|           |        |                          |  |  |  |           |  +**REF_sp.isolate_PZ444421.1
+|           |        |                          |  |  |  |        +**| (61)
+|           |        |                          |  |  |  |        |  +--REF_sp.isolate_PZ444436.1
+|           |        |                          |  |  |  |     +--| (46)
+|           |        |                          |  |  |  |     |  |  +--REF_pullulansisolate_PP844347.1
+|           |        |                          |  |  |  |     |  +--| (86)
+|           |        |                          |  |  |  |     |     +**REF_pullulansisolate_PP844344.1
+|           |        |                          |  |  |  |  +**| (21)
+|           |        |                          |  |  |  |  |  +**REF_pullulansisolate_PZ690102.1
+|           |        |                          |  |  |  +**| (33)
+|           |        |                          |  |  |     +**REF_sp.isolate_PZ444443.1
+|           |        |                          |  +**| (19)
+|           |        |                          |     +**REF_pullulansisolate_PZ444468.1
+|           |        |                       +--| (23)
+|           |        |                       |  |     +**REF_pullulansstrain_PZ756800.1
+|           |        |                       |  |  +**| (62)
+|           |        |                       |  |  |  +**REF_pullulansstrain_PZ756796.1
+|           |        |                       |  +--| (89)
+|           |        |                       |     +**REF_pullulansstrain_PZ756795.1
+|           |        |                    +**| (23)
+|           |        |                    |  +**REF_pullulansstrain_PZ756799.1
+|           |        |                 +**| (21)
+|           |        |                 |  +**REF_pullulansstrain_PZ756798.1
+|           |        |              +**| (35)
+|           |        |              |  +**REF_sp.isolate_PV938387.1
+|           |        |           +**| (24)
+|           |        |           |  +--REF_linistrain_PZ729944.1
+|           |        |        +**| (24)
+|           |        |        |  +**REF_pullulansstrain_PZ756801.1
+|           |        |     +**| (24)
+|           |        |     |  +**REF_pullulansisolate_PP844342.1
+|           |        |  +**| (12)
+|           |        |  |  +**REF_pullulansvoucher_PV917659.1
+|           |        +**| (11)
+|           |           +**REF_pullulansstrain_PZ734645.1
+|        +--| (84)
+|        |  |  +**REF_mahoniaeisolate_PZ444466.1
+|        |  +--| (99)
+|        |     +**REF_sp.CA01_PV650201.1
+|     +--| (91)
+|     |  +**REF_caulivorumisolate_PX215345.1
+|  +**| (56)
+|  |  +----------------------------------------------------------REF_pullulansstrain_PZ695130.1
++--| (64)
+   |  +**REF_mimosaeURM_NR_202597.1
+   +--| (98)
+      +**REF_mimosaeisolate_PQ811698.1
+
+Tree in newick format:
+
+(ASV_2d66fd30_rel10.2:0.0302694758,(REF_australiensisstrain_MH863414.1:0.0000010000,REF_australiensisITS_NR_156527.1:0.0000010000)100:0.0726261319,(((((((((((((REF_subglacialestrain_MH863294.1:0.0000010000,REF_sp.isolate_PZ444425.1:0.0038744267)59:0.0000029750,REF_subglacialeisolate_PZ444489.1:0.0000010000)98:0.0091617957,(REF_fermentansstrain_MH857648.1:0.0106725514,REF_frostiaestrain_PZ336258.1:0.0000010000)40:0.0000010000)50:0.0054133822,REF_sp.isolate_PZ716331.1:0.0000010000)36:0.0000027848,(REF_melanogenumstrain_MH854707.1:0.0000010000,(REF_pullulansisolate_PZ661520.1:0.0000010000,(REF_sp.isolate_PP844398.1:0.0000010000,REF_sp.isolate_PP844377.1:0.0000010000)86:0.0000010000)79:0.0000010000)87:0.0018991303)15:0.0000010000,(REF_zhengzhenxiangiaestrain_PZ336262.1:0.0016122184,REF_gimbutasiaestrain_PZ336259.1:0.0000010000)72:0.0000010000)25:0.0016368443,REF_melanogenumisolate_PZ716316.1:0.0151597200)30:0.0015499257,REF_orosaestrain_PZ274832.1:0.0000010000)37:0.0070912670,(REF_linistrain_MH854694.1:0.0039513044,(((REF_sp.isolate_PZ444502.1:0.0000020406,REF_sp.isolate_PZ716313.1:0.0000010000)36:0.0000020488,REF_proteaeisolate_PZ716320.1:0.0000010000)19:0.0000010000,(((((((((((((REF_pullulansisolate_PZ444501.1:0.0000010000,REF_sp.isolate_PZ444495.1:0.0000010000)77:0.0000010000,REF_pullulansisolate_PZ444479.1:0.0000010000)92:0.0009823529,REF_sp.isolate_PV938371.1:0.0263826187)11:0.0000026881,((REF_pullulansisolate_PZ444471.1:0.0000010000,(((((((REF_sp.isolate_PZ444452.1:0.0000010000,REF_sp.isolate_PZ444424.1:0.0000010000)40:0.0000010000,REF_sp.isolate_PZ444407.1:0.0000010000)80:0.0000010000,REF_sp.isolate_PZ444421.1:0.0000010000)70:0.0000010000,REF_sp.isolate_PZ444436.1:0.0019805082)61:0.0000024245,(REF_pullulansisolate_PP844347.1:0.0040216304,REF_pullulansisolate_PP844344.1:0.0000010000)86:0.0040200493)46:0.0036518421,REF_pullulansisolate_PZ690102.1:0.0000010000)21:0.0000023880,REF_sp.isolate_PZ444443.1:0.0000010000)33:0.0000010000)19:0.0000010000,REF_pullulansisolate_PZ444468.1:0.0000010000)19:0.0000010000)24:0.0000348367,((REF_pullulansstrain_PZ756800.1:0.0000010000,REF_pullulansstrain_PZ756796.1:0.0000010000)62:0.0000010000,REF_pullulansstrain_PZ756795.1:0.0000010000)89:0.0022581295)23:0.0011667478,REF_pullulansstrain_PZ756799.1:0.0000010000)23:0.0000015651,REF_pullulansstrain_PZ756798.1:0.0000010000)21:0.0000010680,REF_sp.isolate_PV938387.1:0.0000010000)35:0.0000010000,REF_linistrain_PZ729944.1:0.0136465106)24:0.0000010000,REF_pullulansstrain_PZ756801.1:0.0000010000)24:0.0000025441,REF_pullulansisolate_PP844342.1:0.0000010000)24:0.0000024495,REF_pullulansvoucher_PV917659.1:0.0000010000)12:0.0000010000,REF_pullulansstrain_PZ734645.1:0.0000010000)11:0.0000024656)44:0.0017525002)75:0.0067272346)57:0.0102144015,(REF_mahoniaeisolate_PZ444466.1:0.0000010000,REF_sp.CA01_PV650201.1:0.0000010000)99:0.0104646671)84:0.0180853571,REF_caulivorumisolate_PX215345.1:0.0000024700)91:0.0724019011,REF_pullulansstrain_PZ695130.1:1.5639122718)56:0.0000022855,(REF_mimosaeURM_NR_202597.1:0.0000010000,REF_mimosaeisolate_PQ811698.1:0.0000010000)98:0.0600811886)64:0.0122085769);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -3453.902717
+Robinson-Foulds distance between ML tree and consensus tree: 10
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--ASV_2d66fd30_rel10.2
+|
+|  +--REF_australiensisstrain_MH863414.1
++--| (100)
+|  +--REF_australiensisITS_NR_156527.1
+|
+|                             +--REF_subglacialestrain_MH863294.1
+|                          +--| (59)
+|                          |  +--REF_sp.isolate_PZ444425.1
+|                       +--| (98)
+|                       |  +--REF_subglacialeisolate_PZ444489.1
+|                    +--| (50)
+|                    |  |  +--REF_fermentansstrain_MH857648.1
+|                    |  +--| (40)
+|                    |     +--REF_frostiaestrain_PZ336258.1
+|                 +--| (36)
+|                 |  +--REF_sp.isolate_PZ716331.1
+|              +--| (37)
+|              |  |     +--REF_melanogenumstrain_MH854707.1
+|              |  |  +--| (87)
+|              |  |  |  |  +--REF_pullulansisolate_PZ661520.1
+|              |  |  |  +--| (79)
+|              |  |  |     |  +--REF_sp.isolate_PP844398.1
+|              |  |  |     +--| (86)
+|              |  |  |        +--REF_sp.isolate_PP844377.1
+|              |  +--| (22)
+|              |     |     +--REF_orosaestrain_PZ274832.1
+|              |     |  +--| (35)
+|              |     |  |  +--REF_melanogenumisolate_PZ716316.1
+|              |     +--| (26)
+|              |        |  +--REF_zhengzhenxiangiaestrain_PZ336262.1
+|              |        +--| (72)
+|              |           +--REF_gimbutasiaestrain_PZ336259.1
+|           +--| (57)
+|           |  |  +--REF_linistrain_MH854694.1
+|           |  +--| (75)
+|           |     |        +--REF_sp.isolate_PZ444502.1
+|           |     |     +--| (36)
+|           |     |     |  +--REF_sp.isolate_PZ716313.1
+|           |     |  +--| (19)
+|           |     |  |  +--REF_proteaeisolate_PZ716320.1
+|           |     +--| (44)
+|           |        |                                      +--REF_pullulansisolate_PZ444501.1
+|           |        |                                   +--| (77)
+|           |        |                                   |  +--REF_sp.isolate_PZ444495.1
+|           |        |                                +--| (92)
+|           |        |                                |  +--REF_pullulansisolate_PZ444479.1
+|           |        |                             +--| (31)
+|           |        |                             |  |     +--REF_pullulansisolate_PZ444471.1
+|           |        |                             |  |  +--| (19)
+|           |        |                             |  |  |  |                    +--REF_sp.isolate_PZ444452.1
+|           |        |                             |  |  |  |                 +--| (40)
+|           |        |                             |  |  |  |                 |  +--REF_sp.isolate_PZ444424.1
+|           |        |                             |  |  |  |              +--| (80)
+|           |        |                             |  |  |  |              |  +--REF_sp.isolate_PZ444407.1
+|           |        |                             |  |  |  |           +--| (70)
+|           |        |                             |  |  |  |           |  +--REF_sp.isolate_PZ444421.1
+|           |        |                             |  |  |  |        +--| (61)
+|           |        |                             |  |  |  |        |  +--REF_sp.isolate_PZ444436.1
+|           |        |                             |  |  |  |     +--| (46)
+|           |        |                             |  |  |  |     |  |  +--REF_pullulansisolate_PP844347.1
+|           |        |                             |  |  |  |     |  +--| (86)
+|           |        |                             |  |  |  |     |     +--REF_pullulansisolate_PP844344.1
+|           |        |                             |  |  |  |  +--| (27)
+|           |        |                             |  |  |  |  |  +--REF_sp.isolate_PZ444443.1
+|           |        |                             |  |  |  +--| (33)
+|           |        |                             |  |  |     +--REF_pullulansisolate_PZ690102.1
+|           |        |                             |  +--| (19)
+|           |        |                             |     +--REF_pullulansisolate_PZ444468.1
+|           |        |                          +--| (24)
+|           |        |                          |  +--REF_sp.isolate_PV938371.1
+|           |        |                       +**| (23)
+|           |        |                       |  |     +--REF_pullulansstrain_PZ756800.1
+|           |        |                       |  |  +--| (62)
+|           |        |                       |  |  |  +--REF_pullulansstrain_PZ756796.1
+|           |        |                       |  +--| (89)
+|           |        |                       |     +--REF_pullulansstrain_PZ756795.1
+|           |        |                    +**| (23)
+|           |        |                    |  +--REF_pullulansstrain_PZ756799.1
+|           |        |                 +**| (21)
+|           |        |                 |  +--REF_pullulansstrain_PZ756798.1
+|           |        |              +**| (35)
+|           |        |              |  +--REF_sp.isolate_PV938387.1
+|           |        |           +--| (24)
+|           |        |           |  +--REF_linistrain_PZ729944.1
+|           |        |        +--| (24)
+|           |        |        |  +--REF_pullulansstrain_PZ756801.1
+|           |        |     +--| (24)
+|           |        |     |  +--REF_pullulansisolate_PP844342.1
+|           |        |  +--| (12)
+|           |        |  |  +--REF_pullulansvoucher_PV917659.1
+|           |        +--| (11)
+|           |           +--REF_pullulansstrain_PZ734645.1
+|        +--| (84)
+|        |  |  +--REF_mahoniaeisolate_PZ444466.1
+|        |  +--| (99)
+|        |     +--REF_sp.CA01_PV650201.1
+|     +--| (91)
+|     |  +--REF_caulivorumisolate_PX215345.1
+|  +--| (56)
+|  |  +----------------------------------------------------------REF_pullulansstrain_PZ695130.1
++--| (64)
+   |  +--REF_mimosaeURM_NR_202597.1
+   +--| (98)
+      +--REF_mimosaeisolate_PQ811698.1
+
+
+Consensus tree in newick format: 
+
+(ASV_2d66fd30_rel10.2:0.0301070266,(REF_australiensisstrain_MH863414.1:0.0000024658,REF_australiensisITS_NR_156527.1:0.0000021059)100:0.0733291011,((((((((((REF_subglacialestrain_MH863294.1:0.0000024658,REF_sp.isolate_PZ444425.1:0.0038862279)59:0.0000021059,REF_subglacialeisolate_PZ444489.1:0.0000024658)98:0.0094330345,(REF_fermentansstrain_MH857648.1:0.0107511897,REF_frostiaestrain_PZ336258.1:0.0000024658)40:0.0000024658)50:0.0047865545,REF_sp.isolate_PZ716331.1:0.0000024658)36:0.0007834930,((REF_melanogenumstrain_MH854707.1:0.0000024658,(REF_pullulansisolate_PZ661520.1:0.0000024658,(REF_sp.isolate_PP844398.1:0.0000024658,REF_sp.isolate_PP844377.1:0.0000024658)86:0.0000024658)79:0.0000024658)87:0.0019120211,((REF_orosaestrain_PZ274832.1:0.0017991586,REF_melanogenumisolate_PZ716316.1:0.0152694173)35:0.0019010528,(REF_zhengzhenxiangiaestrain_PZ336262.1:0.0016225070,REF_gimbutasiaestrain_PZ336259.1:0.0000024658)72:0.0000024658)26:0.0000024784)22:0.0000028527)37:0.0089863527,(REF_linistrain_MH854694.1:0.0060258767,(((REF_sp.isolate_PZ444502.1:0.0000021976,REF_sp.isolate_PZ716313.1:0.0000024658)36:0.0000022260,REF_proteaeisolate_PZ716320.1:0.0000024658)19:0.0000024658,(((((((((((((REF_pullulansisolate_PZ444501.1:0.0000024658,REF_sp.isolate_PZ444495.1:0.0000024658)77:0.0000024658,REF_pullulansisolate_PZ444479.1:0.0000024658)92:0.0009880776,((REF_pullulansisolate_PZ444471.1:0.0000024658,(((((((REF_sp.isolate_PZ444452.1:0.0000024658,REF_sp.isolate_PZ444424.1:0.0000024658)40:0.0000024658,REF_sp.isolate_PZ444407.1:0.0000024658)80:0.0000021059,REF_sp.isolate_PZ444421.1:0.0000024658)70:0.0000021059,REF_sp.isolate_PZ444436.1:0.0019882226)61:0.0004788501,(REF_pullulansisolate_PP844347.1:0.0040555981,REF_pullulansisolate_PP844344.1:0.0000024658)86:0.0040540913)46:0.0000044658,REF_sp.isolate_PZ444443.1:0.0000024658)27:0.0001631947,REF_pullulansisolate_PZ690102.1:0.0000024658)33:0.0030212396)19:0.0000024658,REF_pullulansisolate_PZ444468.1:0.0000024658)19:0.0000024658)31:0.0011960430,REF_sp.isolate_PV938371.1:0.0265823985)24:0.0000036258,((REF_pullulansstrain_PZ756800.1:0.0000024658,REF_pullulansstrain_PZ756796.1:0.0000024658)62:0.0000024658,REF_pullulansstrain_PZ756795.1:0.0000024658)89:0.0022779895)23:0.0000013807,REF_pullulansstrain_PZ756799.1:0.0000024658)23:0.0000013420,REF_pullulansstrain_PZ756798.1:0.0000024658)21:0.0000013389,REF_sp.isolate_PV938387.1:0.0000024658)35:0.0000013299,REF_linistrain_PZ729944.1:0.0137611358)24:0.0000024705,REF_pullulansstrain_PZ756801.1:0.0000024658)24:0.0000024705,REF_pullulansisolate_PP844342.1:0.0000024658)24:0.0000024705,REF_pullulansvoucher_PV917659.1:0.0000024658)12:0.0000024705,REF_pullulansstrain_PZ734645.1:0.0000024658)11:0.0000024658)44:0.0000028527)75:0.0075287916)57:0.0106374439,(REF_mahoniaeisolate_PZ444466.1:0.0000023270,REF_sp.CA01_PV650201.1:0.0000024705)99:0.0114314598)84:0.0166222520,REF_caulivorumisolate_PX215345.1:0.0013910528)91:0.0716526745,REF_pullulansstrain_PZ695130.1:1.5816076686)56:0.0000022826,(REF_mimosaeURM_NR_202597.1:0.0000024658,REF_mimosaeisolate_PQ811698.1:0.0000024658)98:0.0607640469)64:0.0124222300);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Saccotheciaceae_tree.treefile -m "GTR{2.32771,2.38329,3.06956,0.843817,6.89676}+F{0.254205,0.230615,0.258053,0.257126}+G4{0.250676}" --length 1334
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Saccotheciaceae_aln.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Saccotheciaceae_aln.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Aug 10 13:49:25 2026
+Total CPU time used: 133.338228 seconds (0h:2m:13s)
+Total wall-clock time used: 35.99911396 seconds (0h:0m:35s)
+

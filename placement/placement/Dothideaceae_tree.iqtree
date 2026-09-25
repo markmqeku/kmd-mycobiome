@@ -1,0 +1,346 @@
+IQ-TREE 2.3.6 built Dec 11 2024
+
+Input file name: Dothideaceae_aln.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 819862
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 53 sequences with 2598 nucleotide sites
+Number of constant sites: 1922 (= 73.98% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1922 (= 73.98% of all sites)
+Number of parsimony informative sites: 347
+Number of distinct site patterns: 729
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.2956
+  A-G: 2.7362
+  A-T: 1.7849
+  C-G: 1.4076
+  C-T: 4.7935
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2558
+  pi(C) = 0.2392
+  pi(G) = 0.2474
+  pi(T) = 0.2576
+
+Rate matrix Q:
+
+  A   -0.8903    0.1907    0.4166     0.283
+  C    0.2039    -1.178    0.2143    0.7599
+  G    0.4307    0.2072   -0.7965    0.1585
+  T     0.281    0.7057    0.1523    -1.139
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.5397
+
+ Category  Relative_rate  Proportion
+  1         0.04095        0.25
+  2         0.277          0.25
+  3         0.8471         0.25
+  4         2.835          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -9978.5641 (s.e. 261.1036)
+Unconstrained log-likelihood (without tree): -12332.6427
+Number of free parameters (#branches + #model parameters): 112
+Akaike information criterion (AIC) score: 20181.1282
+Corrected Akaike information criterion (AICc) score: 20191.3141
+Bayesian information criterion (BIC) score: 20837.7279
+
+Total tree length (sum of branch lengths): 17.0353
+Sum of internal branch lengths: 1.2423 (7.2925% of tree length)
+
+WARNING: 15 near-zero internal branches (<0.0004) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+WARNING: 1 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon 'ASV_3a5c2083_rel23.7' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--ASV_3a5c2083_rel23.7
+|
++**ASV_abea193f_rel6.4
+|
+|                             +--REF_merioidesstrain_MH861924.1
+|                          +--| (97)
+|                          |  +--REF_macrosporastrain_MH861202.1
+|                       +--| (98)
+|                       |  +**REF_sp.in_PZ058402.1
+|                    +**| (73)
+|                    |  |                    +**REF_minteristrain_ON784041.1
+|                    |  |                 +**| (62)
+|                    |  |                 |  |  +**REF_minteristrain_ON784038.1
+|                    |  |                 |  +**| (63)
+|                    |  |                 |     +**REF_minteristrain_ON784030.1
+|                    |  |              +**| (61)
+|                    |  |              |  +**REF_minteristrain_ON784036.1
+|                    |  |           +**| (20)
+|                    |  |           |  +**REF_minteristrain_ON784027.1
+|                    |  |        +**| (46)
+|                    |  |        |  |     +**REF_minteristrain_ON784033.1
+|                    |  |        |  |  +**| (19)
+|                    |  |        |  |  |  +**REF_minteristrain_ON784029.1
+|                    |  |        |  +**| (18)
+|                    |  |        |     +**REF_minteristrain_ON784032.1
+|                    |  |     +**| (43)
+|                    |  |     |  +**REF_minteristrain_ON784034.1
+|                    |  |  +**| (37)
+|                    |  |  |  +**REF_minteristrain_ON784040.1
+|                    |  +--| (97)
+|                    |     |           +**REF_minteristrain_ON784039.1
+|                    |     |        +--| (98)
+|                    |     |        |  +**REF_minteristrain_ON784037.1
+|                    |     |     +**| (35)
+|                    |     |     |  +--REF_minteristrain_ON784028.1
+|                    |     |  +**| (39)
+|                    |     |  |  +**REF_minteristrain_ON784035.1
+|                    |     +**| (47)
+|                    |        +**REF_minteristrain_ON784031.1
+|                 +--| (93)
+|                 |  +--REF_sp.in_PX689207.1
+|              +--| (100)
+|              |  +--REF_sp.in_PP513140.1
+|           +--| (64)
+|           |  +--REF_sp.CA03_PV742628.1
+|        +--| (71)
+|        |  |        +--REF_pistaciaestrain_MH859357.1
+|        |  |     +--| (47)
+|        |  |     |  |     +--REF_insculptaisolate_PQ298290.1
+|        |  |     |  |  +--| (98)
+|        |  |     |  |  |  +**REF_insculptavoucher_OR767891.1
+|        |  |     |  +--| (84)
+|        |  |     |     |  +--REF_sambucistrain_MH857756.1
+|        |  |     |     +--| (88)
+|        |  |     |        |     +**REF_puccinioidesstrain_MH857754.1
+|        |  |     |        |  +--| (100)
+|        |  |     |        |  |  +**REF_puccinioidesstrain_MH857753.1
+|        |  |     |        +--| (91)
+|        |  |     |           |     +--REF_muelleristrain_MH857752.1
+|        |  |     |           |  +--| (99)
+|        |  |     |           |  |  +**REF_muelleristrain_MH857751.1
+|        |  |     |           +--| (89)
+|        |  |     |              +--REF_hippophaesstrain_MH857750.1
+|        |  |  +--| (47)
+|        |  |  |  |  +--REF_sp.isolate_PZ444464.1
+|        |  |  |  +--| (46)
+|        |  |  |     |  +--REF_sp.CA02_PQ817044.1
+|        |  |  |     +--| (100)
+|        |  |  |        +--REF_sp.CA01_PQ279398.1
+|        |  +--| (92)
+|        |     |              +-----REF_sp.voucher_PX608819.1
+|        |     |           +--| (87)
+|        |     |           |  +----REF_sp.in_PZ057609.1
+|        |     |        +--| (20)
+|        |     |        |  |  +--REF_noxiastrain_MH855477.1
+|        |     |        |  +--| (28)
+|        |     |        |     +-------------------------------------------------------REF_spartiiisolate_PX561043.1
+|        |     |     +--| (21)
+|        |     |     |  |  +--REF_acericolaIRAN_NR_187001.1
+|        |     |     |  +--| (71)
+|        |     |     |     +--REF_macrosporaisolate_PQ453968.1
+|        |     |  +--| (77)
+|        |     |  |  |  +--REF_puccinioidesvoucher_PP971526.1
+|        |     |  |  +--| (51)
+|        |     |  |     |     +--REF_pinistrain_MH854884.1
+|        |     |  |     |  +--| (71)
+|        |     |  |     |  |  +--REF_piniisolate_PX657328.1
+|        |     |  |     +--| (80)
+|        |     |  |        +--------REF_spartiiisolate_PX561042.1
+|        |     +--| (83)
+|        |        +--REF_sp.voucher_PV581586.1
+|     +--| (67)
+|     |  |     +--REF_populiisolate_PQ817086.1
+|     |  |  +--| (56)
+|     |  |  |  +--REF_sp.strain_PX421854.1
+|     |  +--| (49)
+|     |     |     +**REF_populiisolate_PX205940.1
+|     |     |  +**| (68)
+|     |     |  |  +**REF_populiisolate_PX205939.1
+|     |     +**| (67)
+|     |        +**REF_populiisolate_PX205938.1
+|  +--| (67)
+|  |  +**REF_sp.isolate_PV948956.1
++--| (98)
+   +**REF_sp.strain_PZ165507.1
+
+Tree in newick format:
+
+(ASV_3a5c2083_rel23.7:0.0076334191,ASV_abea193f_rel6.4:0.0000010000,((((((((((REF_merioidesstrain_MH861924.1:0.0018111918,REF_macrosporastrain_MH861202.1:0.0017940375)97:0.0017870951,REF_sp.in_PZ058402.1:0.0000010000)98:0.0017902197,(((((((REF_minteristrain_ON784041.1:0.0000010000,(REF_minteristrain_ON784038.1:0.0000010000,REF_minteristrain_ON784030.1:0.0000010000)63:0.0000010000)62:0.0000010000,REF_minteristrain_ON784036.1:0.0000010000)61:0.0000010000,REF_minteristrain_ON784027.1:0.0000010000)20:0.0000010000,((REF_minteristrain_ON784033.1:0.0000010000,REF_minteristrain_ON784029.1:0.0000010000)19:0.0000010000,REF_minteristrain_ON784032.1:0.0000010000)18:0.0000010000)46:0.0000010000,REF_minteristrain_ON784034.1:0.0000010000)43:0.0000010000,REF_minteristrain_ON784040.1:0.0000010000)37:0.0000010000,((((REF_minteristrain_ON784039.1:0.0000010000,REF_minteristrain_ON784037.1:0.0000010000)98:0.0034201386,REF_minteristrain_ON784028.1:0.0014639440)35:0.0001918302,REF_minteristrain_ON784035.1:0.0000010000)39:0.0000022682,REF_minteristrain_ON784031.1:0.0000010000)47:0.0000024609)97:0.0017055100)73:0.0000024950,REF_sp.in_PX689207.1:0.0039391279)93:0.0043346692,REF_sp.in_PP513140.1:0.0099070197)100:0.0400250112,REF_sp.CA03_PV742628.1:0.0358983261)64:0.0137554157,(((REF_pistaciaestrain_MH859357.1:0.1815198172,((REF_insculptaisolate_PQ298290.1:0.0071340366,REF_insculptavoucher_OR767891.1:0.0000010000)98:0.0139845104,(REF_sambucistrain_MH857756.1:0.0249046195,((REF_puccinioidesstrain_MH857754.1:0.0000010000,REF_puccinioidesstrain_MH857753.1:0.0000010000)100:0.0225963909,((REF_muelleristrain_MH857752.1:0.0017426266,REF_muelleristrain_MH857751.1:0.0000010000)99:0.0200068189,REF_hippophaesstrain_MH857750.1:0.0173774413)89:0.0096633282)91:0.0094623644)88:0.0053632581)84:0.0055998984)47:0.0034995585,(REF_sp.isolate_PZ444464.1:0.0058327560,(REF_sp.CA02_PQ817044.1:0.0065213473,REF_sp.CA01_PQ279398.1:0.0408649245)100:0.0961177658)46:0.0006434910)47:0.0174650564,(((((REF_sp.voucher_PX608819.1:1.2024610310,REF_sp.in_PZ057609.1:0.9716796416)87:0.1082051915,(REF_noxiastrain_MH855477.1:0.0581796267,REF_spartiiisolate_PX561043.1:9.9999983605)28:0.2861892118)20:0.1060969367,(REF_acericolaIRAN_NR_187001.1:0.6369700879,REF_macrosporaisolate_PQ453968.1:0.2939718091)71:0.0383369417)21:0.0072771331,(REF_puccinioidesvoucher_PP971526.1:0.4572702200,((REF_pinistrain_MH854884.1:0.0224617567,REF_piniisolate_PX657328.1:0.0462091325)71:0.0707815597,REF_spartiiisolate_PX561042.1:1.6620996555)80:0.1771972425)51:0.0613955706)77:0.0247051335,REF_sp.voucher_PV581586.1:0.0604235887)83:0.0209817745)92:0.0225267396)71:0.0053715685,((REF_populiisolate_PQ817086.1:0.0027619760,REF_sp.strain_PX421854.1:0.0037764826)56:0.0026558461,((REF_populiisolate_PX205940.1:0.0000010000,REF_populiisolate_PX205939.1:0.0000010000)68:0.0000010000,REF_populiisolate_PX205938.1:0.0000010000)67:0.0000021385)49:0.0070888451)67:0.0148146816,REF_sp.isolate_PV948956.1:0.0003582928)67:0.0317571003,REF_sp.strain_PZ165507.1:0.0000025256)98:0.0115083544);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -9978.874362
+Robinson-Foulds distance between ML tree and consensus tree: 10
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--ASV_3a5c2083_rel23.7
+|
++--ASV_abea193f_rel6.4
+|
+|                             +--REF_merioidesstrain_MH861924.1
+|                          +--| (97)
+|                          |  +--REF_macrosporastrain_MH861202.1
+|                       +--| (98)
+|                       |  +--REF_sp.in_PZ058402.1
+|                    +--| (73)
+|                    |  |                    +--REF_minteristrain_ON784041.1
+|                    |  |                 +--| (62)
+|                    |  |                 |  |  +--REF_minteristrain_ON784038.1
+|                    |  |                 |  +--| (63)
+|                    |  |                 |     +--REF_minteristrain_ON784030.1
+|                    |  |              +--| (61)
+|                    |  |              |  +--REF_minteristrain_ON784036.1
+|                    |  |           +--| (42)
+|                    |  |           |  |  +--REF_minteristrain_ON784033.1
+|                    |  |           |  +--| (42)
+|                    |  |           |     +--REF_minteristrain_ON784027.1
+|                    |  |        +--| (46)
+|                    |  |        |  |  +--REF_minteristrain_ON784032.1
+|                    |  |        |  +--| (32)
+|                    |  |        |     +--REF_minteristrain_ON784029.1
+|                    |  |     +--| (43)
+|                    |  |     |  +--REF_minteristrain_ON784034.1
+|                    |  |  +--| (37)
+|                    |  |  |  +--REF_minteristrain_ON784040.1
+|                    |  +--| (97)
+|                    |     |        +--REF_minteristrain_ON784039.1
+|                    |     |     +--| (98)
+|                    |     |     |  +--REF_minteristrain_ON784037.1
+|                    |     |  +--| (39)
+|                    |     |  |  |  +--REF_minteristrain_ON784035.1
+|                    |     |  |  +--| (35)
+|                    |     |  |     +--REF_minteristrain_ON784028.1
+|                    |     +--| (47)
+|                    |        +--REF_minteristrain_ON784031.1
+|                 +--| (93)
+|                 |  +--REF_sp.in_PX689207.1
+|              +--| (100)
+|              |  +--REF_sp.in_PP513140.1
+|           +--| (64)
+|           |  +--REF_sp.CA03_PV742628.1
+|        +--| (71)
+|        |  |        +--REF_pistaciaestrain_MH859357.1
+|        |  |     +--| (47)
+|        |  |     |  |     +--REF_insculptaisolate_PQ298290.1
+|        |  |     |  |  +--| (98)
+|        |  |     |  |  |  +--REF_insculptavoucher_OR767891.1
+|        |  |     |  +--| (84)
+|        |  |     |     |  +--REF_sambucistrain_MH857756.1
+|        |  |     |     +--| (88)
+|        |  |     |        |     +--REF_puccinioidesstrain_MH857754.1
+|        |  |     |        |  +--| (100)
+|        |  |     |        |  |  +--REF_puccinioidesstrain_MH857753.1
+|        |  |     |        +--| (91)
+|        |  |     |           |     +--REF_muelleristrain_MH857752.1
+|        |  |     |           |  +--| (99)
+|        |  |     |           |  |  +--REF_muelleristrain_MH857751.1
+|        |  |     |           +--| (89)
+|        |  |     |              +--REF_hippophaesstrain_MH857750.1
+|        |  |  +--| (47)
+|        |  |  |  |  +--REF_sp.isolate_PZ444464.1
+|        |  |  |  +--| (46)
+|        |  |  |     |  +--REF_sp.CA02_PQ817044.1
+|        |  |  |     +--| (100)
+|        |  |  |        +--REF_sp.CA01_PQ279398.1
+|        |  +--| (92)
+|        |     |                 +------REF_sp.voucher_PX608819.1
+|        |     |              +--| (87)
+|        |     |              |  +----REF_sp.in_PZ057609.1
+|        |     |           +--| (43)
+|        |     |           |  +--REF_noxiastrain_MH855477.1
+|        |     |        +--| (20)
+|        |     |        |  +---------------------------------------------------------REF_spartiiisolate_PX561043.1
+|        |     |     +--| (21)
+|        |     |     |  |  +--REF_acericolaIRAN_NR_187001.1
+|        |     |     |  +--| (71)
+|        |     |     |     +--REF_macrosporaisolate_PQ453968.1
+|        |     |  +--| (77)
+|        |     |  |  |  +--REF_puccinioidesvoucher_PP971526.1
+|        |     |  |  +--| (51)
+|        |     |  |     |     +--REF_pinistrain_MH854884.1
+|        |     |  |     |  +--| (71)
+|        |     |  |     |  |  +--REF_piniisolate_PX657328.1
+|        |     |  |     +--| (80)
+|        |     |  |        +--------REF_spartiiisolate_PX561042.1
+|        |     +--| (83)
+|        |        +--REF_sp.voucher_PV581586.1
+|     +--| (67)
+|     |  |     +--REF_populiisolate_PQ817086.1
+|     |  |  +--| (56)
+|     |  |  |  +--REF_sp.strain_PX421854.1
+|     |  +--| (49)
+|     |     |     +--REF_populiisolate_PX205940.1
+|     |     |  +--| (68)
+|     |     |  |  +--REF_populiisolate_PX205939.1
+|     |     +--| (67)
+|     |        +--REF_populiisolate_PX205938.1
+|  +--| (67)
+|  |  +--REF_sp.isolate_PV948956.1
++--| (98)
+   +--REF_sp.strain_PZ165507.1
+
+
+Consensus tree in newick format: 
+
+(ASV_3a5c2083_rel23.7:0.0076326280,ASV_abea193f_rel6.4:0.0000025008,((((((((((REF_merioidesstrain_MH861924.1:0.0018118906,REF_macrosporastrain_MH861202.1:0.0017946438)97:0.0017877520,REF_sp.in_PZ058402.1:0.0000025008)98:0.0017908192,(((((((REF_minteristrain_ON784041.1:0.0000025008,(REF_minteristrain_ON784038.1:0.0000025008,REF_minteristrain_ON784030.1:0.0000025008)63:0.0000025008)62:0.0000025008,REF_minteristrain_ON784036.1:0.0000025008)61:0.0000025008,(REF_minteristrain_ON784033.1:0.0000025008,REF_minteristrain_ON784027.1:0.0000025008)42:0.0000025008)42:0.0000025008,(REF_minteristrain_ON784032.1:0.0000025008,REF_minteristrain_ON784029.1:0.0000025008)32:0.0000025008)46:0.0000025008,REF_minteristrain_ON784034.1:0.0000025008)43:0.0000025008,REF_minteristrain_ON784040.1:0.0000025008)37:0.0000025008,(((REF_minteristrain_ON784039.1:0.0000025008,REF_minteristrain_ON784037.1:0.0000025008)98:0.0034222630,(REF_minteristrain_ON784035.1:0.0000025008,REF_minteristrain_ON784028.1:0.0003851935)35:0.0003873576)39:0.0001732128,REF_minteristrain_ON784031.1:0.0000025008)47:0.0007131712)97:0.0017063604)73:0.0000025070,REF_sp.in_PX689207.1:0.0039390232)93:0.0043371868,REF_sp.in_PP513140.1:0.0099134422)100:0.0400482294,REF_sp.CA03_PV742628.1:0.0359190642)64:0.0137648276,(((REF_pistaciaestrain_MH859357.1:0.1816307194,((REF_insculptaisolate_PQ298290.1:0.0071378899,REF_insculptavoucher_OR767891.1:0.0000025008)98:0.0139947952,(REF_sambucistrain_MH857756.1:0.0249147846,((REF_puccinioidesstrain_MH857754.1:0.0000025008,REF_puccinioidesstrain_MH857753.1:0.0000025008)100:0.0226106112,((REF_muelleristrain_MH857752.1:0.0017432805,REF_muelleristrain_MH857751.1:0.0000025008)99:0.0200183910,REF_hippophaesstrain_MH857750.1:0.0173870555)89:0.0096683262)91:0.0094691163)88:0.0053638052)84:0.0056042203)47:0.0034991632,(REF_sp.isolate_PZ444464.1:0.0058349985,(REF_sp.CA02_PQ817044.1:0.0065213691,REF_sp.CA01_PQ279398.1:0.0408930886)100:0.0961823096)46:0.0006433269)47:0.0174741922,((((((REF_sp.voucher_PX608819.1:1.2023579291,REF_sp.in_PZ057609.1:0.9672988357)87:0.1088145132,REF_noxiastrain_MH855477.1:0.3457530693)43:0.0283659117,REF_spartiiisolate_PX561043.1:9.9999985543)20:0.0773096519,(REF_acericolaIRAN_NR_187001.1:0.6371036394,REF_macrosporaisolate_PQ453968.1:0.2940281581)71:0.0386110787)21:0.0071446805,(REF_puccinioidesvoucher_PP971526.1:0.4573556745,((REF_pinistrain_MH854884.1:0.0225025592,REF_piniisolate_PX657328.1:0.0462177523)71:0.0759199403,REF_spartiiisolate_PX561042.1:1.6622669624)80:0.1721115602)51:0.0614640207)77:0.0247977430,REF_sp.voucher_PV581586.1:0.0605485394)83:0.0209375806)92:0.0225410944)71:0.0053755033,((REF_populiisolate_PQ817086.1:0.0027631892,REF_sp.strain_PX421854.1:0.0037764991)56:0.0026579523,((REF_populiisolate_PX205940.1:0.0000025008,REF_populiisolate_PX205939.1:0.0000025008)68:0.0000025008,REF_populiisolate_PX205938.1:0.0000025008)67:0.0000025038)49:0.0070930432)67:0.0148235644,REF_sp.isolate_PV948956.1:0.0003573051)67:0.0317800989,REF_sp.strain_PZ165507.1:0.0000021124)98:0.0115081190);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Dothideaceae_tree.treefile -m "GTR{1.29557,2.73622,1.78492,1.40761,4.7935}+F{0.255785,0.239215,0.247411,0.257589}+G4{0.539663}" --length 2598
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Dothideaceae_aln.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Dothideaceae_aln.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Aug 10 13:48:46 2026
+Total CPU time used: 165.198239 seconds (0h:2m:45s)
+Total wall-clock time used: 42.67937522 seconds (0h:0m:42s)
+

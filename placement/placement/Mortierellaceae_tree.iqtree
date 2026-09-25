@@ -1,0 +1,361 @@
+IQ-TREE 2.3.6 built Dec 11 2024
+
+Input file name: Mortierellaceae_aln.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 86524
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 57 sequences with 1741 nucleotide sites
+Number of constant sites: 1126 (= 64.6755% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1126 (= 64.6755% of all sites)
+Number of parsimony informative sites: 392
+Number of distinct site patterns: 702
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.3643
+  A-G: 3.0153
+  A-T: 1.7298
+  C-G: 1.0231
+  C-T: 4.8572
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2814
+  pi(C) = 0.2075
+  pi(G) = 0.2157
+  pi(T) = 0.2954
+
+Rate matrix Q:
+
+  A   -0.8876     0.174    0.3997     0.314
+  C    0.2359    -1.253    0.1356    0.8817
+  G    0.5213    0.1304   -0.8333    0.1815
+  T    0.2991    0.6193    0.1326    -1.051
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2949
+
+ Category  Relative_rate  Proportion
+  1         0.004889       0.25
+  2         0.1005         0.25
+  3         0.5871         0.25
+  4         3.307          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -11134.4475 (s.e. 375.5445)
+Unconstrained log-likelihood (without tree): -8823.1283
+Number of free parameters (#branches + #model parameters): 120
+Akaike information criterion (AIC) score: 22508.8951
+Corrected Akaike information criterion (AICc) score: 22526.8210
+Bayesian information criterion (BIC) score: 23164.3609
+
+Total tree length (sum of branch lengths): 12.0697
+Sum of internal branch lengths: 4.1352 (34.2607% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0006) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ASV_5f1ce530_rel1.0' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--ASV_5f1ce530_rel1.0
+|
++**ASV_b4a48131_rel1.8
+|
+|     +**ASV_f19ce87c_rel0.8
+|  +--| (95)
+|  |  +**REF_stylosporaculture_MH866744.1
++**| (88)
+   |                             +--REF_sp.12201_LC904870.1
+   |                          +--| (74)
+   |                          |  +--REF_sp.23203_LC904846.1
+   |                       +--| (56)
+   |                       |  +--REF_sp.14196_LC904848.1
+   |                    +--| (75)
+   |                    |  +--REF_basiparvisporastrain_MH860552.1
+   |                 +--| (100)
+   |                 |  |   +--REF_sp.11293_LC904852.1
+   |                 |  +---| (100)
+   |                 |      +--REF_sp.SW2013_MH866079.1
+   |              +--| (94)
+   |              |  +--REF_microzygosporastrain_MH862681.1
+   |           +--| (70)
+   |           |  |  +--REF_antarcticaculture_MH871660.1
+   |           |  +--| (99)
+   |           |     |  +--REF_alpinaisolate_PZ770547.1
+   |           |     +--| (94)
+   |           |        +--REF_sp.clone_PZ691395.1
+   |        +--| (13)
+   |        |  |                       +**REF_acrotonaculture_MH871944.1
+   |        |  |                    +--| (99)
+   |        |  |                    |  +**REF_acrotonastrain_MH860176.1
+   |        |  |                 +--| (100)
+   |        |  |                 |  |  +--REF_sp.clone_PZ691552.1
+   |        |  |                 |  +--| (100)
+   |        |  |                 |     +**REF_sp.clone_PZ691317.1
+   |        |  |              +--| (85)
+   |        |  |              |  +--REF_gamsiiculture_MH868591.1
+   |        |  |           +--| (62)
+   |        |  |           |  |  +--REF_gamsiiculture_MH867300.1
+   |        |  |           |  +--| (58)
+   |        |  |           |     |        +--REF_biramosastrain_MH862531.1
+   |        |  |           |     |     +--| (100)
+   |        |  |           |     |     |  +--REF_sp.strain_PZ738711.1
+   |        |  |           |     |  +--| (91)
+   |        |  |           |     |  |  +--REF_fatshederaestrain_MH860177.1
+   |        |  |           |     +--| (49)
+   |        |  |           |        |     +--REF_histoplasmatoidesstrain_MH861142.1
+   |        |  |           |        |  +--| (83)
+   |        |  |           |        |  |  |           +--REF_elongataisolate_PZ770546.1
+   |        |  |           |        |  |  |        +--| (71)
+   |        |  |           |        |  |  |        |  +--REF_sp.clone_PZ691499.1
+   |        |  |           |        |  |  |     +**| (33)
+   |        |  |           |        |  |  |     |  +--REF_sp.clone_PZ691493.1
+   |        |  |           |        |  |  |  +--| (64)
+   |        |  |           |        |  |  |  |  +**REF_sp.clone_PZ691352.1
+   |        |  |           |        |  |  +--| (69)
+   |        |  |           |        |  |     +**REF_sp.clone_PZ691435.1
+   |        |  |           |        +**| (30)
+   |        |  |           |           +--REF_sp.clone_PZ691459.1
+   |        |  |        +--| (80)
+   |        |  |        |  +--REF_cogitansstrain_MH862680.1
+   |        |  |     +--| (55)
+   |        |  |     |  +--REF_sp.DV2018a_MH862832.1
+   |        |  |  +--| (95)
+   |        |  |  |  +--REF_armillariicolastrain_MH860821.1
+   |        |  +--| (27)
+   |        |     |  +--REF_kuhlmaniistrain_MH860045.1
+   |        |     +--| (59)
+   |        |        +---REF_tsukubaensisisolate_PZ690756.1
+   |     +--| (28)
+   |     |  +--------REF_parazychaestrain_MH860387.1
+   |  +--| (53)
+   |  |  |        +**REF_ornatastrain_MH861074.1
+   |  |  |     +--| (100)
+   |  |  |     |  +**REF_ornatastrain_MH861073.1
+   |  |  |  +--| (41)
+   |  |  |  |  |         +----------------REF_chieniistrain_MH860031.1
+   |  |  |  |  |    +----| (98)
+   |  |  |  |  |    |    +--REF_sp.clone_PZ691520.1
+   |  |  |  |  +----| (77)
+   |  |  |  |       |                   +----------------------------REF_sp.clone_PZ692090.1
+   |  |  |  |       |          +--------| (94)
+   |  |  |  |       |          |        |                       +--REF_sp.clone_PZ691992.1
+   |  |  |  |       |          |        |                    +--| (99)
+   |  |  |  |       |          |        |                    |  |    +--REF_sp.clone_PZ691658.1
+   |  |  |  |       |          |        |                    |  +----| (100)
+   |  |  |  |       |          |        |                    |       +--REF_sp.clone_PZ691594.1
+   |  |  |  |       |          |        |                 +--| (99)
+   |  |  |  |       |          |        |                 |  +--REF_sp.clone_PZ691791.1
+   |  |  |  |       |          |        |              +--| (99)
+   |  |  |  |       |          |        |              |  +--REF_sp.clone_PZ691862.1
+   |  |  |  |       |          |        |         +----| (97)
+   |  |  |  |       |          |        |         |    |    +--REF_sp.clone_PZ691916.1
+   |  |  |  |       |          |        |         |    +----| (98)
+   |  |  |  |       |          |        |         |         +---REF_sp.clone_PZ691725.1
+   |  |  |  |       |          |        +---------| (99)
+   |  |  |  |       |          |                  +------------------REF_amoeboideaclone_PZ691675.1
+   |  |  |  |       +----------| (95)
+   |  |  |  |                  +---------------------------------------REF_hyalinaclone_PZ691586.1
+   |  |  +--| (20)
+   |  |     +---REF_beljakovaestrain_MH860410.1
+   +--| (100)
+      |        +**REF_sp.54219_LC904863.1
+      |     +--| (100)
+      |     |  |     +**REF_verticillatastrain_MH862533.1
+      |     |  |  +**| (86)
+      |     |  |  |  +**REF_verticillatastrain_MH862532.1
+      |     |  +**| (79)
+      |     |     +**REF_humilisclone_PZ691525.1
+      |  +--| (100)
+      |  |  +--REF_epicladiastrain_MH860987.1
+      +--| (31)
+         +----REF_multidivaricatastrain_MH861129.1
+
+Tree in newick format:
+
+(ASV_5f1ce530_rel1.0:0.0027958575,ASV_b4a48131_rel1.8:0.0000010000,((ASV_f19ce87c_rel0.8:0.0000010000,REF_stylosporaculture_MH866744.1:0.0000010000)95:0.0019635176,((((((((((REF_sp.12201_LC904870.1:0.0078174867,REF_sp.23203_LC904846.1:0.0283732697)74:0.0290776725,REF_sp.14196_LC904848.1:0.0701908732)56:0.0130567536,REF_basiparvisporastrain_MH860552.1:0.0617872362)75:0.0414891394,(REF_sp.11293_LC904852.1:0.0292388415,REF_sp.SW2013_MH866079.1:0.0319730026)100:0.1918610022)100:0.1014201963,REF_microzygosporastrain_MH862681.1:0.1371965688)94:0.0301030621,(REF_antarcticaculture_MH871660.1:0.0135319568,(REF_alpinaisolate_PZ770547.1:0.0254549114,REF_sp.clone_PZ691395.1:0.0972114917)94:0.0204673764)99:0.0751702478)70:0.0173045025,((((((((REF_acrotonaculture_MH871944.1:0.0000010000,REF_acrotonastrain_MH860176.1:0.0000010000)99:0.0081503906,(REF_sp.clone_PZ691552.1:0.0056816247,REF_sp.clone_PZ691317.1:0.0000010000)100:0.0313120237)100:0.0265011904,REF_gamsiiculture_MH868591.1:0.0140984034)85:0.0093724966,(REF_gamsiiculture_MH867300.1:0.0091792402,(((REF_biramosastrain_MH862531.1:0.0172537083,REF_sp.strain_PZ738711.1:0.0118341546)100:0.0992439295,REF_fatshederaestrain_MH860177.1:0.0213848394)91:0.0178316083,((REF_histoplasmatoidesstrain_MH861142.1:0.0343603543,((((REF_elongataisolate_PZ770546.1:0.0104074900,REF_sp.clone_PZ691499.1:0.0159776776)71:0.0083296850,REF_sp.clone_PZ691493.1:0.0106066903)33:0.0000024804,REF_sp.clone_PZ691352.1:0.0000010000)64:0.0080156800,REF_sp.clone_PZ691435.1:0.0000020291)69:0.0085609406)83:0.0138686219,REF_sp.clone_PZ691459.1:0.1333582228)30:0.0000022806)49:0.0155905454)58:0.0071676374)62:0.0090760161,REF_cogitansstrain_MH862680.1:0.0735302375)80:0.0098588035,REF_sp.DV2018a_MH862832.1:0.0353548804)55:0.0257644499,REF_armillariicolastrain_MH860821.1:0.1213975960)95:0.0495089273,(REF_kuhlmaniistrain_MH860045.1:0.1457277521,REF_tsukubaensisisolate_PZ690756.1:0.1995864626)59:0.0497008197)27:0.0141670109)13:0.0112469067,REF_parazychaestrain_MH860387.1:0.4035361371)28:0.0201833704,(((REF_ornatastrain_MH861074.1:0.0000010000,REF_ornatastrain_MH861073.1:0.0000010000)100:0.1263851709,((REF_chieniistrain_MH860031.1:0.7904428923,REF_sp.clone_PZ691520.1:0.1444380795)98:0.2603529940,((REF_sp.clone_PZ692090.1:1.3154868869,(((((REF_sp.clone_PZ691992.1:0.0804542201,(REF_sp.clone_PZ691658.1:0.0856164223,REF_sp.clone_PZ691594.1:0.0361691326)100:0.2371207774)99:0.0486972470,REF_sp.clone_PZ691791.1:0.1370152379)99:0.0279413639,REF_sp.clone_PZ691862.1:0.0190161890)99:0.1718440609,(REF_sp.clone_PZ691916.1:0.1081369094,REF_sp.clone_PZ691725.1:0.1997810877)98:0.2499368808)97:0.2421484352,REF_amoeboideaclone_PZ691675.1:0.8839421173)99:0.4675077209)94:0.4336914300,REF_hyalinaclone_PZ691586.1:1.7907118241)95:0.4951733600)77:0.2316546317)41:0.0294065858,REF_beljakovaestrain_MH860410.1:0.1779731041)20:0.0184382777)53:0.0233943025,(((REF_sp.54219_LC904863.1:0.0000010000,((REF_verticillatastrain_MH862533.1:0.0000023617,REF_verticillatastrain_MH862532.1:0.0000010000)86:0.0000010000,REF_humilisclone_PZ691525.1:0.0000010000)79:0.0000029141)100:0.0192189924,REF_epicladiastrain_MH860987.1:0.0076847852)100:0.1614472007,REF_multidivaricatastrain_MH861129.1:0.2330808522)31:0.0138816448)100:0.0672664510)88:0.0000023647);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -11134.783075
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--ASV_5f1ce530_rel1.0
+|
++--ASV_b4a48131_rel1.8
+|
+|     +--ASV_f19ce87c_rel0.8
+|  +--| (95)
+|  |  +--REF_stylosporaculture_MH866744.1
++--| (88)
+   |                                +--REF_sp.12201_LC904870.1
+   |                             +--| (74)
+   |                             |  +--REF_sp.23203_LC904846.1
+   |                          +--| (56)
+   |                          |  +--REF_sp.14196_LC904848.1
+   |                       +--| (75)
+   |                       |  +--REF_basiparvisporastrain_MH860552.1
+   |                    +--| (100)
+   |                    |  |   +--REF_sp.11293_LC904852.1
+   |                    |  +---| (100)
+   |                    |      +--REF_sp.SW2013_MH866079.1
+   |                 +--| (94)
+   |                 |  +--REF_microzygosporastrain_MH862681.1
+   |              +--| (70)
+   |              |  |  +--REF_antarcticaculture_MH871660.1
+   |              |  +--| (99)
+   |              |     |  +--REF_alpinaisolate_PZ770547.1
+   |              |     +--| (94)
+   |              |        +--REF_sp.clone_PZ691395.1
+   |           +--| (13)
+   |           |  |                       +--REF_acrotonaculture_MH871944.1
+   |           |  |                    +--| (99)
+   |           |  |                    |  +--REF_acrotonastrain_MH860176.1
+   |           |  |                 +--| (100)
+   |           |  |                 |  |  +--REF_sp.clone_PZ691552.1
+   |           |  |                 |  +--| (100)
+   |           |  |                 |     +--REF_sp.clone_PZ691317.1
+   |           |  |              +--| (85)
+   |           |  |              |  +--REF_gamsiiculture_MH868591.1
+   |           |  |           +--| (62)
+   |           |  |           |  |  +--REF_gamsiiculture_MH867300.1
+   |           |  |           |  +--| (58)
+   |           |  |           |     |           +--REF_biramosastrain_MH862531.1
+   |           |  |           |     |        +--| (100)
+   |           |  |           |     |        |  +--REF_sp.strain_PZ738711.1
+   |           |  |           |     |     +--| (91)
+   |           |  |           |     |     |  +--REF_fatshederaestrain_MH860177.1
+   |           |  |           |     |  +--| (62)
+   |           |  |           |     |  |  |  +--REF_histoplasmatoidesstrain_MH861142.1
+   |           |  |           |     |  |  +--| (83)
+   |           |  |           |     |  |     |           +--REF_elongataisolate_PZ770546.1
+   |           |  |           |     |  |     |        +--| (71)
+   |           |  |           |     |  |     |        |  +--REF_sp.clone_PZ691499.1
+   |           |  |           |     |  |     |     +--| (38)
+   |           |  |           |     |  |     |     |  +--REF_sp.clone_PZ691352.1
+   |           |  |           |     |  |     |  +--| (64)
+   |           |  |           |     |  |     |  |  +--REF_sp.clone_PZ691493.1
+   |           |  |           |     |  |     +--| (69)
+   |           |  |           |     |  |        +--REF_sp.clone_PZ691435.1
+   |           |  |           |     +--| (49)
+   |           |  |           |        +--REF_sp.clone_PZ691459.1
+   |           |  |        +--| (80)
+   |           |  |        |  +--REF_cogitansstrain_MH862680.1
+   |           |  |     +--| (55)
+   |           |  |     |  +--REF_sp.DV2018a_MH862832.1
+   |           |  |  +--| (95)
+   |           |  |  |  +--REF_armillariicolastrain_MH860821.1
+   |           |  +--| (27)
+   |           |     |  +--REF_kuhlmaniistrain_MH860045.1
+   |           |     +--| (59)
+   |           |        +---REF_tsukubaensisisolate_PZ690756.1
+   |        +--| (28)
+   |        |  +--------REF_parazychaestrain_MH860387.1
+   |     +--| (53)
+   |     |  |        +--REF_ornatastrain_MH861074.1
+   |     |  |     +--| (100)
+   |     |  |     |  +--REF_ornatastrain_MH861073.1
+   |     |  |  +--| (41)
+   |     |  |  |  |         +----------------REF_chieniistrain_MH860031.1
+   |     |  |  |  |    +----| (98)
+   |     |  |  |  |    |    +--REF_sp.clone_PZ691520.1
+   |     |  |  |  +----| (77)
+   |     |  |  |       |                   +-----------------------------REF_sp.clone_PZ692090.1
+   |     |  |  |       |          +--------| (94)
+   |     |  |  |       |          |        |                       +--REF_sp.clone_PZ691992.1
+   |     |  |  |       |          |        |                    +--| (99)
+   |     |  |  |       |          |        |                    |  |    +--REF_sp.clone_PZ691658.1
+   |     |  |  |       |          |        |                    |  +----| (100)
+   |     |  |  |       |          |        |                    |       +--REF_sp.clone_PZ691594.1
+   |     |  |  |       |          |        |                 +--| (99)
+   |     |  |  |       |          |        |                 |  +--REF_sp.clone_PZ691791.1
+   |     |  |  |       |          |        |              +--| (99)
+   |     |  |  |       |          |        |              |  +--REF_sp.clone_PZ691862.1
+   |     |  |  |       |          |        |         +----| (97)
+   |     |  |  |       |          |        |         |    |    +--REF_sp.clone_PZ691916.1
+   |     |  |  |       |          |        |         |    +----| (98)
+   |     |  |  |       |          |        |         |         +---REF_sp.clone_PZ691725.1
+   |     |  |  |       |          |        +---------| (99)
+   |     |  |  |       |          |                  +------------------REF_amoeboideaclone_PZ691675.1
+   |     |  |  |       +----------| (95)
+   |     |  |  |                  +---------------------------------------REF_hyalinaclone_PZ691586.1
+   |     |  +--| (20)
+   |     |     +---REF_beljakovaestrain_MH860410.1
+   |  +--| (58)
+   |  |  |     +--REF_sp.54219_LC904863.1
+   |  |  |  +--| (100)
+   |  |  |  |  |     +--REF_verticillatastrain_MH862533.1
+   |  |  |  |  |  +--| (86)
+   |  |  |  |  |  |  +--REF_verticillatastrain_MH862532.1
+   |  |  |  |  +--| (79)
+   |  |  |  |     +--REF_humilisclone_PZ691525.1
+   |  |  +--| (100)
+   |  |     +--REF_epicladiastrain_MH860987.1
+   +--| (100)
+      +----REF_multidivaricatastrain_MH861129.1
+
+
+Consensus tree in newick format: 
+
+(ASV_5f1ce530_rel1.0:0.0027883379,ASV_b4a48131_rel1.8:0.0000021218,((ASV_f19ce87c_rel0.8:0.0000021218,REF_stylosporaculture_MH866744.1:0.0000029960)95:0.0019561102,(((((((((((REF_sp.12201_LC904870.1:0.0078024992,REF_sp.23203_LC904846.1:0.0282718869)74:0.0289217776,REF_sp.14196_LC904848.1:0.0699574881)56:0.0130467438,REF_basiparvisporastrain_MH860552.1:0.0616609491)75:0.0417279678,(REF_sp.11293_LC904852.1:0.0292623508,REF_sp.SW2013_MH866079.1:0.0317636011)100:0.1910733288)100:0.1014301546,REF_microzygosporastrain_MH862681.1:0.1363397410)94:0.0301139561,(REF_antarcticaculture_MH871660.1:0.0135232467,(REF_alpinaisolate_PZ770547.1:0.0254337232,REF_sp.clone_PZ691395.1:0.0972561593)94:0.0203914429)99:0.0749886282)70:0.0175892982,((((((((REF_acrotonaculture_MH871944.1:0.0000021218,REF_acrotonastrain_MH860176.1:0.0000021218)99:0.0081463066,(REF_sp.clone_PZ691552.1:0.0056845311,REF_sp.clone_PZ691317.1:0.0000021218)100:0.0313253131)100:0.0264828142,REF_gamsiiculture_MH868591.1:0.0140942527)85:0.0093638827,(REF_gamsiiculture_MH867300.1:0.0091808157,((((REF_biramosastrain_MH862531.1:0.0171559293,REF_sp.strain_PZ738711.1:0.0118980002)100:0.0991046115,REF_fatshederaestrain_MH860177.1:0.0213452786)91:0.0178087165,(REF_histoplasmatoidesstrain_MH861142.1:0.0343132741,((((REF_elongataisolate_PZ770546.1:0.0103882693,REF_sp.clone_PZ691499.1:0.0159874157)71:0.0083144115,REF_sp.clone_PZ691352.1:0.0000021218)38:0.0000025715,REF_sp.clone_PZ691493.1:0.0106119375)64:0.0080029858,REF_sp.clone_PZ691435.1:0.0000021218)69:0.0085516258)83:0.0138443617)62:0.0000022644,REF_sp.clone_PZ691459.1:0.1334712305)49:0.0155494374)58:0.0071648281)62:0.0090344985,REF_cogitansstrain_MH862680.1:0.0734297993)80:0.0099521955,REF_sp.DV2018a_MH862832.1:0.0351890556)55:0.0257103043,REF_armillariicolastrain_MH860821.1:0.1211739384)95:0.0498314394,(REF_kuhlmaniistrain_MH860045.1:0.1456318339,REF_tsukubaensisisolate_PZ690756.1:0.1989975478)59:0.0497287711)27:0.0135025829)13:0.0109419032,REF_parazychaestrain_MH860387.1:0.4031680687)28:0.0198806927,(((REF_ornatastrain_MH861074.1:0.0000021218,REF_ornatastrain_MH861073.1:0.0000021218)100:0.1250420269,((REF_chieniistrain_MH860031.1:0.7888133519,REF_sp.clone_PZ691520.1:0.1461441784)98:0.2528885636,((REF_sp.clone_PZ692090.1:1.3301104237,(((((REF_sp.clone_PZ691992.1:0.0805669315,(REF_sp.clone_PZ691658.1:0.0857037872,REF_sp.clone_PZ691594.1:0.0362312928)100:0.2374452324)99:0.0487790122,REF_sp.clone_PZ691791.1:0.1372030071)99:0.0279711852,REF_sp.clone_PZ691862.1:0.0190430096)99:0.1719172901,(REF_sp.clone_PZ691916.1:0.1082968059,REF_sp.clone_PZ691725.1:0.1999318306)98:0.2501374346)97:0.2404735373,REF_amoeboideaclone_PZ691675.1:0.8818021671)99:0.4683224422)94:0.4242870401,REF_hyalinaclone_PZ691586.1:1.7744938201)95:0.4926008743)77:0.2391306223)41:0.0302232911,REF_beljakovaestrain_MH860410.1:0.1767877756)20:0.0196374051)53:0.0208733561,((REF_sp.54219_LC904863.1:0.0000021218,((REF_verticillatastrain_MH862533.1:0.0000021218,REF_verticillatastrain_MH862532.1:0.0000021218)86:0.0000021218,REF_humilisclone_PZ691525.1:0.0000021218)79:0.0000029863)100:0.0192265700,REF_epicladiastrain_MH860987.1:0.0076422473)100:0.1700370564)58:0.0097576997,REF_multidivaricatastrain_MH861129.1:0.2367516698)100:0.0614417834)88:0.0000020566);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Mortierellaceae_tree.treefile -m "GTR{1.36434,3.01527,1.72978,1.02306,4.85719}+F{0.281365,0.207493,0.215726,0.295415}+G4{0.294882}" --length 1741
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Mortierellaceae_aln.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Mortierellaceae_aln.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Aug 10 13:47:10 2026
+Total CPU time used: 165.83718 seconds (0h:2m:45s)
+Total wall-clock time used: 43.18581732 seconds (0h:0m:43s)
+

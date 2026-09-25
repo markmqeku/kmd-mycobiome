@@ -1,0 +1,126 @@
+{
+ "ols": {
+  "ENVO:01000177": {
+   "expected": "grassland biome",
+   "label": "grassland biome",
+   "obsolete": false,
+   "definition": "A grassland ecosystem in which dominant ecological communities have reached their climax successional state.",
+   "url": "https://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01000177",
+   "ok": true
+  },
+  "ENVO:01000178": {
+   "expected": "savanna biome",
+   "label": "savanna biome",
+   "obsolete": false,
+   "definition": "A woodland biome which has seasonal water availability and includes trees spaced sufficiently far apart to allow an unbroken layer of grass, sedge (Cyperaceae) or  rush (Juncaceae) communities to live.",
+   "url": "https://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01000178",
+   "ok": true
+  },
+  "ENVO:00000467": {
+   "expected": "university campus",
+   "label": "university campus",
+   "obsolete": false,
+   "definition": "An area of land on which a college or university and related institutional buildings are situated.",
+   "url": "https://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000467",
+   "ok": true
+  },
+  "ENVO:01000447": {
+   "expected": "roadside",
+   "label": "roadside",
+   "obsolete": false,
+   "definition": "An environmental zone of varying area which is adjacent to a road.",
+   "url": "https://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01000447",
+   "ok": true
+  },
+  "ENVO:00000078": {
+   "expected": "farm",
+   "label": "farm",
+   "obsolete": false,
+   "definition": "An area of land which is used for the cultivation of crops or grazing of livestock, including any agricultural constructions therein.",
+   "url": "https://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_00000078",
+   "ok": true
+  },
+  "ENVO:01001121": {
+   "expected": "plant matter",
+   "label": "plant matter",
+   "obsolete": false,
+   "definition": "Organic material which is primarily composed of plant structures, living or dead.",
+   "url": "https://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_01001121",
+   "ok": true
+  },
+  "PO:0025034": {
+   "expected": "leaf",
+   "label": "leaf",
+   "obsolete": false,
+   "definition": "A phyllome (PO:0006001) that is not associated with a reproductive structure.",
+   "url": "https://www.ebi.ac.uk/ols4/api/ontologies/po/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0025034",
+   "ok": true
+  },
+  "PO:0025073": {
+   "expected": "branch",
+   "label": "branch",
+   "obsolete": false,
+   "definition": "In vascular plants, branches arise from an axillary bud meristem (PO:0000232) and from divisions of the meristematic apical cell (PO:0030007) in non-vascular plants.",
+   "url": "https://www.ebi.ac.uk/ols4/api/ontologies/po/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0025073",
+   "ok": true
+  },
+  "PO:0009049": {
+   "expected": "inflorescence",
+   "label": "inflorescence",
+   "obsolete": false,
+   "definition": "An inflorescence is a reproductive shoot system from which at least two flowers develop. The growth pattern of an inflorescence may be monopodial (single main shoot axis), sympodial (growth only occurs from axillary meristems), or both. An inflorescence axis (PO:0020122) can be determinate or indeterminate. An inflorescence flower pedicel (PO:0009052) is the ultimate axis in an inflorescence. The flower (PO:0009046) of many plants, for example Magnolia spp., is solitary.",
+   "url": "https://www.ebi.ac.uk/ols4/api/ontologies/po/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0009049",
+   "ok": true
+  },
+  "PO:0009010": {
+   "expected": "seed",
+   "label": "seed",
+   "obsolete": false,
+   "definition": "A seed generally develops from an ovule (PO:0020003) after fertilization, but may develop without fertilization in the case of apogamy (e.g., adventitious embryos or somatic embryos). A seed is a reproductive unit of seed plants (gymnosperms, angiosperms, and fossil pteridosperms).",
+   "url": "https://www.ebi.ac.uk/ols4/api/ontologies/po/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0009010",
+   "ok": true
+  },
+  "PO:0009006": {
+   "expected": "shoot system",
+   "label": "shoot system",
+   "obsolete": false,
+   "definition": "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system.",
+   "url": "https://www.ebi.ac.uk/ols4/api/ontologies/po/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPO_0009006",
+   "ok": true
+  }
+ },
+ "taxonomy": {
+  "Searsia lancea": [
+   {
+    "taxid": "298678",
+    "name": "Searsia lancea",
+    "rank": "species",
+    "division": "eudicots"
+   }
+  ],
+  "uncultured Tremellomycetes": [
+   {
+    "taxid": "543743",
+    "name": "uncultured Tremellomycetes",
+    "rank": "species",
+    "division": "basidiomycete fungi"
+   }
+  ],
+  "uncultured fungus": [
+   {
+    "taxid": "175245",
+    "name": "uncultured fungus",
+    "rank": "species",
+    "division": "fungi"
+   }
+  ],
+  "plant metagenome": [
+   {
+    "taxid": "1297885",
+    "name": "plant metagenome",
+    "rank": "species",
+    "division": "metagenomes"
+   }
+  ]
+ }
+}
