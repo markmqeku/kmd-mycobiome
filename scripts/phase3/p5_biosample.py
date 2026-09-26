@@ -41,7 +41,10 @@ OTHER = {"CR", "PR", "S1", "S2", "S3", "S4"}
 rows = list(csv.DictReader(open(ROOT / "_retired" / "BioSample_MIMARKS_survey_plant-associated_6.0_pre-prompt5_backup.tsv",
                                 encoding="utf-8"), delimiter="\t"))
 fields = list(rows[0].keys())
-for extra in ("host_sex", "samp_pooling"):
+# source_material_id (KMD PROMPT 5D): the library name, so that every row differs in at least one attribute. NCBI
+# rejects rows that are identical apart from sample_name and title, and at Bloemfontein each tree supplied several
+# libraries of the same tissue, age class and sex.
+for extra in ("host_sex", "samp_pooling", "source_material_id"):
     if extra not in fields: fields.append(extra)
 empty = []
 for r in rows:
@@ -57,6 +60,7 @@ for r in rows:
     sex = S12[lib]["tree sex"]
     r["host_sex"] = sex if sex in ("male", "female") else ""
     r["samp_pooling"] = SITE[site]["pool"]
+    r["source_material_id"] = lib
     cond_word = {"symptomatic": "symptomatic tissue", "asymptomatic": "asymptomatic tissue",
                  "reference_site": "reference site"}[cond]
     unit = "single-tree library" if site == "Bloemfontein" else "library pooling four trees"
