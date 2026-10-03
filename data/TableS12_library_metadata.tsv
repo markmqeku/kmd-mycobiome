@@ -1,51 +1,51 @@
-library	site	condition	tissue	age class	trees pooled	tree sex	sequencing run	Bioanalyzer main peak	total reads	host percent	fungal reads	status
-25-C	Christiana	asymptomatic	leaf	not recorded	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	86,844	0.0	86,820	included
-26-C	Christiana	asymptomatic	twig	not recorded	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	64,683	0.0	64,674	included
-27-C	Christiana	asymptomatic	inflorescence	not recorded	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	57,141	0.0	57,124	included
-OL-C	Christiana	symptomatic	leaf	Old	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	77,479	0.0	77,474	included
-OM-C	Christiana	symptomatic	malformed shoot	Old	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	107,170	0.0	107,154	included
-OT-C	Christiana	symptomatic	twig	Old	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	75,324	0.0	75,324	included
-YL-C	Christiana	symptomatic	leaf	Young	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	79,095	0.0	79,095	included
-YM-C	Christiana	symptomatic	malformed shoot	Young	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	82,913	0.0	82,913	included
-YT-C	Christiana	symptomatic	twig	Young	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	97,689	0.0	97,682	included
-28-C	Pretoria	asymptomatic	leaf	not recorded	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	117,106	0.0	117,106	included
-29-C	Pretoria	asymptomatic	twig	not recorded	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	85,895	0.0	85,895	included
-OL-P	Pretoria	symptomatic	leaf	Old	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	69,679	0.0	69,673	included
-OM-P	Pretoria	symptomatic	malformed shoot	Old	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	994,209	0.0	994,162	included
-OT-P	Pretoria	symptomatic	twig	Old	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	85,464	0.0	85,464	included
-YL-P	Pretoria	symptomatic	leaf	Young	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	94,407	0.0	94,402	included
-YM-P	Pretoria	symptomatic	malformed shoot	Young	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	71,924	0.0	71,921	included
-YT-P	Pretoria	symptomatic	twig	Young	4	not recorded	run 13 (2017, 2 x 301 bp)	no record (none exist for 2017)	not denoised	not applicable	not applicable	excluded: sequence file corrupted
-P1	Bloemfontein	reference site	leaf	Young	1	male	run 3 (2016, 2 x 250 bp)	483 bp (15 Aug 2016)	73,247	100.0	24	included
-P2	Bloemfontein	reference site	leaf	Young	1	male	run 3 (2016, 2 x 250 bp)	479 bp (15 Aug 2016)	57,959	100.0	0	included; no fungal reads after host removal, absent from composition figures
-P3	Bloemfontein	reference site	leaf	Young	1	male	run 3 (2016, 2 x 250 bp)	no record	42,978	99.9	47	included
-P4	Bloemfontein	reference site	leaf	Young	1	female	run 3 (2016, 2 x 250 bp)	542 bp (16 Aug 2016)	33,043	0.9	27,751	included
-P5	Bloemfontein	reference site	leaf	Young	1	female	run 3 (2016, 2 x 250 bp)	no record	37,866	0.1	36,770	included
-P6	Bloemfontein	reference site	leaf	Young	1	female	run 3 (2016, 2 x 250 bp)	no record	not denoised	not applicable	not applicable	excluded: sequence file truncated in delivery (no Bioanalyzer record)
-P7	Bloemfontein	reference site	twig	Young	1	male	run 3 (2016, 2 x 250 bp)	no record	49,852	97.6	1,210	included
-P8	Bloemfontein	reference site	twig	Young	1	male	run 3 (2016, 2 x 250 bp)	no record	9,600	88.1	1,130	included
-P9	Bloemfontein	reference site	twig	Young	1	male	run 3 (2016, 2 x 250 bp)	no record	10,756	78.6	2,298	included
-P10	Bloemfontein	reference site	twig	Young	1	female	run 3 (2016, 2 x 250 bp)	538 bp (16 Aug 2016)	161,825	100.0	30	included
-P11	Bloemfontein	reference site	twig	Young	1	female	run 3 (2016, 2 x 250 bp)	no record	244,619	99.8	421	included
-P12	Bloemfontein	reference site	twig	Young	1	female	run 3 (2016, 2 x 250 bp)	no record	175,498	99.9	101	included
-P13	Bloemfontein	reference site	inflorescence	Young	1	not recorded	run 3 (2016, 2 x 250 bp)	478 bp (15 Aug 2016)	128,670	100.0	30	included
-P14	Bloemfontein	reference site	inflorescence	Young	1	not recorded	run 3 (2016, 2 x 250 bp)	not sized, failed markers (16 Aug 2016)	145,564	100.0	67	included
-P15	Bloemfontein	reference site	seed	Young	1	not recorded	run 3 (2016, 2 x 250 bp)	481 bp (15 Aug 2016)	not denoised	not applicable	not applicable	excluded: sequence file truncated in delivery; normal library peak on the Bioanalyzer
-P16	Bloemfontein	reference site	seed	Young	1	not recorded	run 3 (2016, 2 x 250 bp)	507 bp (16 Aug 2016)	89,919	99.8	139	included
-P17	Bloemfontein	reference site	seed	Old	1	not recorded	run 3 (2016, 2 x 250 bp)	402 bp (15 Aug 2016)	5,966	99.9	4	included
-P18	Bloemfontein	reference site	seed	Old	1	not recorded	run 3 (2016, 2 x 250 bp)	441 bp (16 Aug 2016)	20,146	3.2	19,493	included
-P19	Bloemfontein	reference site	inflorescence	Old	1	not recorded	run 3 (2016, 2 x 250 bp)	464 bp (15 Aug 2016)	34,706	3.3	33,551	included
-P20	Bloemfontein	reference site	inflorescence	Old	1	not recorded	run 3 (2016, 2 x 250 bp)	547 bp (16 Aug 2016); 527 bp (16 Aug 2016)	37,237	96.0	1,468	included
-P21	Bloemfontein	reference site	leaf	Old	1	female	run 3 (2016, 2 x 250 bp)	no record	29,521	88.1	3,485	included
-P22	Bloemfontein	reference site	leaf	Old	1	female	run 3 (2016, 2 x 250 bp)	no record	27,161	99.4	163	included
-P23	Bloemfontein	reference site	leaf	Old	1	female	run 3 (2016, 2 x 250 bp)	no record	17,554	99.1	138	included
-P24	Bloemfontein	reference site	leaf	Old	1	male	run 3 (2016, 2 x 250 bp)	474 bp (15 Aug 2016)	not denoised	not applicable	not applicable	excluded: sequence file truncated in delivery; normal library peak on the Bioanalyzer
-P25	Bloemfontein	reference site	leaf	Old	1	male	run 3 (2016, 2 x 250 bp)	no record	31,195	5.3	29,533	included
-P26	Bloemfontein	reference site	leaf	Old	1	male	run 3 (2016, 2 x 250 bp)	no record	127,015	49.5	64,072	included
-P27	Bloemfontein	reference site	twig	Old	1	female	run 3 (2016, 2 x 250 bp)	no record	140	82.1	25	included
-P28	Bloemfontein	reference site	twig	Old	1	female	run 3 (2016, 2 x 250 bp)	no record	10,873	98.3	186	included
-P29	Bloemfontein	reference site	twig	Old	1	female	run 3 (2016, 2 x 250 bp)	528 bp (16 Aug 2016)	34,287	72.3	9,480	included
-P30	Bloemfontein	reference site	twig	Old	1	male	run 3 (2016, 2 x 250 bp)	473 bp (15 Aug 2016)	85,412	89.2	9,087	included
-P31	Bloemfontein	reference site	twig	Old	1	male	run 3 (2016, 2 x 250 bp)	no record	15,508	72.8	4,225	included
-P32	Bloemfontein	reference site	twig	Old	1	male	run 3 (2016, 2 x 250 bp)	no record	25,478	0.4	25,366	included
-30-C	Pretoria	asymptomatic	not recorded	not recorded	4	not recorded	not recorded	no record	not applicable	not applicable	not applicable	excluded: collected, but its sequence file was corrupted and it was never used
+library	site	condition	tissue	age class	trees pooled	tree sex	sequencing run	SRA run	Bioanalyzer main peak	total reads	host percent	fungal reads	status
+25-C	Christiana	asymptomatic	leaf	not recorded	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877563	no record (none exist for 2017)	86,844	0.0	86,820	included
+26-C	Christiana	asymptomatic	twig	not recorded	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877562	no record (none exist for 2017)	64,683	0.0	64,674	included
+27-C	Christiana	asymptomatic	inflorescence	not recorded	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877551	no record (none exist for 2017)	57,141	0.0	57,124	included
+OL-C	Christiana	symptomatic	leaf	Old	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877523	no record (none exist for 2017)	77,479	0.0	77,474	included
+OM-C	Christiana	symptomatic	malformed shoot	Old	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877521	no record (none exist for 2017)	107,170	0.0	107,154	included
+OT-C	Christiana	symptomatic	twig	Old	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877519	no record (none exist for 2017)	75,324	0.0	75,324	included
+YL-C	Christiana	symptomatic	leaf	Young	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877528	no record (none exist for 2017)	79,095	0.0	79,095	included
+YM-C	Christiana	symptomatic	malformed shoot	Young	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877526	no record (none exist for 2017)	82,913	0.0	82,913	included
+YT-C	Christiana	symptomatic	twig	Young	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877524	no record (none exist for 2017)	97,689	0.0	97,682	included
+28-C	Pretoria	asymptomatic	leaf	not recorded	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877540	no record (none exist for 2017)	117,106	0.0	117,106	included
+29-C	Pretoria	asymptomatic	twig	not recorded	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877529	no record (none exist for 2017)	85,895	0.0	85,895	included
+OL-P	Pretoria	symptomatic	leaf	Old	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877522	no record (none exist for 2017)	69,679	0.0	69,673	included
+OM-P	Pretoria	symptomatic	malformed shoot	Old	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877520	no record (none exist for 2017)	994,209	0.0	994,162	included
+OT-P	Pretoria	symptomatic	twig	Old	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877561	no record (none exist for 2017)	85,464	0.0	85,464	included
+YL-P	Pretoria	symptomatic	leaf	Young	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877527	no record (none exist for 2017)	94,407	0.0	94,402	included
+YM-P	Pretoria	symptomatic	malformed shoot	Young	4	not recorded	run 13 (2017, 2 x 301 bp)	SRR40877525	no record (none exist for 2017)	71,924	0.0	71,921	included
+YT-P	Pretoria	symptomatic	twig	Young	4	not recorded	run 13 (2017, 2 x 301 bp)	not deposited	no record (none exist for 2017)	not denoised	not applicable	not applicable	excluded: sequence file corrupted
+P1	Bloemfontein	reference site	leaf	Young	1	male	run 3 (2016, 2 x 250 bp)	SRR40877560	483 bp (15 Aug 2016)	73,247	100.0	24	included
+P2	Bloemfontein	reference site	leaf	Young	1	male	run 3 (2016, 2 x 250 bp)	SRR40877549	479 bp (15 Aug 2016)	57,959	100.0	0	included; no fungal reads after host removal, absent from composition figures
+P3	Bloemfontein	reference site	leaf	Young	1	male	run 3 (2016, 2 x 250 bp)	SRR40877538	no record	42,978	99.9	47	included
+P4	Bloemfontein	reference site	leaf	Young	1	female	run 3 (2016, 2 x 250 bp)	SRR40877534	542 bp (16 Aug 2016)	33,043	0.9	27,751	included
+P5	Bloemfontein	reference site	leaf	Young	1	female	run 3 (2016, 2 x 250 bp)	SRR40877533	no record	37,866	0.1	36,770	included
+P6	Bloemfontein	reference site	leaf	Young	1	female	run 3 (2016, 2 x 250 bp)	not deposited	no record	not denoised	not applicable	not applicable	excluded: sequence file truncated in delivery (no Bioanalyzer record)
+P7	Bloemfontein	reference site	twig	Young	1	male	run 3 (2016, 2 x 250 bp)	SRR40877532	no record	49,852	97.6	1,210	included
+P8	Bloemfontein	reference site	twig	Young	1	male	run 3 (2016, 2 x 250 bp)	SRR40877531	no record	9,600	88.1	1,130	included
+P9	Bloemfontein	reference site	twig	Young	1	male	run 3 (2016, 2 x 250 bp)	SRR40877530	no record	10,756	78.6	2,298	included
+P10	Bloemfontein	reference site	twig	Young	1	female	run 3 (2016, 2 x 250 bp)	SRR40877559	538 bp (16 Aug 2016)	161,825	100.0	30	included
+P11	Bloemfontein	reference site	twig	Young	1	female	run 3 (2016, 2 x 250 bp)	SRR40877558	no record	244,619	99.8	421	included
+P12	Bloemfontein	reference site	twig	Young	1	female	run 3 (2016, 2 x 250 bp)	SRR40877557	no record	175,498	99.9	101	included
+P13	Bloemfontein	reference site	inflorescence	Young	1	not recorded	run 3 (2016, 2 x 250 bp)	SRR40877556	478 bp (15 Aug 2016)	128,670	100.0	30	included
+P14	Bloemfontein	reference site	inflorescence	Young	1	not recorded	run 3 (2016, 2 x 250 bp)	SRR40877555	not sized, failed markers (16 Aug 2016)	145,564	100.0	67	included
+P15	Bloemfontein	reference site	seed	Young	1	not recorded	run 3 (2016, 2 x 250 bp)	not deposited	481 bp (15 Aug 2016)	not denoised	not applicable	not applicable	excluded: sequence file truncated in delivery; normal library peak on the Bioanalyzer
+P16	Bloemfontein	reference site	seed	Young	1	not recorded	run 3 (2016, 2 x 250 bp)	SRR40877554	507 bp (16 Aug 2016)	89,919	99.8	139	included
+P17	Bloemfontein	reference site	seed	Old	1	not recorded	run 3 (2016, 2 x 250 bp)	SRR40877553	402 bp (15 Aug 2016)	5,966	99.9	4	included
+P18	Bloemfontein	reference site	seed	Old	1	not recorded	run 3 (2016, 2 x 250 bp)	SRR40877552	441 bp (16 Aug 2016)	20,146	3.2	19,493	included
+P19	Bloemfontein	reference site	inflorescence	Old	1	not recorded	run 3 (2016, 2 x 250 bp)	SRR40877550	464 bp (15 Aug 2016)	34,706	3.3	33,551	included
+P20	Bloemfontein	reference site	inflorescence	Old	1	not recorded	run 3 (2016, 2 x 250 bp)	SRR40877548	547 bp (16 Aug 2016); 527 bp (16 Aug 2016)	37,237	96.0	1,468	included
+P21	Bloemfontein	reference site	leaf	Old	1	female	run 3 (2016, 2 x 250 bp)	SRR40877547	no record	29,521	88.1	3,485	included
+P22	Bloemfontein	reference site	leaf	Old	1	female	run 3 (2016, 2 x 250 bp)	SRR40877546	no record	27,161	99.4	163	included
+P23	Bloemfontein	reference site	leaf	Old	1	female	run 3 (2016, 2 x 250 bp)	SRR40877545	no record	17,554	99.1	138	included
+P24	Bloemfontein	reference site	leaf	Old	1	male	run 3 (2016, 2 x 250 bp)	not deposited	474 bp (15 Aug 2016)	not denoised	not applicable	not applicable	excluded: sequence file truncated in delivery; normal library peak on the Bioanalyzer
+P25	Bloemfontein	reference site	leaf	Old	1	male	run 3 (2016, 2 x 250 bp)	SRR40877544	no record	31,195	5.3	29,533	included
+P26	Bloemfontein	reference site	leaf	Old	1	male	run 3 (2016, 2 x 250 bp)	SRR40877543	no record	127,015	49.5	64,072	included
+P27	Bloemfontein	reference site	twig	Old	1	female	run 3 (2016, 2 x 250 bp)	SRR40877542	no record	140	82.1	25	included
+P28	Bloemfontein	reference site	twig	Old	1	female	run 3 (2016, 2 x 250 bp)	SRR40877541	no record	10,873	98.3	186	included
+P29	Bloemfontein	reference site	twig	Old	1	female	run 3 (2016, 2 x 250 bp)	SRR40877539	528 bp (16 Aug 2016)	34,287	72.3	9,480	included
+P30	Bloemfontein	reference site	twig	Old	1	male	run 3 (2016, 2 x 250 bp)	SRR40877537	473 bp (15 Aug 2016)	85,412	89.2	9,087	included
+P31	Bloemfontein	reference site	twig	Old	1	male	run 3 (2016, 2 x 250 bp)	SRR40877536	no record	15,508	72.8	4,225	included
+P32	Bloemfontein	reference site	twig	Old	1	male	run 3 (2016, 2 x 250 bp)	SRR40877535	no record	25,478	0.4	25,366	included
+30-C	Pretoria	asymptomatic	not recorded	not recorded	4	not recorded	not recorded	not deposited	no record	not applicable	not applicable	not applicable	excluded: collected, but its sequence file was corrupted and it was never used
